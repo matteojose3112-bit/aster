@@ -1,22 +1,17 @@
 /* Aster 2.0 foundation */
-
 @keyframes aster-fade-up { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: translateY(0); } }
 @keyframes aster-pulse { 0%, 100% { opacity: .35; } 50% { opacity: .7; } }
-
 .aster-grid { background-image: linear-gradient(rgba(255,255,255,.035) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.035) 1px, transparent 1px); background-size: 72px 72px; mask-image: linear-gradient(to bottom, black, transparent 78%); }
 .aster-noise { pointer-events: none; position: fixed; inset: 0; z-index: 40; opacity: .025; }
 .aster-reveal { animation: aster-fade-up .8s cubic-bezier(.22,1,.36,1) both; }
-
 .aster-scroll-reveal { opacity: 0; transform: translateY(32px); transition: opacity .9s cubic-bezier(.22,1,.36,1), transform .9s cubic-bezier(.22,1,.36,1); }
 .aster-scroll-reveal.is-visible { opacity: 1; transform: translateY(0); }
-
 .aster-section-label { display: inline-flex; align-items: center; gap: 10px; color: #737373; font-size: 11px; font-weight: 600; letter-spacing: .22em; text-transform: uppercase; }
 .aster-section-label::before { content: ""; width: 20px; height: 1px; background: #737373; }
 .aster-link { position: relative; color: #a3a3a3; transition: color 220ms ease; }
 .aster-link::after { content: ""; position: absolute; left: 0; right: 100%; bottom: -5px; height: 1px; background: #f5f5f5; transition: right 220ms ease; }
 .aster-link:hover, .aster-link.text-white { color: #f5f5f5; }
 .aster-link:hover::after, .aster-link.text-white::after { right: 0; }
-
 .aster-button { display: inline-flex; align-items: center; justify-content: center; gap: 12px; border: 1px solid #2a2a2a; padding: 13px 18px; font-size: 13px; font-weight: 600; letter-spacing: .02em; transition: transform 220ms ease, border-color 220ms ease, background 220ms ease, color 220ms ease; }
 .aster-button:hover { transform: translateY(-2px); border-color: #666; }
 .aster-button-primary { background: #f5f5f5; color: #050505; border-color: #f5f5f5; }
@@ -27,4 +22,14 @@
 .aster-glow { position: absolute; width: 520px; height: 520px; border-radius: 999px; background: radial-gradient(circle, rgba(255,255,255,.07), transparent 68%); filter: blur(10px); pointer-events: none; }
 .aster-status-dot { width: 6px; height: 6px; border-radius: 999px; background: #d4d4d4; box-shadow: 0 0 0 5px rgba(255,255,255,.04); animation: aster-pulse 2.5s ease-in-out infinite; }
 
-@media (prefers-reduced-motion: reduce) { .aster-reveal, .aster-status-dot { animation: none; } .aster-scroll-reveal { opacity: 1; transform: none; transition: none; } }
+.aster-cursor-dot, .aster-cursor-ring { position: fixed; left: 0; top: 0; pointer-events: none; z-index: 100; border-radius: 999px; opacity: 0; }
+.aster-cursor-dot { width: 5px; height: 5px; background: #fff; mix-blend-mode: difference; transition: opacity .2s ease; }
+.aster-cursor-ring { width: 34px; height: 34px; border: 1px solid rgba(255,255,255,.55); mix-blend-mode: difference; transition: width .25s ease, height .25s ease, border-color .25s ease, opacity .2s ease; }
+.aster-cursor-ring.is-hovering { width: 54px; height: 54px; border-color: rgba(255,255,255,.85); }
+
+.aster-magnetic { will-change: transform; transition: transform 180ms cubic-bezier(.22,1,.36,1), border-color 220ms ease, background 220ms ease, color 220ms ease; }
+.aster-magnetic:hover { transform: translateY(-2px); }
+
+@media (hover: hover) and (pointer: fine) { body { cursor: none; } .aster-cursor-dot, .aster-cursor-ring { opacity: 1; } a, button { cursor: none; } }
+@media (hover: none), (pointer: coarse) { .aster-cursor-dot, .aster-cursor-ring { display: none; } }
+@media (prefers-reduced-motion: reduce) { .aster-reveal, .aster-status-dot { animation: none; } .aster-scroll-reveal { opacity: 1; transform: none; transition: none; } .aster-cursor-ring, .aster-magnetic { transition: none; } }
