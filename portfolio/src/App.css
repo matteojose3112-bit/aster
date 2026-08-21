@@ -1,4 +1,9 @@
-/* Aster 2.0 foundation */
+/* Aster production foundation */
+html { scroll-behavior: smooth; background: #050505; }
+body { margin: 0; min-width: 320px; background: #050505; color: #fff; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; }
+::selection { background: #fff; color: #050505; }
+:focus-visible { outline: 1px solid #fff; outline-offset: 4px; }
+
 @keyframes aster-fade-up { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: translateY(0); } }
 @keyframes aster-pulse { 0%, 100% { opacity: .35; } 50% { opacity: .7; } }
 .aster-grid { background-image: linear-gradient(rgba(255,255,255,.035) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.035) 1px, transparent 1px); background-size: 72px 72px; mask-image: linear-gradient(to bottom, black, transparent 78%); }
@@ -26,10 +31,8 @@
 .aster-cursor-dot { width: 5px; height: 5px; background: #fff; mix-blend-mode: difference; transition: opacity .2s ease; }
 .aster-cursor-ring { width: 34px; height: 34px; border: 1px solid rgba(255,255,255,.55); mix-blend-mode: difference; transition: width .25s ease, height .25s ease, border-color .25s ease, opacity .2s ease; }
 .aster-cursor-ring.is-hovering { width: 54px; height: 54px; border-color: rgba(255,255,255,.85); }
-
 .aster-magnetic { will-change: transform; transition: transform 180ms cubic-bezier(.22,1,.36,1), border-color 220ms ease, background 220ms ease, color 220ms ease; }
-.aster-magnetic:hover { transform: translateY(-2px); }
 
 @media (hover: hover) and (pointer: fine) { body { cursor: none; } .aster-cursor-dot, .aster-cursor-ring { opacity: 1; } a, button { cursor: none; } }
 @media (hover: none), (pointer: coarse) { .aster-cursor-dot, .aster-cursor-ring { display: none; } }
-@media (prefers-reduced-motion: reduce) { .aster-reveal, .aster-status-dot { animation: none; } .aster-scroll-reveal { opacity: 1; transform: none; transition: none; } .aster-cursor-ring, .aster-magnetic { transition: none; } }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .aster-reveal, .aster-status-dot { animation: none; } .aster-scroll-reveal { opacity: 1; transform: none; transition: none; } .aster-cursor-ring, .aster-magnetic { transition: none; } }
