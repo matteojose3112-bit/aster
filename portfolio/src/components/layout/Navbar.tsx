@@ -4,6 +4,7 @@ const links = [
   { label: "About", href: "#about" },
   { label: "Work", href: "#projects" },
   { label: "Experience", href: "#experience" },
+  { label: "Toolkit", href: "#toolkit" },
   { label: "Contact", href: "#contact" },
 ];
 
@@ -42,23 +43,10 @@ function Navbar() {
   const closeMenu = () => setMenuOpen(false);
 
   return (
-    <header
-      className={`fixed inset-x-0 top-0 z-50 transition-all duration-300 ${
-        scrolled
-          ? "border-b border-white/10 bg-[#050505]/85 backdrop-blur-xl"
-          : "bg-transparent"
-      }`}
-    >
+    <header className={`fixed inset-x-0 top-0 z-50 transition-all duration-300 ${scrolled ? "border-b border-white/10 bg-[#050505]/85 backdrop-blur-xl" : "bg-transparent"}`}>
       <nav className="mx-auto flex h-20 max-w-7xl items-center justify-between px-6 lg:px-10">
-        <a
-          href="#"
-          aria-label="Aster home"
-          onClick={closeMenu}
-          className="group flex items-center gap-3 text-sm font-semibold tracking-[0.18em] text-white"
-        >
-          <span className="flex h-8 w-8 items-center justify-center border border-white/20 text-xs transition group-hover:border-white/60">
-            A
-          </span>
+        <a href="#" aria-label="Aster home" onClick={closeMenu} className="group flex items-center gap-3 text-sm font-semibold tracking-[0.18em] text-white">
+          <span className="flex h-8 w-8 items-center justify-center border border-white/20 text-xs transition group-hover:border-white/60">A</span>
           <span>ASTER</span>
         </a>
 
@@ -67,16 +55,8 @@ function Navbar() {
             const sectionId = link.href.slice(1);
             const isActive = active === sectionId;
             return (
-              <a
-                key={link.href}
-                href={link.href}
-                className={`aster-link text-xs font-medium uppercase tracking-[0.16em] ${
-                  isActive ? "text-white" : ""
-                }`}
-              >
-                <span className={`mr-2 ${isActive ? "text-neutral-400" : "text-neutral-600"}`}>
-                  0{index + 1}
-                </span>
+              <a key={link.href} href={link.href} className={`aster-link text-xs font-medium uppercase tracking-[0.16em] ${isActive ? "text-white" : ""}`}>
+                <span className={`mr-2 ${isActive ? "text-neutral-400" : "text-neutral-600"}`}>0{index + 1}</span>
                 {link.label}
               </a>
             );
@@ -84,50 +64,22 @@ function Navbar() {
         </div>
 
         <div className="flex items-center gap-3">
-          <a
-            href="#contact"
-            className="hidden border border-white/20 px-4 py-2 text-xs font-semibold uppercase tracking-[0.14em] text-white transition hover:border-white/60 hover:bg-white hover:text-black sm:block"
-          >
-            Let's talk ↗
-          </a>
-
-          <button
-            type="button"
-            aria-expanded={menuOpen}
-            aria-controls="mobile-menu"
-            aria-label={menuOpen ? "Close navigation" : "Open navigation"}
-            onClick={() => setMenuOpen((open) => !open)}
-            className="flex h-10 w-10 flex-col items-center justify-center gap-1.5 border border-white/15 md:hidden"
-          >
+          <a href="#contact" data-magnetic className="hidden border border-white/20 px-4 py-2 text-xs font-semibold uppercase tracking-[0.14em] text-white transition hover:border-white/60 hover:bg-white hover:text-black sm:block">Let's talk ↗</a>
+          <button type="button" aria-expanded={menuOpen} aria-controls="mobile-menu" aria-label={menuOpen ? "Close navigation" : "Open navigation"} onClick={() => setMenuOpen((open) => !open)} className="flex h-10 w-10 flex-col items-center justify-center gap-1.5 border border-white/15 md:hidden">
             <span className={`h-px w-4 bg-white transition ${menuOpen ? "translate-y-[3px] rotate-45" : ""}`} />
             <span className={`h-px w-4 bg-white transition ${menuOpen ? "-translate-y-[3px] -rotate-45" : ""}`} />
           </button>
         </div>
       </nav>
 
-      <div
-        id="mobile-menu"
-        className={`border-t border-white/10 bg-[#050505]/95 backdrop-blur-xl transition-all duration-300 md:hidden ${
-          menuOpen ? "max-h-96 opacity-100" : "pointer-events-none max-h-0 overflow-hidden opacity-0"
-        }`}
-      >
+      <div id="mobile-menu" className={`border-t border-white/10 bg-[#050505]/95 backdrop-blur-xl transition-all duration-300 md:hidden ${menuOpen ? "max-h-[30rem] opacity-100" : "pointer-events-none max-h-0 overflow-hidden opacity-0"}`}>
         <div className="mx-auto max-w-7xl px-6 py-6">
           {links.map((link, index) => {
             const sectionId = link.href.slice(1);
             const isActive = active === sectionId;
             return (
-              <a
-                key={link.href}
-                href={link.href}
-                onClick={closeMenu}
-                className={`flex items-center justify-between border-b border-white/10 py-4 text-sm uppercase tracking-[0.16em] transition ${
-                  isActive ? "text-white" : "text-neutral-500 hover:text-white"
-                }`}
-              >
-                <span>
-                  <span className="mr-3 text-neutral-700">0{index + 1}</span>
-                  {link.label}
-                </span>
+              <a key={link.href} href={link.href} onClick={closeMenu} className={`flex items-center justify-between border-b border-white/10 py-4 text-sm uppercase tracking-[0.16em] transition ${isActive ? "text-white" : "text-neutral-500 hover:text-white"}`}>
+                <span><span className="mr-3 text-neutral-700">0{index + 1}</span>{link.label}</span>
                 <span className="text-neutral-700">↗</span>
               </a>
             );
