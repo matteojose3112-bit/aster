@@ -4,7 +4,7 @@ function Contact() {
       <div className="aster-glow bottom-[-300px] left-1/2 -translate-x-1/2" aria-hidden="true" />
       <div className="mx-auto max-w-7xl">
         <div className="border-t border-white/10 pt-10">
-          <p className="aster-section-label">04 — Contact</p>
+          <p className="aster-section-label">05 — Contact</p>
           <div className="mt-12 grid gap-14 lg:grid-cols-[1.2fr_0.8fr] lg:gap-24">
             <div>
               <h2 className="max-w-5xl text-5xl font-semibold leading-[0.95] tracking-[-0.05em] md:text-7xl lg:text-8xl">
