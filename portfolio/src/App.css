@@ -1,4 +1,4 @@
-/* Aster production foundation */
+/* Aster production foundation — final visual polish */
 html { scroll-behavior: smooth; background: #050505; }
 body { margin: 0; min-width: 320px; background: #050505; color: #fff; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; }
 ::selection { background: #fff; color: #050505; }
@@ -6,6 +6,8 @@ body { margin: 0; min-width: 320px; background: #050505; color: #fff; text-rende
 
 @keyframes aster-fade-up { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: translateY(0); } }
 @keyframes aster-pulse { 0%, 100% { opacity: .35; } 50% { opacity: .7; } }
+@keyframes aster-sheen { from { transform: translateX(-110%); } to { transform: translateX(110%); } }
+
 .aster-grid { background-image: linear-gradient(rgba(255,255,255,.035) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.035) 1px, transparent 1px); background-size: 72px 72px; mask-image: linear-gradient(to bottom, black, transparent 78%); }
 .aster-noise { pointer-events: none; position: fixed; inset: 0; z-index: 40; opacity: .025; }
 .aster-reveal { animation: aster-fade-up .8s cubic-bezier(.22,1,.36,1) both; }
@@ -17,12 +19,15 @@ body { margin: 0; min-width: 320px; background: #050505; color: #fff; text-rende
 .aster-link::after { content: ""; position: absolute; left: 0; right: 100%; bottom: -5px; height: 1px; background: #f5f5f5; transition: right 220ms ease; }
 .aster-link:hover, .aster-link.text-white { color: #f5f5f5; }
 .aster-link:hover::after, .aster-link.text-white::after { right: 0; }
-.aster-button { display: inline-flex; align-items: center; justify-content: center; gap: 12px; border: 1px solid #2a2a2a; padding: 13px 18px; font-size: 13px; font-weight: 600; letter-spacing: .02em; transition: transform 220ms ease, border-color 220ms ease, background 220ms ease, color 220ms ease; }
+.aster-button { position: relative; display: inline-flex; align-items: center; justify-content: center; gap: 12px; overflow: hidden; border: 1px solid #2a2a2a; padding: 13px 18px; font-size: 13px; font-weight: 600; letter-spacing: .02em; transition: transform 220ms ease, border-color 220ms ease, background 220ms ease, color 220ms ease; }
+.aster-button::before { content: ""; position: absolute; inset: 0; transform: translateX(-110%); background: rgba(255,255,255,.08); pointer-events: none; }
+.aster-button:hover::before { animation: aster-sheen .65s ease; }
 .aster-button:hover { transform: translateY(-2px); border-color: #666; }
 .aster-button-primary { background: #f5f5f5; color: #050505; border-color: #f5f5f5; }
 .aster-button-primary:hover { background: #fff; border-color: #fff; }
 .aster-button-secondary { background: transparent; color: #f5f5f5; }
 .aster-button-secondary:hover { background: #111; }
+.aster-button > * { position: relative; z-index: 1; }
 .aster-divider { height: 1px; background: #1d1d1d; }
 .aster-glow { position: absolute; width: 520px; height: 520px; border-radius: 999px; background: radial-gradient(circle, rgba(255,255,255,.07), transparent 68%); filter: blur(10px); pointer-events: none; }
 .aster-status-dot { width: 6px; height: 6px; border-radius: 999px; background: #d4d4d4; box-shadow: 0 0 0 5px rgba(255,255,255,.04); animation: aster-pulse 2.5s ease-in-out infinite; }
@@ -32,7 +37,9 @@ body { margin: 0; min-width: 320px; background: #050505; color: #fff; text-rende
 .aster-cursor-ring { width: 34px; height: 34px; border: 1px solid rgba(255,255,255,.55); mix-blend-mode: difference; transition: width .25s ease, height .25s ease, border-color .25s ease, opacity .2s ease; }
 .aster-cursor-ring.is-hovering { width: 54px; height: 54px; border-color: rgba(255,255,255,.85); }
 .aster-magnetic { will-change: transform; transition: transform 180ms cubic-bezier(.22,1,.36,1), border-color 220ms ease, background 220ms ease, color 220ms ease; }
+.aster-magnetic:hover { transform: translateY(-2px); }
 
 @media (hover: hover) and (pointer: fine) { body { cursor: none; } .aster-cursor-dot, .aster-cursor-ring { opacity: 1; } a, button { cursor: none; } }
 @media (hover: none), (pointer: coarse) { .aster-cursor-dot, .aster-cursor-ring { display: none; } }
-@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .aster-reveal, .aster-status-dot { animation: none; } .aster-scroll-reveal { opacity: 1; transform: none; transition: none; } .aster-cursor-ring, .aster-magnetic { transition: none; } }
+@media (max-width: 767px) { .aster-grid { background-size: 48px 48px; opacity: .45; } .aster-glow { width: 360px; height: 360px; } .aster-button { min-height: 46px; } }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .aster-reveal, .aster-status-dot { animation: none; } .aster-scroll-reveal { opacity: 1; transform: none; transition: none; } .aster-button::before { display: none; } .aster-cursor-ring, .aster-magnetic { transition: none; } }
