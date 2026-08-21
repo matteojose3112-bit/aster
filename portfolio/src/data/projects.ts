@@ -14,13 +14,13 @@ export type Project = {
 export const projects: Project[] = [
   {
     title: "Aster",
-    category: "Personal Portfolio / Frontend",
+    category: "Personal Portfolio / Frontend Engineering",
     description:
-      "A dark, interaction-focused portfolio designed to turn a broad operations and customer-facing background into a modern digital proof of work.",
+      "A production-style portfolio system built to demonstrate frontend engineering, API-ready architecture, automation, responsive UX, and deployment workflows.",
     outcome:
-      "A responsive portfolio system with reusable React components, animated navigation, accessible motion, and GitHub Pages deployment.",
-    role: "Product design · Frontend development · Deployment",
-    technologies: ["React", "TypeScript", "Vite", "Tailwind CSS", "GitHub Pages"],
+      "Responsive React application with reusable components, TypeScript, interactive UI, GitHub Actions deployment, accessibility-minded motion, and a maintainable project structure.",
+    role: "Product design · Frontend engineering · Automation · Deployment",
+    technologies: ["React", "TypeScript", "Vite", "Tailwind CSS", "REST APIs", "GitHub Actions", "Git", "GitHub"],
     status: "Building",
     featured: true,
     github: "https://github.com/matteojose3112-bit/aster",
@@ -28,25 +28,25 @@ export const projects: Project[] = [
   },
   {
     title: "OpsFlow",
-    category: "Business Operations / RevOps",
+    category: "Operations / RevOps / Business Intelligence",
     description:
-      "A conceptual operations command center for tracking leads, customer handoffs, pipeline health, and recurring operational tasks in one place.",
+      "A conceptual operations intelligence platform connecting CRM data, SQL reporting, automated workflows, and Power BI dashboards into a single operating view.",
     outcome:
-      "Designed to reduce fragmented workflows by turning CRM activity and operational signals into a simple daily action queue.",
-    role: "Business analysis · Workflow design · Product concept",
-    technologies: ["React", "TypeScript", "CRM", "Dashboards", "Automation"],
+      "Designed to turn fragmented sales and operations data into automated pipelines, KPI reporting, exception alerts, and actionable daily work queues.",
+    role: "Business analysis · SQL data modeling · BI · Workflow automation",
+    technologies: ["SQL", "Power BI", "REST APIs", "Power Automate", "CRM", "Python", "ETL", "Data Modeling"],
     status: "Concept",
     featured: true,
   },
   {
     title: "ClientPulse",
-    category: "Customer Success / SaaS",
+    category: "Customer Success / SaaS / Automation",
     description:
-      "A conceptual customer-success workspace for onboarding, account health, renewal risk, and proactive client communication.",
+      "A conceptual customer-success operations platform combining customer health data, API integrations, automated onboarding workflows, and renewal-risk intelligence.",
     outcome:
-      "A focused customer view that connects onboarding milestones, health signals, open actions, and next-best actions for a CSM.",
-    role: "Customer journey · UX design · Product concept",
-    technologies: ["React", "TypeScript", "Customer Success", "UX", "Data Visualization"],
+      "Connects CRM and product signals to customer health scoring, automated tasks, onboarding milestones, escalation alerts, and executive retention reporting.",
+    role: "Customer journey · Automation architecture · API integration · Analytics",
+    technologies: ["SQL", "Power BI", "REST APIs", "Webhooks", "Zapier", "CRM", "Python", "Data Visualization"],
     status: "Concept",
     featured: true,
   },
