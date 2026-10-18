@@ -1,71 +1,66 @@
 # Aster
 
-Aster is my evolving software portfolio, development record, and foundation for future projects.
-
-It is a living collection of the applications, experiments, milestones, and technical work I build as I develop my software engineering skills.
-
-Rather than treating this as a static portfolio, Aster is designed to grow alongside me — documenting not only what I build, but the progression behind it.
+Aster is my evolving software portfolio, development record, and foundation for future projects. It documents the projects I build, the skills I develop, and the learning behind the work.
 
 ## Live Site
 
 **https://matteojose3112-bit.github.io/aster/**
 
-## About Aster
+## About
 
-Aster began as a challenge: learn modern web development from the ground up and turn that learning into something real.
+Aster began as a hands-on challenge to learn modern web development by building a real application. I use AI as a development and learning partner while working to understand, debug, refine, and extend the code rather than treating it as a black box.
 
-I started this project with **zero prior knowledge of modern web development**. Using AI as a development partner and learning resource, I worked through the process of understanding, building, debugging, refining, and deploying a complete web application.
+The project is built with React, TypeScript, Vite, and Tailwind CSS, and deployed with GitHub Pages and GitHub Actions.
 
-The goal was not simply to generate a website.
+## Professional Experience
 
-The goal was to **learn by building**.
+### Independent Freelancer
+**July 2026 – Present**
 
-Every part of Aster represents an opportunity to understand how modern software is structured and how the pieces work together — from React components and TypeScript to version control, deployment, responsive design, and project organization.
+Continuing independent freelance work, drawing on experience in sales operations, customer service, CRM administration, and workflow coordination.
 
-As the project evolves, this repository will become the central home for that journey.
+### Laureles Management — Sales & Operations Coordinator
+**September 2025 – June 2026** · Remote · Medellín, Antioquia, Colombia
 
-## What This Project Represents
+- Supported sales and venue operations across two locations, including customer inquiries, CRM workflows, bookings, contracts, payments, scheduling, and event execution.
+- Managed approximately 80–100 accounts and leads per month and handled 40–60+ customer interactions daily.
+- Coordinated approximately 10–12 events per month, with peak periods of 15–20 events.
+- Used HubSpot, TripleSeat, and OpenTable to support customer and booking workflows and data quality.
 
-Aster demonstrates my ability to:
+### Inmobiliaria del Café Quindío — CRM, Sales & Marketing Coordinator
+**October 2024 – August 2025** · Hybrid · Armenia, Quindío, Colombia
 
-* Learn unfamiliar technologies from first principles
-* Turn an idea into a working software product
-* Work with AI as a development and learning partner
-* Understand and modify generated code rather than treating it as a black box
-* Build component-based interfaces with React and TypeScript
-* Structure and organize a growing codebase
-* Use Git and GitHub for version control and project management
-* Deploy and maintain a production website
-* Learn through experimentation, debugging, and iteration
-* Document progress and continuously improve existing work
+- Supported real estate CRM, sales, marketing, customer service, lead generation, and back-office workflows.
+- Maintained 15–20 active property listings and CRM records, contacts, and opportunities in HubSpot.
+- Handled approximately 80–100 leads per month and 30–40+ customer interactions daily.
+- Helped improve lead conversion by an estimated 15–25% through follow-up and workflow improvements.
+- Improved documentation workflows, saving an estimated 4–6 hours per week.
 
-Most importantly, Aster represents an **ongoing learning process rather than a finished product**.
+### 416 Roofing — Operations & Customer Service Coordinator
+**January 2021 – September 2024** · Hybrid · Toronto, Ontario, Canada
 
-## Tech Stack
+- Coordinated customer service, sales support, residential roofing projects, estimates, procurement, payments, and operational workflows.
+- Managed 20–30+ customer interactions daily and supported a steady lead pipeline.
+- Coordinated approximately 20–25 projects per month across multiple field crews and active jobs.
+- Used AccuLynx to support CRM and project tracking, alongside estimates, invoices, payments, materials, and supplier communications.
 
-* **React** — UI and component architecture
-* **TypeScript** — typed application development
-* **Vite** — development tooling and build system
-* **Tailwind CSS** — styling and responsive design
-* **Git** — version control
-* **GitHub** — source control and project management
-* **GitHub Pages** — production deployment
-* **GitHub Actions** — deployment automation
+*Experience metrics are approximate and reflect the scope of responsibilities provided.*
+
+## Core Skills
+
+**Business and operations:** sales operations, CRM administration, customer service, lead management, client communication, booking and scheduling, event coordination, project coordination, documentation, data quality, process improvement, procurement, supplier communication, estimates, invoices, payments, and sales/marketing support.
+
+**Business platforms:** HubSpot, TripleSeat, OpenTable, AccuLynx.
+
+**Software and delivery:** React, TypeScript, Vite, Tailwind CSS, component-based UI development, responsive design, debugging, Git, GitHub, GitHub Pages, GitHub Actions, and AI-assisted development.
 
 ## Current Features
 
-* Responsive portfolio experience
-* Component-based React architecture
-* Reusable project card system
-* Structured project data
-* About section
-* Experience section
-* Projects section
-* Toolkit / technology section
-* Contact section
-* Interactive UI and mouse effects
-* Production deployment
-* Automated deployment workflow
+- Responsive portfolio and reusable React components
+- About, Experience, Projects, Toolkit, and Contact sections
+- Structured project data and interactive UI effects
+- Professional experience with roles, dates, responsibilities, and relevant tools
+- Automated deployment through GitHub Actions
 
 ## Project Structure
 
@@ -73,126 +68,38 @@ Most importantly, Aster represents an **ongoing learning process rather than a f
 portfolio/
 ├── src/
 │   ├── assets/
-│   ├── components/
-│   │   └── layout/
-│   │       ├── Navbar.tsx
-│   │       ├── Footer.tsx
-│   │       ├── MouseEffects.tsx
-│   │       └── sections/
-│   │           ├── Hero.tsx
-│   │           ├── About.tsx
-│   │           ├── Experience.tsx
-│   │           ├── Projects.tsx
-│   │           ├── Toolkit.tsx
-│   │           ├── Contact.tsx
-│   │           └── ui/
-│   │               └── ProjectCard.tsx
-│   ├── data/
-│   │   └── projects.ts
+│   ├── components/layout/sections/
+│   │   ├── About.tsx
+│   │   ├── Experience.tsx
+│   │   ├── Projects.tsx
+│   │   ├── Toolkit.tsx
+│   │   └── Contact.tsx
+│   ├── data/projects.ts
 │   ├── App.tsx
-│   ├── App.css
-│   ├── index.css
 │   └── main.tsx
 ├── public/
 ├── package.json
-├── vite.config.ts
-└── ...
+└── vite.config.ts
 ```
 
 ## AI-Assisted Development
 
-AI played an important role in the creation of Aster.
+AI helps me understand unfamiliar concepts, compare implementation approaches, debug issues, refine the UI, improve code organization, and learn version-control and deployment workflows. The goal is to learn from each implementation and steadily build practical understanding.
 
-Rather than presenting the project as if it were built entirely without assistance, I consider the AI-assisted development process part of the project's story.
+## Roadmap and Changelog
 
-Starting without prior knowledge of modern web development, I used AI to help me:
-
-* Understand unfamiliar programming concepts
-* Explore React, TypeScript, Vite, and modern frontend architecture
-* Generate and explain implementation approaches
-* Debug errors and unexpected behavior
-* Iterate on UI and user experience
-* Understand project structure and configuration
-* Learn Git and GitHub workflows
-* Investigate deployment issues
-* Refactor and improve existing code
-
-The objective has always been to **learn from the implementation**, not simply produce an output.
-
-Aster therefore represents a practical example of using AI as a learning accelerator while developing the ability to understand, evaluate, modify, and extend the resulting software.
-
-## Learning Through Building
-
-Aster follows a simple principle:
-
-> **Build something real, understand what you built, then build something better.**
-
-Instead of learning technologies exclusively through isolated tutorials or theoretical exercises, I use projects as the primary learning environment.
-
-This approach allows me to encounter real problems involving:
-
-* Architecture
-* State and component design
-* Styling
-* Responsiveness
-* Code organization
-* Debugging
-* Version control
-* Deployment
-* Iteration
-* Documentation
-
-Each problem becomes part of the learning process.
-
-## A Growing Portfolio
-
-Aster is intended to become more than a portfolio website.
-
-It is the **base layer for my future software work**.
-
-Future additions may include:
-
-* New applications
-* Experiments and prototypes
-* Technical projects
-* Automation tools
-* Data and analytics projects
-* AI-assisted projects
-* Development milestones
-* Technical lessons and discoveries
-* Major iterations and improvements
-* Other work that demonstrates the progression of my skills
-
-As new projects are completed, Aster will provide a central place to document and present them.
-
-## Development Philosophy
-
-I am approaching software development through continuous experimentation and iteration.
-
-The objective is not to claim mastery after building one project. It is to establish a repeatable process for:
-
-**Learn → Build → Debug → Understand → Improve → Repeat**
-
-Aster is the first major implementation of that process.
+See [ROADMAP.md](ROADMAP.md) for planned work and [CHANGELOG.md](CHANGELOG.md) for notable changes.
 
 ## Status
 
-**Actively developing**
-
-Aster is intentionally unfinished.
-
-The portfolio, codebase, documentation, and projects will continue to evolve as I acquire new skills and take on increasingly complex work.
+**Actively developing.** Aster will continue to evolve as I build practical projects, strengthen technical skills, and improve the portfolio.
 
 ## Author
 
-**Matteo Jose**
-
-A self-directed developer building software through hands-on learning, experimentation, and AI-assisted development.
+**Matteo Jose** — building software through hands-on learning, experimentation, and AI-assisted development, informed by professional experience in sales, operations, CRM, and customer service.
 
 ---
 
 Built with React, TypeScript, Vite, and Tailwind CSS.
 
 **Aster is a portfolio of what I've built — and a record of what I'm learning next.**
-
-
