@@ -2,7 +2,7 @@ function About() {
   const valueProps = [
     { number: "01", title: "Think in systems", text: "I look for the bottleneck behind the task — then design a clearer process, workflow, or system around it." },
     { number: "02", title: "Connect the dots", text: "I bridge business goals, customer needs, data, and technology instead of treating them as separate problems." },
-    { number: "03", title: "Automate the repeatable", text: "I use CRM workflows, APIs, SQL, dashboards, and automation to reduce manual work and improve visibility." },
+    { number: "03", title: "Improve the workflow", text: "I use CRM systems, careful record management, process reviews, and practical digital tools to reduce friction and improve visibility." },
     { number: "04", title: "Measure what matters", text: "The goal is not more tools. It is better decisions, faster execution, stronger customer outcomes, and scalable operations." },
   ];
 
@@ -14,29 +14,29 @@ function About() {
             <div>
               <p className="aster-section-label">01 — About</p>
               <p className="mt-8 max-w-xs text-xs uppercase leading-6 tracking-[0.16em] text-neutral-600">
-                Business thinking / technical execution / continuous improvement
+                Sales operations / customer experience / process improvement
               </p>
             </div>
 
             <div>
               <h2 className="max-w-6xl text-4xl font-semibold leading-[1.02] tracking-[-0.045em] text-white md:text-6xl lg:text-7xl">
-                I help turn <span className="text-neutral-500">messy operations</span> into clearer systems, better data, and better customer experiences.
+                I help turn <span className="text-neutral-500">busy operations</span> into clearer workflows, stronger customer experiences, and measurable results.
               </h2>
 
               <div className="mt-12 grid gap-10 border-t border-white/10 pt-10 md:grid-cols-[1.1fr_0.9fr]">
                 <div className="space-y-6 text-base leading-8 text-neutral-400 md:text-lg">
                   <p>
-                    My strength is working between the business and the technology. I can understand the operational problem, map the workflow, work with the data, and help turn the solution into something people can actually use.
+                    My experience spans hospitality, real estate, and residential roofing. I have coordinated customer relationships, sales pipelines, bookings, contracts, estimates, project schedules, procurement, payments, and CRM records across fast-moving operations.
                   </p>
                   <p>
-                    I am especially interested in Operations, RevOps, Customer Success, SaaS, automation, and data-driven workflows — areas where small system improvements can create a measurable business impact.
+                    I am interested in roles where organized execution, clear communication, accurate data, and continuous process improvement help teams serve customers and deliver work more effectively.
                   </p>
                 </div>
 
                 <div className="border-l border-white/10 pl-6">
                   <p className="text-[10px] font-semibold uppercase tracking-[0.2em] text-neutral-600">Core toolkit</p>
                   <div className="mt-5 flex flex-wrap gap-2">
-                    {["CRM", "SQL", "Power BI", "APIs", "Webhooks", "Automation", "Python", "React", "TypeScript", "Git"].map((skill) => (
+                    {["HubSpot", "TripleSeat", "OpenTable", "AccuLynx", "Sales Operations", "Customer Service", "Project Coordination", "Procurement", "CRM", "Process Improvement"].map((skill) => (
                       <span key={skill} className="border border-white/10 px-3 py-2 text-[10px] uppercase tracking-[0.12em] text-neutral-500 transition hover:border-white/30 hover:text-neutral-200">
                         {skill}
                       </span>
