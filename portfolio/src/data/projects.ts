@@ -42,12 +42,14 @@ export const projects: Project[] = [
     title: "ClientPulse",
     category: "Customer Success / SaaS / Automation",
     description:
-      "A conceptual customer-success operations platform combining customer health data, API integrations, automated onboarding workflows, and renewal-risk intelligence.",
+      "A functional customer-success operations MVP for monitoring customer health, reviewing account risk, and managing follow-up from a centralized dashboard.",
     outcome:
-      "Connects CRM and product signals to customer health scoring, automated tasks, onboarding milestones, escalation alerts, and executive retention reporting.",
-    role: "Customer journey · Automation architecture · API integration · Analytics",
-    technologies: ["SQL", "Power BI", "REST APIs", "Webhooks", "Zapier", "CRM", "Python", "Data Visualization"],
-    status: "Concept",
+      "Interactive customer records, editable health statuses and scores, live portfolio metrics, search and filtering, risk summaries, recent activity, and browser-based persistence.",
+    role: "Product development · Frontend engineering · Data modeling · Customer-success workflows",
+    technologies: ["React", "TypeScript", "Vite", "Tailwind CSS", "Local Storage", "GitHub Pages"],
+    status: "Live MVP",
     featured: true,
+    github: "https://github.com/matteojose3112-bit/clientpulse",
+    demo: "https://matteojose3112-bit.github.io/clientpulse/",
   },
 ];
