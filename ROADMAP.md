@@ -1,8 +1,6 @@
 # Aster Roadmap
 
-Aster is an evolving software portfolio and development record.
-
-This roadmap tracks where the project is going — from its initial portfolio foundation to a growing collection of real software projects, experiments, milestones, and technical work.
+Aster is an evolving software portfolio and development record. This roadmap tracks the portfolio's current state and the next steps toward a stronger collection of real software projects, experiments, milestones, and technical work.
 
 The roadmap is intentionally flexible. Priorities may change as new ideas, technologies, and projects emerge.
 
@@ -12,40 +10,34 @@ The roadmap is intentionally flexible. Priorities may change as new ideas, techn
 
 **Status: Completed**
 
-The initial goal was to build and deploy a functional portfolio from the ground up while learning modern web development.
-
-- [x] Build the initial portfolio application
-- [x] Learn and implement React
-- [x] Learn and implement TypeScript
-- [x] Set up Vite
-- [x] Implement responsive UI
-- [x] Build reusable React components
-- [x] Create structured project data
+- [x] Build and deploy the initial portfolio application
+- [x] Implement React, TypeScript, and Vite
+- [x] Create responsive UI and reusable React components
 - [x] Build About, Experience, Projects, Toolkit, and Contact sections
-- [x] Add interactive UI effects
-- [x] Configure Git and GitHub
-- [x] Deploy the application with GitHub Pages
-- [x] Automate deployment with GitHub Actions
+- [x] Add structured project data and interactive UI effects
+- [x] Configure Git, GitHub, GitHub Pages, and GitHub Actions deployment
 - [x] Establish Aster as the foundation for future work
 
 ---
 
-## 🔵 Phase 2 — Portfolio Evolution
+## 🔵 Phase 2 — Portfolio Accuracy & Presentation
 
 **Status: In Progress**
 
-Turn Aster from a basic portfolio into a stronger representation of the work and learning behind it.
+Make the portfolio a clear, credible representation of real experience, transferable skills, and software development progress.
 
-- [ ] Improve project presentation
-- [ ] Add detailed project case studies
+- [x] Replace generic experience content with actual roles, employers, locations, and dates
+- [x] Add experience-based responsibilities, tools, and measurable outcomes where available
+- [x] Align the About section with real experience across hospitality, real estate, roofing, sales operations, and customer service
+- [x] Organize the Toolkit around practical business skills, CRM platforms, and development tools
+- [x] Update the README, roadmap, and changelog to reflect the portfolio's current direction
+- [ ] Review every portfolio claim for accuracy and consistency
+- [ ] Improve project presentation and add detailed project case studies
 - [ ] Document project goals, challenges, solutions, and outcomes
-- [ ] Add project technologies and architecture information
-- [ ] Add GitHub and live-demo links consistently
-- [ ] Improve accessibility
-- [ ] Continue refining responsive behavior
-- [ ] Improve performance and code organization
-- [ ] Expand documentation
-- [ ] Establish consistent project documentation standards
+- [ ] Add project technologies, architecture notes, and GitHub/live-demo links consistently
+- [ ] Improve accessibility and continue refining responsive behavior
+- [ ] Review performance, code organization, and maintainability
+- [ ] Establish consistent documentation standards for every significant project
 
 ---
 
@@ -53,47 +45,35 @@ Turn Aster from a basic portfolio into a stronger representation of the work and
 
 **Status: Planned**
 
-Begin adding increasingly practical software projects to Aster.
+Add practical software projects that demonstrate problem-solving and continued learning.
 
-Potential project categories include:
+Potential project categories:
 
-- [ ] Productivity tools
+- [ ] Productivity and personal workflow tools
 - [ ] Business and operations tools
 - [ ] Data and analytics projects
 - [ ] Automation projects
 - [ ] API-driven applications
 - [ ] AI-assisted applications
-- [ ] Developer tools
-- [ ] Experimental projects
-- [ ] Small utilities and prototypes
+- [ ] Developer tools, utilities, and prototypes
 
-Each significant project should ideally include:
-
-- A working implementation
-- Source code
-- Documentation
-- Technologies used
-- Project objectives
-- Key challenges
-- Lessons learned
-- Live demonstration where applicable
+Each significant project should ideally include a working implementation, source code, documentation, technologies used, objectives, key challenges, lessons learned, and a live demo where applicable.
 
 ---
 
 ## 🟡 Phase 4 — Development Journal
 
-**Status: Planned**
+**Status: In Progress**
 
-Use Aster to document the progression behind the projects, not just their final results.
+Maintain a useful record of meaningful changes and learning, not just the finished results.
 
-- [ ] Document major development milestones
-- [ ] Record important technical discoveries
-- [ ] Document problems and how they were solved
-- [ ] Track technologies learned
-- [ ] Document major architectural decisions
-- [ ] Record lessons from failed experiments
-- [ ] Create technical write-ups for selected projects
-- [ ] Maintain a development changelog
+- [x] Establish a project changelog
+- [x] Maintain a development roadmap
+- [x] Document the portfolio's real-world experience and skill updates
+- [ ] Record major technical discoveries and architectural decisions
+- [ ] Document difficult bugs, solutions, and lessons learned
+- [ ] Track new technologies and skills through completed work
+- [ ] Write technical case studies for selected projects
 
 ---
 
@@ -101,17 +81,13 @@ Use Aster to document the progression behind the projects, not just their final 
 
 **Status: Planned**
 
-Expand Aster beyond a manually maintained portfolio.
+Reduce manual maintenance where automation provides real value.
 
-Potential future integrations:
-
-- [ ] GitHub API integration
-- [ ] Automated project information
-- [ ] Repository activity
-- [ ] Development statistics
-- [ ] Automated project updates
-- [ ] Additional deployment automation
-- [ ] Other useful APIs and services
+- [ ] Evaluate GitHub API integration for project metadata
+- [ ] Explore automated project and repository activity updates
+- [ ] Consider useful development statistics
+- [ ] Improve deployment checks and release workflow
+- [ ] Evaluate additional APIs and services when there is a clear use case
 
 ---
 
@@ -119,7 +95,7 @@ Potential future integrations:
 
 **Status: Future**
 
-As technical skills develop, Aster will become a place to showcase increasingly sophisticated software.
+Build toward increasingly capable, production-oriented software as experience grows.
 
 Potential areas:
 
@@ -131,34 +107,17 @@ Potential areas:
 - [ ] Data-intensive applications
 - [ ] Automation systems
 - [ ] More complex frontend architectures
-- [ ] Production-oriented applications
 
 ---
 
 ## 🏁 Long-Term Vision
 
-Aster is intended to become more than a portfolio website.
-
-It will serve as a central record of my development as a software builder:
+Aster is intended to become more than a portfolio website. It will be a central record of my development as a software builder: what I build, what I learn, the problems I solve, and how my technical abilities develop over time.
 
 **Learn → Build → Experiment → Debug → Understand → Improve → Document → Repeat**
-
-Over time, Aster should provide a clear picture of:
-
-- What I have built
-- What I have learned
-- How my technical abilities have developed
-- Problems I have solved
-- Technologies I have explored
-- Projects I have completed
-- Where I am going next
-
----
 
 ## Guiding Principle
 
 > **Build real things. Understand what you build. Learn from what breaks. Keep improving.**
 
-Aster is a work in progress by design.
-
-The roadmap will evolve as the projects, skills, and goals evolve.
+Aster is a work in progress by design. The roadmap will evolve as the projects, skills, and goals evolve.
