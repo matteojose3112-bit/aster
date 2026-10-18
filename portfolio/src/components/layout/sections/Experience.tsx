@@ -1,30 +1,39 @@
 const experience = [
   {
-    period: "Nov 2025 — Present",
-    role: "Customer Support & Client Services Associate",
+    period: "Jul 2026 — Present",
+    role: "Independent Freelancer",
+    company: "Freelance",
+    type: "Independent · Remote",
+    summary: "Continuing independent freelance work after a remote sales and operations role. Specific services, client engagements, and outcomes can be added as they are confirmed.",
+    impact: "Independent work · Client support · Operations experience",
+    capabilities: ["Freelance", "Operations", "Customer Support", "CRM"],
+  },
+  {
+    period: "Sep 2025 — Jun 2026",
+    role: "Sales & Operations Coordinator",
     company: "Laureles Management",
-    type: "Remote",
-    summary: "Manage high-volume customer communication, service requests, scheduling, and CRM records while keeping client issues moving from intake to resolution.",
-    impact: "Client operations · CRM discipline · Issue resolution · Service coordination",
-    capabilities: ["Customer Experience", "CRM", "Client Operations", "Problem Solving"],
+    type: "Remote · Medellín, Colombia",
+    summary: "Supported sales and operational activities across a two-location operation, managing customer inquiries, CRM workflows, bookings, contracts, payments, scheduling, and event execution. Coordinated with venue management, call center teams, venue staff, and cross-functional teams.",
+    impact: "$80K–$100K+ monthly revenue supported at one location · Approximately $2M Q2 revenue · 2× year-over-year growth · 95%+ SLA compliance",
+    capabilities: ["HubSpot", "TripleSeat", "OpenTable", "Sales Operations", "Event Coordination", "Account Management"],
   },
   {
-    period: "Jun 2025 — Oct 2025",
-    role: "Customer Support & Administrative Assistant",
-    company: "Inmobiliaria del Café",
-    type: "Part-Time",
-    summary: "Handled inbound property inquiries, coordinated showings, supported follow-ups, and kept customer information and communications organized across the service process.",
-    impact: "Lead follow-up · Scheduling · Administrative operations · Customer communication",
-    capabilities: ["Customer Support", "Administration", "Follow-up", "Process Coordination"],
+    period: "Oct 2024 — Aug 2025",
+    role: "CRM, Sales & Marketing Coordinator",
+    company: "Inmobiliaria del Café Quindío",
+    type: "Hybrid · Armenia, Colombia",
+    summary: "Managed CRM, sales, customer service, and back-office activities in real estate, supporting the customer lifecycle from lead generation and follow-up through documentation and transactions. Maintained 15–20 active property listings and client relationships.",
+    impact: "150+ CRM contacts · 80–100 leads monthly · 15–25% improvement in lead conversion · 4–6 hours saved weekly through workflow improvements",
+    capabilities: ["HubSpot", "Lead Generation", "Pipeline Management", "Real Estate Operations", "Documentation", "Customer Service"],
   },
   {
-    period: "Nov 2024 — May 2025",
-    role: "Customer Support Associate",
-    company: "Rogers Communications",
-    type: "Remote · Part-Time",
-    summary: "Supported customers across account, billing, and basic technical issues while documenting interactions in Zendesk and Salesforce and escalating complex cases appropriately.",
-    impact: "Technical support · CRM documentation · Case management · Escalation",
-    capabilities: ["Zendesk", "Salesforce", "Technical Support", "Case Management"],
+    period: "Jan 2021 — Sep 2024",
+    role: "Operations & Customer Service Coordinator",
+    company: "416 Roofing",
+    type: "Hybrid · Toronto, Canada",
+    summary: "Managed sales, customer service, operations, project coordination, procurement, and CRM for a residential roofing company. Coordinated estimates, materials, vendors, field crews, scheduling, payments, and project progress across concurrent jobs.",
+    impact: "20–25 projects monthly · 3 field crews coordinated · 5–7 estimates weekly · Materials procurement 4–5 times weekly",
+    capabilities: ["AccuLynx", "Project Coordination", "Estimating", "Procurement", "Scheduling", "Invoicing & Payments"],
   },
 ];
 
@@ -41,11 +50,11 @@ function Experience() {
               <span className="text-neutral-600">that scales.</span>
             </h2>
             <p className="mt-8 max-w-md text-base leading-7 text-neutral-500">
-              A customer-facing foundation built around communication, CRM discipline, problem solving, and operational execution — now expanding into automation, analytics, and systems thinking.
+              Sales, customer service, CRM, and operational coordination experience across hospitality, real estate, and residential roofing — with measurable results in revenue support, lead conversion, project delivery, and workflow improvement.
             </p>
             <div className="mt-8 border-l border-white/10 pl-5">
               <p className="text-[10px] uppercase tracking-[0.2em] text-neutral-600">Career thread</p>
-              <p className="mt-3 text-sm leading-6 text-neutral-400">Customer operations → systems → data → automation</p>
+              <p className="mt-3 text-sm leading-6 text-neutral-400">Customer relationships → CRM & sales operations → project delivery → process improvement</p>
             </div>
           </div>
 
@@ -54,7 +63,7 @@ function Experience() {
               <article key={`${item.company}-${item.role}`} className="group border-b border-white/10 py-9 transition-colors hover:bg-white/[0.025] md:py-11">
                 <div className="grid gap-7 md:grid-cols-[150px_1fr] md:gap-10">
                   <div className="text-[10px] uppercase tracking-[0.16em] text-neutral-600">
-                    <span className="text-neutral-400">0{index + 1}</span>
+                    <span className="text-neutral-400">{String(index + 1).padStart(2, "0")}</span>
                     <br />
                     <span className="mt-2 inline-block leading-5">{item.period}</span>
                   </div>
@@ -70,7 +79,7 @@ function Experience() {
                     <p className="mt-6 max-w-2xl text-sm leading-7 text-neutral-400 md:text-base">{item.summary}</p>
 
                     <div className="mt-7 border-l border-white/10 pl-4">
-                      <p className="text-[10px] uppercase tracking-[0.16em] text-neutral-600">Transferable impact</p>
+                      <p className="text-[10px] uppercase tracking-[0.16em] text-neutral-600">Selected impact</p>
                       <p className="mt-2 text-sm leading-6 text-neutral-400">{item.impact}</p>
                     </div>
 
