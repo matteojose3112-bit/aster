@@ -1,10 +1,10 @@
 function Toolkit() {
   const groups = [
-    { number: "01", title: "Operations", description: "Process and execution", skills: ["Process Design", "Workflow Optimization", "SOPs", "KPI Management", "Business Operations"] },
-    { number: "02", title: "Revenue & Customer", description: "Growth and client systems", skills: ["RevOps", "CRM", "Customer Success", "Onboarding", "Pipeline Management", "Retention"] },
-    { number: "03", title: "Data & BI", description: "Turning data into decisions", skills: ["SQL", "Power BI", "Excel", "Data Analysis", "Data Modeling", "ETL"] },
-    { number: "04", title: "Automation & APIs", description: "Connecting systems and removing manual work", skills: ["REST APIs", "Webhooks", "Zapier", "Power Automate", "Python", "Workflow Automation"] },
-    { number: "05", title: "Technology", description: "Building and shipping digital products", skills: ["React", "TypeScript", "Vite", "Tailwind CSS", "Git", "GitHub"] },
+    { number: "01", title: "CRM & Sales Systems", description: "Customer records, leads, and pipeline workflows", skills: ["HubSpot", "TripleSeat", "OpenTable", "AccuLynx", "CRM Administration", "Lead Management", "Pipeline Tracking"] },
+    { number: "02", title: "Sales & Customer Operations", description: "Customer relationships and commercial workflows", skills: ["Customer Service", "Account Management", "Lead Follow-up", "Sales Operations", "SLA Management", "Contract Coordination", "Bookings & Scheduling"] },
+    { number: "03", title: "Operations & Projects", description: "Coordinating people, vendors, and delivery", skills: ["Project Coordination", "Event Coordination", "Field Crew Scheduling", "Procurement", "Vendor Coordination", "Estimates", "Payments & Invoicing"] },
+    { number: "04", title: "Process & Administration", description: "Accurate records and more efficient workflows", skills: ["Workflow Improvement", "Data Audits", "Documentation", "Record Management", "Duplicate Resolution", "Cross-functional Coordination", "Process Standardization"] },
+    { number: "05", title: "Technology & Digital", description: "Technical skills and tools used in ongoing development", skills: ["React", "TypeScript", "Vite", "Tailwind CSS", "Git", "GitHub", "AI-assisted Development"] },
   ];
 
   return (
@@ -17,10 +17,10 @@ function Toolkit() {
               <h2 className="mt-7 text-5xl font-semibold leading-[0.92] tracking-[-0.05em] md:text-7xl">
                 Skills that
                 <br />
-                <span className="text-neutral-600">ship.</span>
+                <span className="text-neutral-600">deliver.</span>
               </h2>
               <p className="mt-8 max-w-sm text-base leading-7 text-neutral-500">
-                A practical toolkit across operations, customer experience, revenue, data, automation, and software — built around solving the problem, not collecting tools.
+                A practical toolkit grounded in professional experience: CRM platforms, sales and customer operations, project coordination, procurement, documentation, and process improvement.
               </p>
             </div>
 
