@@ -4,7 +4,7 @@ const experience = [
     role: "Independent Freelancer",
     company: "Freelance",
     type: "Independent · Remote",
-    summary: "Continuing independent freelance work after a remote sales and operations role. Specific services, client engagements, and outcomes can be added as they are confirmed.",
+    summary: "Continuing independent freelance work, drawing on experience in sales operations, customer service, CRM administration, and workflow coordination.",
     impact: "Independent work · Client support · Operations experience",
     capabilities: ["Freelance", "Operations", "Customer Support", "CRM"],
   },
