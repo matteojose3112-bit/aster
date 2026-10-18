@@ -30,13 +30,15 @@ export const projects: Project[] = [
     title: "OpsFlow",
     category: "Operations / RevOps / Business Intelligence",
     description:
-      "A conceptual operations intelligence platform connecting CRM data, SQL reporting, automated workflows, and Power BI dashboards into a single operating view.",
+      "A functional operations dashboard for turning structured business data into operational visibility, performance indicators, and actionable priorities.",
     outcome:
-      "Designed to turn fragmented sales and operations data into automated pipelines, KPI reporting, exception alerts, and actionable daily work queues.",
-    role: "Business analysis · SQL data modeling · BI · Workflow automation",
-    technologies: ["SQL", "Power BI", "REST APIs", "Power Automate", "CRM", "Python", "ETL", "Data Modeling"],
-    status: "Concept",
+      "Interactive task and exception workflows, overdue detection, KPI target comparisons, account-health views, search and status filters, plus Supabase authentication and shared task/exception storage.",
+    role: "Product development · Frontend engineering · Operations workflows · Data modeling",
+    technologies: ["React", "TypeScript", "Vite", "Supabase", "PostgreSQL", "GitHub Actions", "GitHub Pages"],
+    status: "Live MVP",
     featured: true,
+    github: "https://github.com/matteojose3112-bit/opsflow",
+    demo: "https://matteojose3112-bit.github.io/opsflow/",
   },
   {
     title: "ClientPulse",
