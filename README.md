@@ -67,6 +67,8 @@ Completed independent freelance work drawing on experience in sales operations, 
 - About, Experience, Projects, Toolkit, and Contact sections
 - Structured project data and interactive UI effects
 - Professional experience with roles, dates, responsibilities, and relevant tools
+- Contact hub for remote opportunities, freelance inquiries, and collaborations
+- Direct contact and professional profile links: email, LinkedIn, GitHub, Upwork, and Fiverr
 - Automated deployment through GitHub Actions
 
 ## Project Structure
