@@ -22,7 +22,7 @@ The project is built with React, TypeScript, Vite, and Tailwind CSS, and deploye
 - Support call operations, lead follow-up, service coordination, and customer communication, including Mass Save program information when appropriate.
 
 ### Independent Freelancer
-**October 2026**
+**July 2026 – October 2026**
 
 Completed independent freelance work drawing on experience in sales operations, customer service, CRM administration, research, and workflow coordination.
 
