@@ -1,10 +1,41 @@
 function Toolkit() {
   const groups = [
-    { number: "01", title: "CRM & Sales Systems", description: "Customer records, leads, and pipeline workflows", skills: ["HubSpot", "TripleSeat", "OpenTable", "AccuLynx", "CRM Administration", "Lead Management", "Pipeline Tracking"] },
-    { number: "02", title: "Sales & Customer Operations", description: "Customer relationships and commercial workflows", skills: ["Customer Service", "Account Management", "Lead Follow-up", "Sales Operations", "SLA Management", "Contract Coordination", "Bookings & Scheduling"] },
-    { number: "03", title: "Operations & Projects", description: "Coordinating people, vendors, and delivery", skills: ["Project Coordination", "Event Coordination", "Field Crew Scheduling", "Procurement", "Vendor Coordination", "Estimates", "Payments & Invoicing"] },
-    { number: "04", title: "Process & Administration", description: "Accurate records and more efficient workflows", skills: ["Workflow Improvement", "Data Audits", "Documentation", "Record Management", "Duplicate Resolution", "Cross-functional Coordination", "Process Standardization"] },
-    { number: "05", title: "Technology & Digital", description: "Technical skills and tools used in ongoing development", skills: ["React", "TypeScript", "Vite", "Tailwind CSS", "Git", "GitHub", "AI-assisted Development"] },
+    {
+      number: "01",
+      title: "CRM & Business Platforms",
+      description: "Systems used to manage customers, leads, bookings, and service workflows",
+      skills: ["ServiceTitan", "HubSpot", "AccuLynx", "TripleSeat", "OpenTable", "Airtable", "CRM Administration", "Lead & Pipeline Management"],
+    },
+    {
+      number: "02",
+      title: "Customer & Sales Operations",
+      description: "Customer communication, outbound follow-up, and commercial coordination",
+      skills: ["Quo", "Customer Service", "Outbound Outreach", "Lead Follow-up", "Account Management", "SLA Awareness", "Bookings & Scheduling", "Contracts", "Estimates", "Invoicing & Payments"],
+    },
+    {
+      number: "03",
+      title: "Operations & Process Improvement",
+      description: "Keeping teams, records, vendors, and day-to-day work organized",
+      skills: ["Project Coordination", "Event Coordination", "Field Crew Scheduling", "Procurement", "Vendor Coordination", "Workflow Improvement", "Documentation", "Data Quality", "Process Standardization"],
+    },
+    {
+      number: "04",
+      title: "AI, Research & Productivity",
+      description: "AI-assisted learning, research, drafting, and problem-solving",
+      skills: ["ChatGPT", "Google Gemini", "AI-assisted Research", "Prompting & Iteration", "Information Synthesis", "Documentation", "Workflow Planning"],
+    },
+    {
+      number: "05",
+      title: "Frontend Development",
+      description: "Building responsive interfaces and reusable application components",
+      skills: ["React", "TypeScript", "Vite", "Tailwind CSS", "Responsive UI", "Component-based Design", "Debugging"],
+    },
+    {
+      number: "06",
+      title: "Data, Backend & Delivery",
+      description: "Developing application data flows and shipping projects",
+      skills: ["Supabase", "PostgreSQL", "Local Storage", "Git", "GitHub", "GitHub Actions", "GitHub Pages", "Deployment"],
+    },
   ];
 
   return (
@@ -15,12 +46,15 @@ function Toolkit() {
             <div>
               <p className="aster-section-label">04 — Toolkit</p>
               <h2 className="mt-7 text-5xl font-semibold leading-[0.92] tracking-[-0.05em] md:text-7xl">
-                Skills that
+                Tools to
                 <br />
-                <span className="text-neutral-600">deliver.</span>
+                <span className="text-neutral-600">make it work.</span>
               </h2>
               <p className="mt-8 max-w-sm text-base leading-7 text-neutral-500">
-                A practical toolkit grounded in professional experience: CRM platforms, sales and customer operations, project coordination, procurement, documentation, and process improvement.
+                A working toolkit across business operations and software development — from the CRM and customer systems used on the job to the technologies behind projects I build and deploy.
+              </p>
+              <p className="mt-5 max-w-sm text-xs leading-6 text-neutral-600">
+                Tools reflect professional use and hands-on projects. Depth varies by platform, and the toolkit grows as I keep learning.
               </p>
             </div>
 
@@ -31,7 +65,7 @@ function Toolkit() {
                     <span className="text-[10px] tracking-[0.18em] text-neutral-600">{group.number}</span>
                     <div>
                       <h3 className="text-xl font-medium tracking-[-0.02em] text-white">{group.title}</h3>
-                      <p className="mt-2 text-xs text-neutral-600">{group.description}</p>
+                      <p className="mt-2 text-xs leading-5 text-neutral-600">{group.description}</p>
                     </div>
                     <div className="flex flex-wrap gap-2">
                       {group.skills.map((skill) => (
