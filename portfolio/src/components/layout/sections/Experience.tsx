@@ -9,7 +9,7 @@ const experience = [
     capabilities: ["ServiceTitan", "Quo", "Airtable", "Outbound Outreach", "Customer Service", "Lead Management", "CRM Integrity"],
   },
   {
-    period: "Oct 2026",
+    period: "Jul 2026 — Oct 2026",
     role: "Independent Freelancer",
     company: "Freelance",
     type: "Independent · Remote",
