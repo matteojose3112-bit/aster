@@ -54,4 +54,30 @@ export const projects: Project[] = [
     github: "https://github.com/matteojose3112-bit/clientpulse",
     demo: "https://matteojose3112-bit.github.io/clientpulse/",
   },
+  {
+    title: "Transcription & Content Toolkit",
+    category: "Transcription / Captions / Content Production",
+    description:
+      "A practical toolkit for turning audio and video into accurate, readable transcripts, subtitles, captions, and voiceover-ready scripts.",
+    outcome:
+      "Includes transcript and voiceover templates, fictional transcript examples, SRT and WebVTT samples, and quality-control checklists for accuracy, timing, readability, and delivery.",
+    role: "Workflow design · Content quality control · Documentation",
+    technologies: ["Transcription workflows", "SRT", "WebVTT", "Voiceover scripting", "Quality assurance", "Markdown"],
+    status: "Toolkit foundation",
+    featured: true,
+    github: "https://github.com/matteojose3112-bit/transcription-content-toolkit",
+  },
+  {
+    title: "Research & Reporting Toolkit",
+    category: "Business Research / Document Summaries / Reporting",
+    description:
+      "A developing toolkit for source-based research, document summaries, competitor comparisons, and concise decision-ready business reporting.",
+    outcome:
+      "Foundation and planning stage, with planned research briefs, source logs, competitor comparisons, executive summaries, and quality-review checklists. No completed research samples are claimed yet.",
+    role: "Research workflow design · Source evaluation · Reporting standards",
+    technologies: ["Source evaluation", "Fact-checking", "Document summarization", "Competitor research", "Markdown", "Structured reporting"],
+    status: "Foundation & planning",
+    featured: true,
+    github: "https://github.com/matteojose3112-bit/research-reporting-toolkit",
+  },
 ];
