@@ -1,12 +1,21 @@
 const experience = [
   {
-    period: "Jul 2026 — Present",
+    period: "Oct 2026 — Present",
+    role: "Customer Service Representative",
+    company: "Colt Home Services",
+    type: "Customer Service · Sales Development · Remote",
+    summary: "Support customer service and outbound sales operations for a home services business. Use ServiceTitan and connected tools to manage customer information, work through outbound contact lists, maintain accurate CRM records, support call operations, and communicate service and Mass Save program information when appropriate.",
+    impact: "Outbound lead follow-up · CRM data quality · Customer communication · Service coordination support",
+    capabilities: ["ServiceTitan", "Quo", "Airtable", "Outbound Outreach", "Customer Service", "Lead Management", "CRM Integrity"],
+  },
+  {
+    period: "Oct 2026",
     role: "Independent Freelancer",
     company: "Freelance",
     type: "Independent · Remote",
-    summary: "Continuing independent freelance work, drawing on experience in sales operations, customer service, CRM administration, and workflow coordination.",
-    impact: "Independent work · Client support · Operations experience",
-    capabilities: ["Freelance", "Operations", "Customer Support", "CRM"],
+    summary: "Completed independent freelance work drawing on experience in sales operations, customer service, CRM administration, research, and workflow coordination.",
+    impact: "Independent client support · Research and documentation · Operations experience",
+    capabilities: ["Freelance", "Operations", "Customer Support", "CRM", "Research"],
   },
   {
     period: "Sep 2025 — Jun 2026",
@@ -50,7 +59,7 @@ function Experience() {
               <span className="text-neutral-600">that scales.</span>
             </h2>
             <p className="mt-8 max-w-md text-base leading-7 text-neutral-500">
-              Sales, customer service, CRM, and operational coordination experience across hospitality, real estate, and residential roofing — with measurable results in revenue support, lead conversion, project delivery, and workflow improvement.
+              Sales, customer service, CRM, and operational coordination experience across home services, hospitality, real estate, and residential roofing — with a focus on customer relationships, lead management, project delivery, and workflow improvement.
             </p>
             <div className="mt-8 border-l border-white/10 pl-5">
               <p className="text-[10px] uppercase tracking-[0.2em] text-neutral-600">Career thread</p>
