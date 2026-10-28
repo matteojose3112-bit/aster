@@ -30,7 +30,8 @@ Make the portfolio a clear, credible representation of real experience, transfer
 - [x] Add experience-based responsibilities, tools, and measurable outcomes where available
 - [x] Align the About section with real experience across hospitality, real estate, roofing, sales operations, and customer service
 - [x] Organize the Toolkit around practical business skills, CRM platforms, and development tools
-- [x] Update the README, roadmap, and changelog to reflect the portfolio's current direction
+- [x] Build a Contact hub for remote opportunities, freelance projects, and collaborations, with email, LinkedIn, GitHub, Upwork, and Fiverr links
+- [x] Keep the README, roadmap, and changelog aligned with the portfolio's current direction
 - [ ] Review every portfolio claim for accuracy and consistency
 - [ ] Improve project presentation and add detailed project case studies
 - [ ] Document project goals, challenges, solutions, and outcomes
