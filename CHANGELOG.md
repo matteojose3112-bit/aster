@@ -4,6 +4,22 @@ All notable changes to Aster are documented here. Entries focus on meaningful po
 
 ---
 
+## [0.3.0] — Contact & Opportunity Links — 2026-10-28
+
+### Updated
+
+- Repositioned the Contact section as a hub for remote opportunities, freelance projects, and collaborations at the intersection of business operations and technology.
+- Added direct links to LinkedIn, GitHub, Upwork, and Fiverr alongside the existing email contact.
+- Kept the new contact options consistent with Aster's existing visual style and responsive layout.
+- Updated the README to document the expanded Contact capabilities.
+- Updated the roadmap to mark the Contact hub improvement and related documentation alignment as complete.
+
+### Direction
+
+Aster now supports both professional opportunities and independent client work, while continuing to present the portfolio as a record of practical business experience and software development.
+
+---
+
 ## [0.2.0] — Portfolio Accuracy & Documentation — 2026-10-18
 
 ### Updated
