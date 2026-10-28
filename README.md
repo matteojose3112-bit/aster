@@ -14,10 +14,17 @@ The project is built with React, TypeScript, Vite, and Tailwind CSS, and deploye
 
 ## Professional Experience
 
-### Independent Freelancer
-**July 2026 – Present**
+### Colt Home Services — Customer Service Representative
+**October 2026 – Present** · Remote
 
-Continuing independent freelance work, drawing on experience in sales operations, customer service, CRM administration, and workflow coordination.
+- Support customer service and outbound sales operations for a home services business.
+- Use ServiceTitan and connected tools to manage customer information, work through outbound contact lists, and maintain accurate CRM records.
+- Support call operations, lead follow-up, service coordination, and customer communication, including Mass Save program information when appropriate.
+
+### Independent Freelancer
+**October 2026**
+
+Completed independent freelance work drawing on experience in sales operations, customer service, CRM administration, research, and workflow coordination.
 
 ### Laureles Management — Sales & Operations Coordinator
 **September 2025 – June 2026** · Remote · Medellín, Antioquia, Colombia
@@ -50,7 +57,7 @@ Continuing independent freelance work, drawing on experience in sales operations
 
 **Business and operations:** sales operations, CRM administration, customer service, lead management, client communication, booking and scheduling, event coordination, project coordination, documentation, data quality, process improvement, procurement, supplier communication, estimates, invoices, payments, and sales/marketing support.
 
-**Business platforms:** HubSpot, TripleSeat, OpenTable, AccuLynx.
+**Business platforms:** ServiceTitan, Quo, Airtable, HubSpot, TripleSeat, OpenTable, AccuLynx.
 
 **Software and delivery:** React, TypeScript, Vite, Tailwind CSS, component-based UI development, responsive design, debugging, Git, GitHub, GitHub Pages, GitHub Actions, and AI-assisted development.
 
