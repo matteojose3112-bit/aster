@@ -4,6 +4,18 @@ All notable changes to Aster are documented here. Entries focus on meaningful po
 
 ---
 
+## [0.4.0] — Functional Service Toolkits — 2026-10-29
+
+### Updated
+
+- Updated the Transcription & Content Toolkit project card to reflect its functional workflow MVP, Python caption validator, automated tests, and service listing draft.
+- Updated the Research & Reporting Toolkit project card to reflect its source-backed CRM comparison, source log, Python audit utility, automated tests, and service listing draft.
+- Updated project technologies and outcomes to match what exists in the linked repositories.
+- Updated this README to document the toolkits accurately.
+- Kept the transcription portfolio limitation explicit: existing transcript examples are fictional formatting demonstrations until a real-media sample is reviewed end to end.
+
+---
+
 ## [0.3.0] — Contact & Opportunity Links — 2026-10-28
 
 ### Updated
