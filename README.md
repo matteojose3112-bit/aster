@@ -10,7 +10,7 @@ Aster is my evolving software portfolio, development record, and foundation for 
 
 Aster began as a hands-on challenge to learn modern web development by building a real application. I use AI as a development and learning partner while working to understand, debug, refine, and extend the code rather than treating it as a black box.
 
-The project is built with React, TypeScript, Vite, and Tailwind CSS, and deployed with GitHub Pages and GitHub Actions.
+The portfolio site is built with React, TypeScript, Vite, and Tailwind CSS, and deployed with GitHub Pages and GitHub Actions. The portfolio also links to practical service toolkits built with reusable documentation, CSV templates, Python validation utilities, tests, and GitHub Actions.
 
 ## Professional Experience
 
@@ -59,7 +59,7 @@ Completed independent freelance work drawing on experience in sales operations, 
 
 **Business platforms:** ServiceTitan, Quo, Airtable, HubSpot, TripleSeat, OpenTable, AccuLynx.
 
-**Software and delivery:** React, TypeScript, Vite, Tailwind CSS, component-based UI development, responsive design, debugging, Git, GitHub, GitHub Pages, GitHub Actions, and AI-assisted development.
+**Software and delivery:** React, TypeScript, Vite, Tailwind CSS, Python utilities, CSV validation, unit testing, responsive design, debugging, Git, GitHub, GitHub Pages, GitHub Actions, and AI-assisted development.
 
 ## Current Features
 
@@ -69,6 +69,8 @@ Completed independent freelance work drawing on experience in sales operations, 
 - Professional experience with roles, dates, responsibilities, and relevant tools
 - Contact hub for remote opportunities, freelance inquiries, and collaborations
 - Direct contact and professional profile links: email, LinkedIn, GitHub, Upwork, and Fiverr
+- **Research & Reporting Toolkit:** sourced CRM comparison sample, source log, reusable templates, Python input audit utility, tests, and service listing draft
+- **Transcription & Content Toolkit:** transcript/caption templates, SRT/WebVTT samples, Python caption validator, tests, and service listing draft
 - Automated deployment through GitHub Actions
 
 ## Project Structure
