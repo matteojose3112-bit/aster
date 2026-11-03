@@ -17,7 +17,7 @@ function ProjectCard({ project, index }: ProjectCardProps) {
       <div aria-hidden="true" className="pointer-events-none absolute -inset-32 opacity-0 transition-opacity duration-500 group-hover:opacity-100" style={{ background: `radial-gradient(circle at ${pointer.x}% ${pointer.y}%, rgba(255,255,255,.1), transparent 25%)` }} />
       <div className="relative p-7 md:p-10">
         <div className="flex items-center justify-between border-b border-white/10 pb-5 text-[10px] uppercase tracking-[0.2em] text-neutral-600">
-          <span>{number} / CASE STUDY</span>
+          <span>{number} / PROJECT OVERVIEW</span>
           <span className="flex items-center gap-2 text-neutral-500"><span className="aster-status-dot" />{project.status}</span>
         </div>
 
