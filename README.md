@@ -69,7 +69,7 @@ Completed independent freelance work drawing on experience in sales operations, 
 - Professional experience with roles, dates, responsibilities, and relevant tools
 - Contact hub for remote opportunities, freelance inquiries, and collaborations
 - Direct contact and professional profile links: email, LinkedIn, GitHub, Upwork, and Fiverr
-- Keyboard-accessible skip link, visible focus indicators, mobile navigation controls, and reduced-motion support
+- Keyboard-accessible skip link, visible focus indicators, a named primary navigation landmark, accessible mobile navigation controls, and reduced-motion support
 - **Research & Reporting Toolkit:** sourced CRM comparison sample, source log, reusable templates, Python input audit utility, tests, and service listing draft
 - **Transcription & Content Toolkit:** transcript/caption templates, SRT/WebVTT samples, Python caption validator, tests, and service listing draft
 - Automated deployment through GitHub Actions, with ESLint and production build checks before deployment
