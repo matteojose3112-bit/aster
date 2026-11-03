@@ -18,7 +18,7 @@ function ProjectCard({ project, index }: ProjectCardProps) {
       <div className="relative p-7 md:p-10">
         <div className="flex items-center justify-between border-b border-white/10 pb-5 text-[10px] uppercase tracking-[0.2em] text-neutral-600">
           <span>{number} / PROJECT OVERVIEW</span>
-          <span className="flex items-center gap-2 text-neutral-500"><span className="aster-status-dot" />{project.status}</span>
+          <span className="flex items-center gap-2 text-neutral-500"><span className="aster-status-dot" aria-hidden="true" />{project.status}</span>
         </div>
 
         <div className="mt-8 flex flex-wrap items-center gap-3 text-[10px] font-semibold uppercase tracking-[0.18em] text-neutral-500">
@@ -43,9 +43,10 @@ function ProjectCard({ project, index }: ProjectCardProps) {
         </div>
 
         <div className="mt-8 flex flex-wrap items-center gap-6">
-          {project.github && <a href={project.github} target="_blank" rel="noreferrer" className="aster-link text-xs font-semibold uppercase tracking-[0.14em]">GitHub ↗</a>}
-          {project.demo && <a href={project.demo} target="_blank" rel="noreferrer" className="aster-link text-xs font-semibold uppercase tracking-[0.14em]">Live demo ↗</a>}
-          {!project.github && !project.demo && <span className="text-xs uppercase tracking-[0.14em] text-neutral-700">Case study in development</span>}
+          {project.github && <a href={project.github} target="_blank" rel="noopener noreferrer" className="aster-link text-xs font-semibold uppercase tracking-[0.14em]">GitHub ↗</a>}
+          {project.demo && <a href={project.demo} target="_blank" rel="noopener noreferrer" className="aster-link text-xs font-semibold uppercase tracking-[0.14em]">Live demo ↗</a>}
+          {project.caseStudy && <a href={project.caseStudy} target="_blank" rel="noopener noreferrer" className="aster-link text-xs font-semibold uppercase tracking-[0.14em]">Case study ↗</a>}
+          {!project.github && !project.demo && !project.caseStudy && <span className="text-xs uppercase tracking-[0.14em] text-neutral-700">Project details in development</span>}
         </div>
       </div>
     </article>

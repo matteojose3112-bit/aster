@@ -9,6 +9,7 @@ export type Project = {
   featured?: boolean;
   github?: string;
   demo?: string;
+  caseStudy?: string;
 };
 
 export const projects: Project[] = [
@@ -25,6 +26,7 @@ export const projects: Project[] = [
     featured: true,
     github: "https://github.com/matteojose3112-bit/aster",
     demo: "https://matteojose3112-bit.github.io/aster/",
+    caseStudy: "https://github.com/matteojose3112-bit/aster/blob/master/docs/case-studies/aster.md",
   },
   {
     title: "FinTrack",

@@ -4,6 +4,21 @@ All notable changes to Aster are documented here. Entries focus on meaningful po
 
 ---
 
+## [0.6.0] — Semantic Structure & First Case Study — 2026-11-03
+
+### Added
+
+- Added the first detailed project case study for Aster, covering goals, implementation, design decisions, outcomes, and current limitations.
+- Added a case-study link to the Aster project card and documented it in the README.
+- Moved the skip link, visual effects layer, and primary navigation outside the main content landmark; the main landmark now contains the page's primary sections, with the footer following it.
+
+### Updated
+
+- Added an optional case-study destination to the structured project data and project-card component.
+- Updated the roadmap to track the first completed case study and the corrected page landmark structure.
+
+---
+
 ## [0.5.0] — Quality Checks & Accessibility — 2026-11-03
 
 ### Added

@@ -40,11 +40,12 @@ Make the portfolio a clear, credible representation of real experience, transfer
 - [x] Respect reduced-motion preferences in the portfolio experience
 - [x] Remove closed mobile navigation links from keyboard tab order and support Escape to close the menu
 - [x] Give the primary navigation landmark an accessible name
+- [x] Place the skip link and navigation outside the main content landmark
+- [x] Create the first detailed project case study with goals, implementation, design decisions, outcomes, and limitations
 - [ ] Review every portfolio claim for accuracy and consistency
 - [ ] Manually validate layout and navigation at representative mobile, tablet, and desktop viewport sizes
 - [ ] Review contrast, semantics, and keyboard behavior across every section
-- [ ] Improve project presentation with detailed project case studies
-- [ ] Document project goals, challenges, solutions, and outcomes
+- [ ] Add detailed case studies for additional selected projects
 - [ ] Add project technologies, architecture notes, and GitHub/live-demo links consistently
 - [ ] Review performance, code organization, and maintainability
 - [ ] Establish consistent documentation standards for every significant project
@@ -63,7 +64,8 @@ Add practical software projects that demonstrate problem-solving and continued l
 - [x] Add Research & Reporting Toolkit
 - [x] Add Transcription & Content Toolkit
 - [x] Add FinTrack
-- [ ] Create detailed case studies for selected projects
+- [x] Create a detailed case study for Aster
+- [ ] Create detailed case studies for selected additional projects
 - [ ] Keep each project's status, technologies, repository, and demo links accurate
 
 Future project categories may include productivity tools, business and operations tools, data and analytics, automation, API-driven applications, AI-assisted applications, and developer utilities.
