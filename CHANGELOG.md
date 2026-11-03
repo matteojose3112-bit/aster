@@ -10,7 +10,7 @@ All notable changes to Aster are documented here. Entries focus on meaningful po
 
 - Added ESLint to the GitHub Actions deployment workflow so linting runs before the production build.
 - Documented local quality-check commands: `npm run lint` and `npm run build`.
-- Added a keyboard-accessibility improvement to mobile navigation: closed links are removed from tab order, active links expose their current location, and Escape closes the menu and returns focus to its toggle.
+- Added keyboard-accessibility improvements to navigation: closed mobile links are removed from tab order, active links expose their current location, Escape closes the menu and returns focus to its toggle, and the primary navigation landmark has an accessible name.
 
 ### Verified
 
