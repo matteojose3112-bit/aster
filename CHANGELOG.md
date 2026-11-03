@@ -4,6 +4,27 @@ All notable changes to Aster are documented here. Entries focus on meaningful po
 
 ---
 
+## [0.7.0] — FinTrack Case Study & Aster Closeout — 2026-11-03
+
+### Added
+
+- Added a detailed FinTrack case study covering product scope, architecture, authentication, testing, deployment, and known limitations.
+- Linked the FinTrack case study from its project card.
+
+### Updated
+
+- Marked Aster's own project card as complete and in maintenance mode.
+- Closed the core portfolio roadmap, retaining manual viewport, contrast, and keyboard checks as explicit maintenance items rather than claiming they were completed.
+- Updated the README and roadmap to establish Aster's maintenance scope and avoid further portfolio work without a concrete benefit.
+
+### Verification
+
+- The previous Aster workflow passed lint, production build, and deployment checks.
+- This closeout documentation and project-card update require a fresh workflow run; passing status will be recorded after GitHub Actions completes.
+- FinTrack's live end-to-end acceptance tests, security review, hosted database lifecycle, dependency audit findings, and bundle-size warning remain open in the FinTrack case study.
+
+---
+
 ## [0.6.1] — Portfolio Claim Audit — 2026-11-03
 
 ### Updated
