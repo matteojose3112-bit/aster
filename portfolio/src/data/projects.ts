@@ -27,6 +27,20 @@ export const projects: Project[] = [
     demo: "https://matteojose3112-bit.github.io/aster/",
   },
   {
+    title: "FinTrack",
+    category: "Personal Finance / Full-Stack Engineering",
+    description:
+      "A full-stack personal finance platform for tracking income, expenses, budgets, savings goals, and cash-flow insights with account-scoped data.",
+    outcome:
+      "React frontend and FastAPI backend with PostgreSQL, authenticated user workspaces, transaction and budget workflows, savings goals, analytics, CSV export, database migrations, and automated frontend/backend tests. Deployed on Render; live end-to-end acceptance testing remains in progress.",
+    role: "Product development · Full-stack engineering · API design · Database modeling · Testing · Deployment",
+    technologies: ["React", "Vite", "Tailwind CSS", "Python", "FastAPI", "PostgreSQL", "SQLAlchemy", "Alembic", "JWT", "pytest", "Vitest", "Render"],
+    status: "Deployed MVP · E2E testing",
+    featured: true,
+    github: "https://github.com/matteojose3112-bit/fintrack",
+    demo: "https://fintrack-web-int6.onrender.com",
+  },
+  {
     title: "OpsFlow",
     category: "Operations / RevOps / Business Intelligence",
     description:
