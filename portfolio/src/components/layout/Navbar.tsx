@@ -57,7 +57,7 @@ function Navbar() {
 
   return (
     <header className={`fixed inset-x-0 top-0 z-50 transition-all duration-300 ${scrolled ? "border-b border-white/10 bg-[#050505]/85 backdrop-blur-xl" : "bg-transparent"}`}>
-      <nav className="mx-auto flex h-20 max-w-7xl items-center justify-between px-6 lg:px-10">
+      <nav aria-label="Primary navigation" className="mx-auto flex h-20 max-w-7xl items-center justify-between px-6 lg:px-10">
         <a href="#" aria-label="Aster home" onClick={closeMenu} className="group flex items-center gap-3 text-sm font-semibold tracking-[0.18em] text-white">
           <span className="flex h-8 w-8 items-center justify-center border border-white/20 text-xs transition group-hover:border-white/60">A</span>
           <span>ASTER</span>
