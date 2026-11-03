@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 const links = [
   { label: "About", href: "#about" },
@@ -12,6 +12,7 @@ function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [active, setActive] = useState("about");
   const [menuOpen, setMenuOpen] = useState(false);
+  const menuButtonRef = useRef<HTMLButtonElement>(null);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 24);
@@ -40,6 +41,18 @@ function Navbar() {
     };
   }, []);
 
+  useEffect(() => {
+    if (!menuOpen) return;
+    const onKeyDown = (event: KeyboardEvent) => {
+      if (event.key === "Escape") {
+        setMenuOpen(false);
+        menuButtonRef.current?.focus();
+      }
+    };
+    document.addEventListener("keydown", onKeyDown);
+    return () => document.removeEventListener("keydown", onKeyDown);
+  }, [menuOpen]);
+
   const closeMenu = () => setMenuOpen(false);
 
   return (
@@ -55,7 +68,7 @@ function Navbar() {
             const sectionId = link.href.slice(1);
             const isActive = active === sectionId;
             return (
-              <a key={link.href} href={link.href} className={`aster-link text-xs font-medium uppercase tracking-[0.16em] ${isActive ? "text-white" : ""}`}>
+              <a key={link.href} href={link.href} aria-current={isActive ? "location" : undefined} className={`aster-link text-xs font-medium uppercase tracking-[0.16em] ${isActive ? "text-white" : ""}`}>
                 <span className={`mr-2 ${isActive ? "text-neutral-400" : "text-neutral-600"}`}>0{index + 1}</span>
                 {link.label}
               </a>
@@ -65,20 +78,20 @@ function Navbar() {
 
         <div className="flex items-center gap-3">
           <a href="#contact" data-magnetic className="hidden border border-white/20 px-4 py-2 text-xs font-semibold uppercase tracking-[0.14em] text-white transition hover:border-white/60 hover:bg-white hover:text-black sm:block">Let's talk ↗</a>
-          <button type="button" aria-expanded={menuOpen} aria-controls="mobile-menu" aria-label={menuOpen ? "Close navigation" : "Open navigation"} onClick={() => setMenuOpen((open) => !open)} className="flex h-10 w-10 flex-col items-center justify-center gap-1.5 border border-white/15 md:hidden">
+          <button ref={menuButtonRef} type="button" aria-expanded={menuOpen} aria-controls="mobile-menu" aria-label={menuOpen ? "Close navigation" : "Open navigation"} onClick={() => setMenuOpen((open) => !open)} className="flex h-10 w-10 flex-col items-center justify-center gap-1.5 border border-white/15 md:hidden">
             <span className={`h-px w-4 bg-white transition ${menuOpen ? "translate-y-[3px] rotate-45" : ""}`} />
             <span className={`h-px w-4 bg-white transition ${menuOpen ? "-translate-y-[3px] -rotate-45" : ""}`} />
           </button>
         </div>
       </nav>
 
-      <div id="mobile-menu" className={`border-t border-white/10 bg-[#050505]/95 backdrop-blur-xl transition-all duration-300 md:hidden ${menuOpen ? "max-h-[30rem] opacity-100" : "pointer-events-none max-h-0 overflow-hidden opacity-0"}`}>
+      <div id="mobile-menu" aria-hidden={!menuOpen} className={`border-t border-white/10 bg-[#050505]/95 backdrop-blur-xl transition-all duration-300 md:hidden ${menuOpen ? "max-h-[30rem] opacity-100" : "pointer-events-none max-h-0 overflow-hidden opacity-0"}`}>
         <div className="mx-auto max-w-7xl px-6 py-6">
           {links.map((link, index) => {
             const sectionId = link.href.slice(1);
             const isActive = active === sectionId;
             return (
-              <a key={link.href} href={link.href} onClick={closeMenu} className={`flex items-center justify-between border-b border-white/10 py-4 text-sm uppercase tracking-[0.16em] transition ${isActive ? "text-white" : "text-neutral-500 hover:text-white"}`}>
+              <a key={link.href} href={link.href} onClick={closeMenu} tabIndex={menuOpen ? 0 : -1} aria-current={isActive ? "location" : undefined} className={`flex items-center justify-between border-b border-white/10 py-4 text-sm uppercase tracking-[0.16em] transition ${isActive ? "text-white" : "text-neutral-500 hover:text-white"}`}>
                 <span><span className="mr-3 text-neutral-700">0{index + 1}</span>{link.label}</span>
                 <span className="text-neutral-700">↗</span>
               </a>
