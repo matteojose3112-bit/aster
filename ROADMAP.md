@@ -22,7 +22,7 @@ The roadmap is intentionally flexible. Priorities may change as new ideas, techn
 
 ## 🔵 Phase 2 — Portfolio Accuracy, Quality & Presentation
 
-**Status: In Progress**
+**Status: Complete · Maintenance mode**
 
 Make the portfolio a clear, credible representation of real experience, transferable skills, and software development progress.
 
@@ -44,14 +44,14 @@ Make the portfolio a clear, credible representation of real experience, transfer
 - [x] Create the first detailed project case study with goals, implementation, design decisions, outcomes, and limitations
 - [x] Review the Aster project card and remove unsupported API-integration claims
 - [x] Audit the remaining project summaries, technologies, statuses, experience descriptions, tool lists, and approximate metrics for internal consistency
-- [ ] Manually validate layout and navigation at representative mobile, tablet, and desktop viewport sizes
-- [ ] Review rendered contrast, semantics, and keyboard behavior across every section
-- [ ] Add detailed case studies for additional selected projects
-- [ ] Add project technologies, architecture notes, and GitHub/live-demo links consistently
-- [ ] Review performance, code organization, and maintainability
-- [ ] Establish consistent documentation standards for every significant project
+- [ ] Manually validate layout and navigation at representative mobile, tablet, and desktop viewport sizes (maintenance check)
+- [ ] Review rendered contrast, semantics, and keyboard behavior across every section (maintenance check)
+- [x] Add detailed case studies for Aster and FinTrack
+- [x] Add project technologies, architecture notes, and GitHub/live-demo links consistently where available
+- [x] Establish baseline documentation standards for the portfolio and selected projects
+- [ ] Review performance, code organization, and maintainability when a concrete issue or improvement warrants it
 
-**Accuracy review note:** The source data and README have been cross-checked for consistency. Manual browser testing, rendered contrast measurement, and deeper verification against each linked project's current implementation remain separate tasks; source review alone does not complete those checks.
+**Closeout note:** Source-level consistency, core documentation, case studies for Aster and FinTrack, accessibility foundations, and automated deployment checks are complete. Manual browser testing and rendered contrast/keyboard verification remain maintenance checks; they are not being represented as completed.
 
 ---
 
@@ -68,7 +68,8 @@ Add practical software projects that demonstrate problem-solving and continued l
 - [x] Add Transcription & Content Toolkit
 - [x] Add FinTrack
 - [x] Create a detailed case study for Aster
-- [ ] Create detailed case studies for selected additional projects
+- [x] Create a detailed case study for FinTrack
+- [ ] Create further case studies only when they add meaningful evidence for a selected project
 - [ ] Keep each project's status, technologies, repository, and demo links accurate
 
 Future project categories may include productivity tools, business and operations tools, data and analytics, automation, API-driven applications, AI-assisted applications, and developer utilities.
@@ -123,4 +124,4 @@ Aster is intended to become more than a portfolio website. It will be a central 
 
 > **Build real things. Understand what you build. Learn from what breaks. Keep improving.**
 
-Aster is a work in progress by design. The roadmap will evolve as the projects, skills, and goals evolve.
+Aster’s core portfolio scope is complete and the repository is now in maintenance mode. Reopen work only for meaningful corrections, new evidence, or a clearly valuable portfolio improvement; do not extend the portfolio for its own sake.
