@@ -71,6 +71,7 @@ Completed independent freelance work drawing on experience in sales operations, 
 - Direct contact and professional profile links: email, LinkedIn, GitHub, Upwork, and Fiverr
 - Semantic page landmarks, a skip-to-content link, visible focus indicators, accessible mobile navigation controls, and reduced-motion support
 - Detailed project case study for Aster in [docs/case-studies/aster.md](docs/case-studies/aster.md)
+- Detailed FinTrack case study in [docs/case-studies/fintrack.md](docs/case-studies/fintrack.md), including architecture, quality checks, deployment, and remaining limitations
 - **Research & Reporting Toolkit:** sourced CRM comparison sample, source log, reusable templates, Python input audit utility, tests, and service listing draft
 - **Transcription & Content Toolkit:** transcript/caption templates, SRT/WebVTT samples, Python caption validator, tests, and service listing draft
 - Automated deployment through GitHub Actions, with ESLint and production build checks before deployment
@@ -121,7 +122,7 @@ See [ROADMAP.md](ROADMAP.md) for planned work and [CHANGELOG.md](CHANGELOG.md) f
 
 ## Status
 
-**Actively developing.** Aster will continue to evolve as I build practical projects, strengthen technical skills, and improve the portfolio.
+**Core portfolio complete · Maintenance mode.** The portfolio foundation, project collection, documentation, accessibility foundations, and automated deployment checks are in place. Future changes will be limited to fixing issues, keeping project information accurate, and adding meaningful case studies or work when they are ready. Manual browser and accessibility verification remain worthwhile maintenance checks, not blockers to moving on to the next project.
 
 ## Author
 
