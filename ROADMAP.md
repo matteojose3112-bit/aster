@@ -43,13 +43,15 @@ Make the portfolio a clear, credible representation of real experience, transfer
 - [x] Place the skip link and navigation outside the main content landmark
 - [x] Create the first detailed project case study with goals, implementation, design decisions, outcomes, and limitations
 - [x] Review the Aster project card and remove unsupported API-integration claims
-- [ ] Review every remaining portfolio claim for accuracy and consistency
+- [x] Audit the remaining project summaries, technologies, statuses, experience descriptions, tool lists, and approximate metrics for internal consistency
 - [ ] Manually validate layout and navigation at representative mobile, tablet, and desktop viewport sizes
-- [ ] Review contrast, semantics, and keyboard behavior across every section
+- [ ] Review rendered contrast, semantics, and keyboard behavior across every section
 - [ ] Add detailed case studies for additional selected projects
 - [ ] Add project technologies, architecture notes, and GitHub/live-demo links consistently
 - [ ] Review performance, code organization, and maintainability
 - [ ] Establish consistent documentation standards for every significant project
+
+**Accuracy review note:** The source data and README have been cross-checked for consistency. Manual browser testing, rendered contrast measurement, and deeper verification against each linked project's current implementation remain separate tasks; source review alone does not complete those checks.
 
 ---
 

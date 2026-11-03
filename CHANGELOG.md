@@ -4,6 +4,16 @@ All notable changes to Aster are documented here. Entries focus on meaningful po
 
 ---
 
+## [0.6.1] — Portfolio Claim Audit — 2026-11-03
+
+### Updated
+
+- Completed a consistency review of project descriptions, technologies, status labels, experience summaries, platform lists, and approximate metrics across the portfolio source data and README.
+- Added a portfolio accuracy note clarifying that deployment status does not imply independent production certification, formal usability testing, or measured performance results.
+- Updated the roadmap to distinguish completed source-level claim review from outstanding manual browser, contrast, and implementation verification.
+
+---
+
 ## [0.6.0] — Semantic Structure & First Case Study — 2026-11-03
 
 ### Added

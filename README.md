@@ -75,6 +75,10 @@ Completed independent freelance work drawing on experience in sales operations, 
 - **Transcription & Content Toolkit:** transcript/caption templates, SRT/WebVTT samples, Python caption validator, tests, and service listing draft
 - Automated deployment through GitHub Actions, with ESLint and production build checks before deployment
 
+## Portfolio Accuracy
+
+Project descriptions and status labels are intended to reflect the current contents of their linked repositories. A live demo or deployed MVP indicates that a deployment exists; it does not imply independent production certification, formal usability testing, or measured performance results. Experience metrics are approximate, and estimates are identified as such where applicable.
+
 ## Quality Checks
 
 Run these commands from the `portfolio/` directory:
