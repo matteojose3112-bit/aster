@@ -20,7 +20,7 @@ The roadmap is intentionally flexible. Priorities may change as new ideas, techn
 
 ---
 
-## 🔵 Phase 2 — Portfolio Accuracy & Presentation
+## 🔵 Phase 2 — Portfolio Accuracy, Quality & Presentation
 
 **Status: In Progress**
 
@@ -32,11 +32,19 @@ Make the portfolio a clear, credible representation of real experience, transfer
 - [x] Organize the Toolkit around practical business skills, CRM platforms, and development tools
 - [x] Build a Contact hub for remote opportunities, freelance projects, and collaborations, with email, LinkedIn, GitHub, Upwork, and Fiverr links
 - [x] Keep the README, roadmap, and changelog aligned with the portfolio's current direction
+- [x] Add FinTrack to the project collection with its repository and live demo links
+- [x] Label project cards accurately as project overviews rather than complete case studies
+- [x] Add ESLint to the GitHub Actions deployment checks
+- [x] Confirm the workflow passes linting and the TypeScript/Vite production build
+- [x] Add a skip-to-content link and visible keyboard focus styling
+- [x] Respect reduced-motion preferences in the portfolio experience
+- [x] Remove closed mobile navigation links from keyboard tab order and support Escape to close the menu
 - [ ] Review every portfolio claim for accuracy and consistency
-- [ ] Improve project presentation and add detailed project case studies
+- [ ] Manually validate layout and navigation at representative mobile, tablet, and desktop viewport sizes
+- [ ] Review contrast, semantics, and keyboard behavior across every section
+- [ ] Improve project presentation with detailed project case studies
 - [ ] Document project goals, challenges, solutions, and outcomes
 - [ ] Add project technologies, architecture notes, and GitHub/live-demo links consistently
-- [ ] Improve accessibility and continue refining responsive behavior
 - [ ] Review performance, code organization, and maintainability
 - [ ] Establish consistent documentation standards for every significant project
 
@@ -44,21 +52,20 @@ Make the portfolio a clear, credible representation of real experience, transfer
 
 ## 🟣 Phase 3 — Project Collection
 
-**Status: Planned**
+**Status: Active collection; ongoing**
 
 Add practical software projects that demonstrate problem-solving and continued learning.
 
-Potential project categories:
+- [x] Add Aster portfolio and service toolkits
+- [x] Add ClientPulse
+- [x] Add OpsFlow
+- [x] Add Research & Reporting Toolkit
+- [x] Add Transcription & Content Toolkit
+- [x] Add FinTrack
+- [ ] Create detailed case studies for selected projects
+- [ ] Keep each project's status, technologies, repository, and demo links accurate
 
-- [ ] Productivity and personal workflow tools
-- [ ] Business and operations tools
-- [ ] Data and analytics projects
-- [ ] Automation projects
-- [ ] API-driven applications
-- [ ] AI-assisted applications
-- [ ] Developer tools, utilities, and prototypes
-
-Each significant project should ideally include a working implementation, source code, documentation, technologies used, objectives, key challenges, lessons learned, and a live demo where applicable.
+Future project categories may include productivity tools, business and operations tools, data and analytics, automation, API-driven applications, AI-assisted applications, and developer utilities.
 
 ---
 
@@ -80,34 +87,23 @@ Maintain a useful record of meaningful changes and learning, not just the finish
 
 ## 🟠 Phase 5 — Integrations & Automation
 
-**Status: Planned**
+**Status: Future consideration**
 
-Reduce manual maintenance where automation provides real value.
+Reduce manual maintenance where automation provides real value. These are optional enhancements, not blockers to completing the portfolio.
 
 - [ ] Evaluate GitHub API integration for project metadata
 - [ ] Explore automated project and repository activity updates
 - [ ] Consider useful development statistics
-- [ ] Improve deployment checks and release workflow
+- [x] Add lint and production-build checks to the deployment workflow
 - [ ] Evaluate additional APIs and services when there is a clear use case
 
 ---
 
 ## 🔴 Phase 6 — Advanced Projects
 
-**Status: Future**
+**Status: Ongoing through individual projects**
 
-Build toward increasingly capable, production-oriented software as experience grows.
-
-Potential areas:
-
-- [ ] Full-stack applications
-- [ ] Database-backed applications
-- [ ] Authentication systems
-- [ ] Advanced API integrations
-- [ ] AI-powered applications
-- [ ] Data-intensive applications
-- [ ] Automation systems
-- [ ] More complex frontend architectures
+Build toward increasingly capable, production-oriented software as experience grows. Full-stack applications, database-backed workflows, authentication, APIs, AI, data, and automation should be evaluated within each project rather than treated as prerequisites for the portfolio itself.
 
 ---
 
