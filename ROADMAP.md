@@ -39,6 +39,7 @@ Make the portfolio a clear, credible representation of real experience, transfer
 - [x] Add a skip-to-content link and visible keyboard focus styling
 - [x] Respect reduced-motion preferences in the portfolio experience
 - [x] Remove closed mobile navigation links from keyboard tab order and support Escape to close the menu
+- [x] Give the primary navigation landmark an accessible name
 - [ ] Review every portfolio claim for accuracy and consistency
 - [ ] Manually validate layout and navigation at representative mobile, tablet, and desktop viewport sizes
 - [ ] Review contrast, semantics, and keyboard behavior across every section
