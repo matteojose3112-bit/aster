@@ -15,6 +15,7 @@ All notable changes to Aster are documented here. Entries focus on meaningful po
 ### Updated
 
 - Added an optional case-study destination to the structured project data and project-card component.
+- Tightened the Aster project summary to describe its actual structured-data implementation rather than imply an API integration that is not present.
 - Updated the roadmap to track the first completed case study and the corrected page landmark structure.
 
 ---

@@ -42,7 +42,8 @@ Make the portfolio a clear, credible representation of real experience, transfer
 - [x] Give the primary navigation landmark an accessible name
 - [x] Place the skip link and navigation outside the main content landmark
 - [x] Create the first detailed project case study with goals, implementation, design decisions, outcomes, and limitations
-- [ ] Review every portfolio claim for accuracy and consistency
+- [x] Review the Aster project card and remove unsupported API-integration claims
+- [ ] Review every remaining portfolio claim for accuracy and consistency
 - [ ] Manually validate layout and navigation at representative mobile, tablet, and desktop viewport sizes
 - [ ] Review contrast, semantics, and keyboard behavior across every section
 - [ ] Add detailed case studies for additional selected projects

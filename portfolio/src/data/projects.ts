@@ -17,11 +17,11 @@ export const projects: Project[] = [
     title: "Aster",
     category: "Personal Portfolio / Frontend Engineering",
     description:
-      "A production-style portfolio system built to demonstrate frontend engineering, API-ready architecture, automation, responsive UX, and deployment workflows.",
+      "A production-style portfolio system built to demonstrate frontend engineering, structured project data, responsive UX, accessibility-minded interactions, and deployment workflows.",
     outcome:
       "Responsive React application with reusable components, TypeScript, interactive UI, GitHub Actions deployment, accessibility-minded motion, and a maintainable project structure.",
     role: "Product design · Frontend engineering · Automation · Deployment",
-    technologies: ["React", "TypeScript", "Vite", "Tailwind CSS", "REST APIs", "GitHub Actions", "Git", "GitHub"],
+    technologies: ["React", "TypeScript", "Vite", "Tailwind CSS", "Structured Data", "GitHub Actions", "Git", "GitHub"],
     status: "Building",
     featured: true,
     github: "https://github.com/matteojose3112-bit/aster",
