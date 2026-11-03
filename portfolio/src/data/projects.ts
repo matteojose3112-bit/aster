@@ -22,7 +22,7 @@ export const projects: Project[] = [
       "Responsive React application with reusable components, TypeScript, interactive UI, GitHub Actions deployment, accessibility-minded motion, and a maintainable project structure.",
     role: "Product design · Frontend engineering · Automation · Deployment",
     technologies: ["React", "TypeScript", "Vite", "Tailwind CSS", "Structured Data", "GitHub Actions", "Git", "GitHub"],
-    status: "Building",
+    status: "Complete · Maintenance",
     featured: true,
     github: "https://github.com/matteojose3112-bit/aster",
     demo: "https://matteojose3112-bit.github.io/aster/",
@@ -41,6 +41,7 @@ export const projects: Project[] = [
     featured: true,
     github: "https://github.com/matteojose3112-bit/fintrack",
     demo: "https://fintrack-web-int6.onrender.com",
+    caseStudy: "https://github.com/matteojose3112-bit/aster/blob/master/docs/case-studies/fintrack.md",
   },
   {
     title: "OpsFlow",
