@@ -133,3 +133,7 @@ See [ROADMAP.md](ROADMAP.md) for planned work and [CHANGELOG.md](CHANGELOG.md) f
 Built with React, TypeScript, Vite, and Tailwind CSS.
 
 **Aster is a portfolio of what I've built — and a record of what I'm learning next.**
+
+## Documentation review — 2026-11-03
+
+Portfolio documentation reviewed on 2026-11-03. The portfolio remains complete and in maintenance mode. The active collection now includes Aster, ClientPulse, OpsFlow, Research & Reporting Toolkit, Transcription & Content Toolkit, FinTrack, and AgentForge. Keep project cards and case studies aligned with each repository's verified implementation; do not imply production readiness where live acceptance or security checks remain open.
