@@ -32,7 +32,8 @@ Make the portfolio a clear, credible representation of real experience, transfer
 - [x] Organize the Toolkit around practical business skills, CRM platforms, and development tools
 - [x] Build a Contact hub for remote opportunities, freelance projects, and collaborations, with email, LinkedIn, GitHub, Upwork, and Fiverr links
 - [x] Keep the README, roadmap, and changelog aligned with the portfolio's current direction
-- [x] Add FinTrack to the project collection with its repository and live demo links
+- [x] Add FinTrack
+- [x] Add AgentForge (Go-based model/tool execution runtime) to the project collection with its repository and live demo links
 - [x] Label project cards accurately as project overviews rather than complete case studies
 - [x] Add ESLint to the GitHub Actions deployment checks
 - [x] Confirm the workflow passes linting and the TypeScript/Vite production build
