@@ -125,3 +125,11 @@ Aster is intended to become more than a portfolio website. It will be a central 
 > **Build real things. Understand what you build. Learn from what breaks. Keep improving.**
 
 Aster’s core portfolio scope is complete and the repository is now in maintenance mode. Reopen work only for meaningful corrections, new evidence, or a clearly valuable portfolio improvement; do not extend the portfolio for its own sake.
+
+---
+
+Review date: 2026-11-03
+
+## Current direction — 2026-11-03
+
+**Core portfolio: complete · Maintenance mode.** The collection now contains seven repositories: Aster, ClientPulse, OpsFlow, Research & Reporting Toolkit, Transcription & Content Toolkit, FinTrack, and AgentForge. Keep the portfolio's project cards, case studies, technology lists, and status labels synchronized with each repository. Prioritize accurate evidence and meaningful case studies over adding another portfolio feature. Manual viewport, contrast, and keyboard checks remain maintenance tasks.
