@@ -143,3 +143,10 @@ Aster began as a hands-on learning project. AI has been used as a development an
 ### Direction
 
 Aster is the foundation for future software projects, experiments, milestones, and technical documentation.
+
+## [0.8.0] — Documentation synchronization — 2026-11-03
+
+### Updated
+- Refreshed the README to reflect the current seven-repository portfolio and Aster's maintenance status.
+- Reviewed the roadmap and clarified that portfolio maintenance and evidence-backed project updates take priority over adding features.
+- Reconfirmed that manual viewport, contrast, and keyboard checks remain open maintenance tasks.
