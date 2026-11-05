@@ -1,3 +1,15 @@
+## [0.9.0] — AgentForge portfolio integration — 2026-11-05
+
+### Added
+- Added AgentForge to the selected projects collection with its Go runtime description, current early-stage status, technology stack, GitHub repository, and live GitHub Pages site.
+- Updated the README and roadmap to reflect the expanded eight-repository portfolio.
+
+### Accuracy
+- Described AgentForge's bounded model/tool loop, OpenAI Responses API adapter, default-deny permissions, and deterministic local analysis tools.
+- Clarified that local tools can run without an API key, model-backed execution requires provider credentials, and AgentForge is not production-ready.
+
+---
+
 # Changelog
 
 All notable changes to Aster are documented here. Entries focus on meaningful portfolio, software, documentation, and development milestones.

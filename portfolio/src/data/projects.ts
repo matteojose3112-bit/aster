@@ -44,6 +44,20 @@ export const projects: Project[] = [
     caseStudy: "https://github.com/matteojose3112-bit/aster/blob/master/docs/case-studies/fintrack.md",
   },
   {
+    title: "AgentForge",
+    category: "AI Agents / Developer Tools / Workflow Automation",
+    description:
+      "A lightweight Go runtime for model-driven tool execution, with explicit permissions and a provider-independent orchestration layer.",
+    outcome:
+      "Includes a bounded model/tool loop, OpenAI Responses API adapter, schema-validated tool inputs and outputs, default-deny permissions, and local echo, text, CSV, and CRM lead-pipeline analysis tools. Local deterministic tools run without an API key; live model execution requires a configured provider key. Early-stage project, not production-ready.",
+    role: "Runtime design · Go development · Provider integration · Tool execution · Testing · Documentation",
+    technologies: ["Go", "OpenAI Responses API", "net/http", "JSON Schema subset", "CLI", "GitHub Actions"],
+    status: "Early-stage · v0.3.0",
+    featured: true,
+    github: "https://github.com/matteojose3112-bit/agentforge",
+    demo: "https://matteojose3112-bit.github.io/agentforge/",
+  },
+  {
     title: "OpsFlow",
     category: "Operations / RevOps / Business Intelligence",
     description:

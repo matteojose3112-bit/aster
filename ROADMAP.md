@@ -129,8 +129,8 @@ Aster’s core portfolio scope is complete and the repository is now in maintena
 
 ---
 
-Review date: 2026-11-03
+Review date: 2026-11-05
 
 ## Current direction — 2026-11-03
 
-**Core portfolio: complete · Maintenance mode.** The collection now contains seven repositories: Aster, ClientPulse, OpsFlow, Research & Reporting Toolkit, Transcription & Content Toolkit, FinTrack, and AgentForge. Keep the portfolio's project cards, case studies, technology lists, and status labels synchronized with each repository. Prioritize accurate evidence and meaningful case studies over adding another portfolio feature. Manual viewport, contrast, and keyboard checks remain maintenance tasks.
+**Core portfolio: complete · Maintenance mode.** The collection now contains eight repositories: Aster, ClientPulse, OpsFlow, Research & Reporting Toolkit, Transcription & Content Toolkit, FinTrack, and AgentForge. AgentForge is now represented in the project collection with its GitHub repository and live GitHub Pages site. Keep the portfolio's project cards, case studies, technology lists, and status labels synchronized with each repository. Prioritize accurate evidence and meaningful case studies over adding another portfolio feature. Manual viewport, contrast, and keyboard checks remain maintenance tasks.
