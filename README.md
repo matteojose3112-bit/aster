@@ -72,6 +72,7 @@ Completed independent freelance work drawing on experience in sales operations, 
 - Semantic page landmarks, a skip-to-content link, visible focus indicators, accessible mobile navigation controls, and reduced-motion support
 - Detailed project case study for Aster in [docs/case-studies/aster.md](docs/case-studies/aster.md)
 - Detailed FinTrack case study in [docs/case-studies/fintrack.md](docs/case-studies/fintrack.md), including architecture, quality checks, deployment, and remaining limitations
+- **AgentForge:** a lightweight Go runtime for controlled model-to-tool execution, with an OpenAI Responses adapter, default-deny permissions, bounded tool execution, and deterministic local analysis tools. [Repository](https://github.com/matteojose3112-bit/agentforge) · [Live project site](https://matteojose3112-bit.github.io/agentforge/)
 - **Research & Reporting Toolkit:** sourced CRM comparison sample, source log, reusable templates, Python input audit utility, tests, and service listing draft
 - **Transcription & Content Toolkit:** transcript/caption templates, SRT/WebVTT samples, Python caption validator, tests, and service listing draft
 - Automated deployment through GitHub Actions, with ESLint and production build checks before deployment
@@ -136,4 +137,4 @@ Built with React, TypeScript, Vite, and Tailwind CSS.
 
 ## Documentation review — 2026-11-03
 
-Portfolio documentation reviewed on 2026-11-03. The portfolio remains complete and in maintenance mode. The active collection now includes Aster, ClientPulse, OpsFlow, Research & Reporting Toolkit, Transcription & Content Toolkit, FinTrack, and AgentForge. Keep project cards and case studies aligned with each repository's verified implementation; do not imply production readiness where live acceptance or security checks remain open.
+Portfolio documentation reviewed on 2026-11-03. The portfolio remains complete and in maintenance mode. The active collection now includes Aster, ClientPulse, OpsFlow, Research & Reporting Toolkit, Transcription & Content Toolkit, FinTrack, and AgentForge (eight repositories including Aster). Keep project cards and case studies aligned with each repository's verified implementation; do not imply production readiness where live acceptance or security checks remain open.
