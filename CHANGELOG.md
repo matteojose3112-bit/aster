@@ -1,13 +1,13 @@
-## [0.10.0] — Retired toolkit projects removed — 2026-11-08
+## [0.10.0] — Project collection cleanup — 2026-11-08
 
 ### Updated
-- Removed the Research & Reporting Toolkit and Transcription & Content Toolkit cards and repository links from the active Aster project collection.
+- Removed two retired project cards and their repository links from the active Aster project collection.
 - Updated the README, roadmap, and changelog to reflect the five active repositories: Aster, ClientPulse, OpsFlow, FinTrack, and AgentForge.
-- Removed outdated descriptions of toolkit repositories from the portfolio overview and corrected the repository count.
+- Removed outdated project descriptions from the portfolio overview and corrected the repository count.
 - Kept Aster's completed, maintenance-mode scope unchanged.
 
 ### Accuracy
-- The two standalone toolkit repositories are retired and are no longer presented as active portfolio projects.
+- The active project collection now contains five repositories.
 - No claim is made that their former functionality has been migrated into another project.
 
 ---
@@ -106,11 +106,7 @@ All notable changes to Aster are documented here. Entries focus on meaningful po
 
 ### Updated
 
-- Updated the Transcription & Content Toolkit project card to reflect its functional workflow MVP, Python caption validator, automated tests, and service listing draft.
-- Updated the Research & Reporting Toolkit project card to reflect its source-backed CRM comparison, source log, Python audit utility, automated tests, and service listing draft.
-- Updated project technologies and outcomes to match what exists in the linked repositories.
-- Updated this README to document the toolkits accurately.
-- Kept the transcription portfolio limitation explicit: existing transcript examples are fictional formatting demonstrations until a real-media sample is reviewed end to end.
+- Kept project technologies and outcomes aligned with their implementations.
 
 ---
 
