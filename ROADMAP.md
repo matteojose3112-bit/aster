@@ -62,12 +62,11 @@ Make the portfolio a clear, credible representation of real experience, transfer
 
 Add practical software projects that demonstrate problem-solving and continued learning.
 
-- [x] Add Aster portfolio and service toolkits
+- [x] Add Aster portfolio
 - [x] Add ClientPulse
 - [x] Add OpsFlow
-- [x] Add Research & Reporting Toolkit
-- [x] Add Transcription & Content Toolkit
 - [x] Add FinTrack
+- [x] Add AgentForge
 - [x] Create a detailed case study for Aster
 - [x] Create a detailed case study for FinTrack
 - [ ] Create further case studies only when they add meaningful evidence for a selected project
@@ -129,8 +128,8 @@ Aster’s core portfolio scope is complete and the repository is now in maintena
 
 ---
 
-Review date: 2026-11-05
+Review date: 2026-11-08
 
-## Current direction — 2026-11-03
+## Current direction — 2026-11-08
 
-**Core portfolio: complete · Maintenance mode.** The collection now contains eight repositories: Aster, ClientPulse, OpsFlow, Research & Reporting Toolkit, Transcription & Content Toolkit, FinTrack, and AgentForge. AgentForge is now represented in the project collection with its GitHub repository and live GitHub Pages site. Keep the portfolio's project cards, case studies, technology lists, and status labels synchronized with each repository. Prioritize accurate evidence and meaningful case studies over adding another portfolio feature. Manual viewport, contrast, and keyboard checks remain maintenance tasks.
+**Core portfolio: complete · Maintenance mode.** The active collection contains five repositories: Aster, ClientPulse, OpsFlow, FinTrack, and AgentForge. AgentForge is represented with its GitHub repository and live GitHub Pages site. Keep the portfolio's project cards, case studies, technology lists, and status labels synchronized with each active repository. Prioritize accurate evidence and meaningful case studies over adding another portfolio feature. Manual viewport, contrast, and keyboard checks remain maintenance tasks.

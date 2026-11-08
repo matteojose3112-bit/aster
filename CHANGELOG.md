@@ -1,3 +1,17 @@
+## [0.10.0] — Project collection cleanup — 2026-11-08
+
+### Updated
+- Removed two retired project cards and their repository links from the active Aster project collection.
+- Updated the README, roadmap, and changelog to reflect the five active repositories: Aster, ClientPulse, OpsFlow, FinTrack, and AgentForge.
+- Removed outdated project descriptions from the portfolio overview and corrected the repository count.
+- Kept Aster's completed, maintenance-mode scope unchanged.
+
+### Accuracy
+- The active project collection now contains five repositories.
+- No claim is made that their former functionality has been migrated into another project.
+
+---
+
 ## [0.9.0] — AgentForge portfolio integration — 2026-11-05
 
 ### Added
@@ -92,11 +106,7 @@ All notable changes to Aster are documented here. Entries focus on meaningful po
 
 ### Updated
 
-- Updated the Transcription & Content Toolkit project card to reflect its functional workflow MVP, Python caption validator, automated tests, and service listing draft.
-- Updated the Research & Reporting Toolkit project card to reflect its source-backed CRM comparison, source log, Python audit utility, automated tests, and service listing draft.
-- Updated project technologies and outcomes to match what exists in the linked repositories.
-- Updated this README to document the toolkits accurately.
-- Kept the transcription portfolio limitation explicit: existing transcript examples are fictional formatting demonstrations until a real-media sample is reviewed end to end.
+- Kept project technologies and outcomes aligned with their implementations.
 
 ---
 
@@ -124,8 +134,6 @@ Aster supports both professional opportunities and independent client work, whil
 - Added the independent freelance period, July–October 2026, with a deliberately general description until specific services and clients are documented.
 - Refined experience summaries to cover sales and operations coordination, CRM workflows, customer service, real estate support, project coordination, event operations, and procurement.
 - Added relevant platforms: HubSpot, TripleSeat, OpenTable, and AccuLynx.
-- Organized the Toolkit around practical business skills, CRM platforms, and software-development tools.
-- Aligned the About section with professional experience and the current technical-learning direction.
 - Updated the README to document professional experience, skills, technologies, project status, and links to the roadmap and changelog.
 - Clarified that experience metrics are approximate where applicable.
 - Kept future project ideas marked as planned rather than presenting them as completed features.

@@ -85,30 +85,4 @@ export const projects: Project[] = [
     github: "https://github.com/matteojose3112-bit/clientpulse",
     demo: "https://matteojose3112-bit.github.io/clientpulse/",
   },
-  {
-    title: "Transcription & Content Toolkit",
-    category: "Transcription / Captions / Content Production",
-    description:
-      "A practical service workflow for transcripts, subtitles, captions, and voiceover-ready scripts, supported by reusable templates and structural quality checks.",
-    outcome:
-      "Includes intake and delivery templates, transcript examples, SRT/WebVTT samples, a Python caption validator with unit tests, service packages, and a marketplace listing draft. Transcript examples are clearly labeled as fictional demonstrations; a reviewed real-media sample remains a launch task.",
-    role: "Workflow design · Content quality control · Python utility development · Documentation",
-    technologies: ["Python", "unittest", "SRT", "WebVTT", "Markdown", "GitHub Actions"],
-    status: "Functional workflow MVP",
-    featured: true,
-    github: "https://github.com/matteojose3112-bit/transcription-content-toolkit",
-  },
-  {
-    title: "Research & Reporting Toolkit",
-    category: "Business Research / Document Summaries / Reporting",
-    description:
-      "A source-based research workflow for business briefs, competitor comparisons, document summaries, and concise decision-ready reporting.",
-    outcome:
-      "Includes a sourced CRM comparison sample and source log, reusable templates, a Python input-audit utility with unit tests, service packages, and a marketplace listing draft. Vendor details are dated and the sample clearly states its limitations.",
-    role: "Research workflow design · Source evaluation · Python utility development · Reporting standards",
-    technologies: ["Python", "unittest", "Source evaluation", "CSV", "Markdown", "GitHub Actions"],
-    status: "Functional service MVP",
-    featured: true,
-    github: "https://github.com/matteojose3112-bit/research-reporting-toolkit",
-  },
 ];

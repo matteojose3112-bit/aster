@@ -10,7 +10,7 @@ Aster is my evolving software portfolio, development record, and foundation for 
 
 Aster began as a hands-on challenge to learn modern web development by building a real application. I use AI as a development and learning partner while working to understand, debug, refine, and extend the code rather than treating it as a black box.
 
-The portfolio site is built with React, TypeScript, Vite, and Tailwind CSS, and deployed with GitHub Pages and GitHub Actions. The portfolio also links to practical service toolkits built with reusable documentation, CSV templates, Python validation utilities, tests, and GitHub Actions.
+The portfolio site is built with React, TypeScript, Vite, and Tailwind CSS, and deployed with GitHub Pages and GitHub Actions.
 
 ## Professional Experience
 
@@ -59,7 +59,7 @@ Completed independent freelance work drawing on experience in sales operations, 
 
 **Business platforms:** ServiceTitan, Quo, Airtable, HubSpot, TripleSeat, OpenTable, AccuLynx.
 
-**Software and delivery:** React, TypeScript, Vite, Tailwind CSS, Python utilities, CSV validation, unit testing, responsive design, debugging, Git, GitHub, GitHub Pages, GitHub Actions, and AI-assisted development.
+**Software and delivery:** React, TypeScript, Vite, Tailwind CSS, Python, SQL, REST APIs, database design, automated testing, responsive design, debugging, Git, GitHub, GitHub Pages, GitHub Actions, and AI-assisted development.
 
 ## Current Features
 
@@ -73,8 +73,6 @@ Completed independent freelance work drawing on experience in sales operations, 
 - Detailed project case study for Aster in [docs/case-studies/aster.md](docs/case-studies/aster.md)
 - Detailed FinTrack case study in [docs/case-studies/fintrack.md](docs/case-studies/fintrack.md), including architecture, quality checks, deployment, and remaining limitations
 - **AgentForge:** a lightweight Go runtime for controlled model-to-tool execution, with an OpenAI Responses adapter, default-deny permissions, bounded tool execution, and deterministic local analysis tools. [Repository](https://github.com/matteojose3112-bit/agentforge) · [Live project site](https://matteojose3112-bit.github.io/agentforge/)
-- **Research & Reporting Toolkit:** sourced CRM comparison sample, source log, reusable templates, Python input audit utility, tests, and service listing draft
-- **Transcription & Content Toolkit:** transcript/caption templates, SRT/WebVTT samples, Python caption validator, tests, and service listing draft
 - Automated deployment through GitHub Actions, with ESLint and production build checks before deployment
 
 ## Portfolio Accuracy
@@ -123,7 +121,7 @@ See [ROADMAP.md](ROADMAP.md) for planned work and [CHANGELOG.md](CHANGELOG.md) f
 
 ## Status
 
-**Core portfolio complete · Maintenance mode.** The portfolio foundation, project collection, documentation, accessibility foundations, and automated deployment checks are in place. Future changes will be limited to fixing issues, keeping project information accurate, and adding meaningful case studies or work when they are ready. Manual browser and accessibility verification remain worthwhile maintenance checks, not blockers to moving on to the next project.
+**Core portfolio complete · Maintenance mode.** The portfolio foundation, five-project collection, documentation, accessibility foundations, and automated deployment checks are in place. Future changes will be limited to fixing issues, keeping project information accurate, and adding meaningful case studies or work when they are ready. Manual browser and accessibility verification remain worthwhile maintenance checks, not blockers to moving on to the next project.
 
 ## Author
 
@@ -135,6 +133,6 @@ Built with React, TypeScript, Vite, and Tailwind CSS.
 
 **Aster is a portfolio of what I've built — and a record of what I'm learning next.**
 
-## Documentation review — 2026-11-03
+## Documentation review — 2026-11-08
 
-Portfolio documentation reviewed on 2026-11-03. The portfolio remains complete and in maintenance mode. The active collection now includes Aster, ClientPulse, OpsFlow, Research & Reporting Toolkit, Transcription & Content Toolkit, FinTrack, and AgentForge (eight repositories including Aster). Keep project cards and case studies aligned with each repository's verified implementation; do not imply production readiness where live acceptance or security checks remain open.
+Portfolio documentation reviewed on 2026-11-08. The active collection contains five repositories: Aster, ClientPulse, OpsFlow, FinTrack, and AgentForge. Keep project cards and case studies aligned with each repository's verified implementation; do not imply production readiness where live acceptance or security checks remain open.
