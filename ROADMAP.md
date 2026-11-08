@@ -129,9 +129,6 @@ Aster’s core portfolio scope is complete and the repository is now in maintena
 
 ---
 
-
----
-
 Review date: 2026-11-08
 
 ## Current direction — 2026-11-08
