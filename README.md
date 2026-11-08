@@ -135,4 +135,4 @@ Built with React, TypeScript, Vite, and Tailwind CSS.
 
 ## Documentation review — 2026-11-08
 
-Portfolio documentation reviewed on 2026-11-08. The active collection contains five repositories: Aster, ClientPulse, OpsFlow, FinTrack, and AgentForge. The Research & Reporting Toolkit and Transcription & Content Toolkit repositories have been retired and are no longer presented as active portfolio projects. Keep project cards and case studies aligned with each repository's verified implementation; do not imply production readiness where live acceptance or security checks remain open.
+Portfolio documentation reviewed on 2026-11-08. The active collection contains five repositories: Aster, ClientPulse, OpsFlow, FinTrack, and AgentForge. Keep project cards and case studies aligned with each repository's verified implementation; do not imply production readiness where live acceptance or security checks remain open.
