@@ -1,3 +1,17 @@
+## [0.10.0] — Retired toolkit projects removed — 2026-11-08
+
+### Updated
+- Removed the Research & Reporting Toolkit and Transcription & Content Toolkit cards and repository links from the active Aster project collection.
+- Updated the README, roadmap, and changelog to reflect the five active repositories: Aster, ClientPulse, OpsFlow, FinTrack, and AgentForge.
+- Removed outdated descriptions of toolkit repositories from the portfolio overview and corrected the repository count.
+- Kept Aster's completed, maintenance-mode scope unchanged.
+
+### Accuracy
+- The two standalone toolkit repositories are retired and are no longer presented as active portfolio projects.
+- No claim is made that their former functionality has been migrated into another project.
+
+---
+
 ## [0.9.0] — AgentForge portfolio integration — 2026-11-05
 
 ### Added
@@ -124,8 +138,6 @@ Aster supports both professional opportunities and independent client work, whil
 - Added the independent freelance period, July–October 2026, with a deliberately general description until specific services and clients are documented.
 - Refined experience summaries to cover sales and operations coordination, CRM workflows, customer service, real estate support, project coordination, event operations, and procurement.
 - Added relevant platforms: HubSpot, TripleSeat, OpenTable, and AccuLynx.
-- Organized the Toolkit around practical business skills, CRM platforms, and software-development tools.
-- Aligned the About section with professional experience and the current technical-learning direction.
 - Updated the README to document professional experience, skills, technologies, project status, and links to the roadmap and changelog.
 - Clarified that experience metrics are approximate where applicable.
 - Kept future project ideas marked as planned rather than presenting them as completed features.
