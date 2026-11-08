@@ -49,10 +49,10 @@ export const projects: Project[] = [
     description:
       "A lightweight Go runtime for model-driven tool execution, with explicit permissions and a provider-independent orchestration layer.",
     outcome:
-      "Includes a bounded model/tool loop, OpenAI Responses API adapter, schema-validated tool inputs and outputs, default-deny permissions, and local echo, text, CSV, and CRM lead-pipeline analysis tools. Local deterministic tools run without an API key; live model execution requires a configured provider key. Early-stage project, not production-ready.",
+      "Includes a bounded model/tool loop, OpenAI Responses API adapter, schema-validated tool inputs and outputs, default-deny permissions, deterministic text/CSV/CRM analysis, a read-only Sales Operations report, bounded CSV inspection, and a guided workspace connected to a bearer-protected Go API on Render. Authenticated live CSV inspection is verified; authenticated report generation and a real provider-backed model/tool cycle remain unverified. Early-stage project, not production-ready.",
     role: "Runtime design · Go development · Provider integration · Tool execution · Testing · Documentation",
-    technologies: ["Go", "OpenAI Responses API", "net/http", "JSON Schema subset", "CLI", "GitHub Actions"],
-    status: "Early-stage · v0.3.0",
+    technologies: ["Go", "OpenAI Responses API", "net/http", "JSON Schema subset", "CLI", "HTTP API", "Render", "GitHub Pages", "GitHub Actions"],
+    status: "Early-stage · v0.4 workflow",
     featured: true,
     github: "https://github.com/matteojose3112-bit/agentforge",
     demo: "https://matteojose3112-bit.github.io/agentforge/",
