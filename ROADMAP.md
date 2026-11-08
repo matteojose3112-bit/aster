@@ -74,8 +74,6 @@ Add practical software projects that demonstrate problem-solving and continued l
 
 Future project categories may include productivity tools, business and operations tools, data and analytics, automation, API-driven applications, AI-assisted applications, and developer utilities.
 
-**Collection note — 2026-11-08:** The Research & Reporting Toolkit and Transcription & Content Toolkit repositories were retired and removed from Aster's active project collection. The portfolio now tracks five repositories: Aster, ClientPulse, OpsFlow, FinTrack, and AgentForge.
-
 ---
 
 ## 🟡 Phase 4 — Development Journal
@@ -134,4 +132,4 @@ Review date: 2026-11-08
 
 ## Current direction — 2026-11-08
 
-**Core portfolio: complete · Maintenance mode.** The active collection contains five repositories: Aster, ClientPulse, OpsFlow, FinTrack, and AgentForge. AgentForge is represented with its GitHub repository and live GitHub Pages site. The two standalone service-toolkit repositories have been retired and are no longer linked or described as active projects. Keep the portfolio's project cards, case studies, technology lists, and status labels synchronized with each active repository. Prioritize accurate evidence and meaningful case studies over adding another portfolio feature. Manual viewport, contrast, and keyboard checks remain maintenance tasks.
+**Core portfolio: complete · Maintenance mode.** The active collection contains five repositories: Aster, ClientPulse, OpsFlow, FinTrack, and AgentForge. AgentForge is represented with its GitHub repository and live GitHub Pages site. Keep the portfolio's project cards, case studies, technology lists, and status labels synchronized with each active repository. Prioritize accurate evidence and meaningful case studies over adding another portfolio feature. Manual viewport, contrast, and keyboard checks remain maintenance tasks.
