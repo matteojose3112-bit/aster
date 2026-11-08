@@ -1,8 +1,22 @@
+## [0.10.0] — Portfolio status reconciliation — 2026-11-08
+
+### Updated
+- Reconciled the portfolio README, roadmap, and project summaries with the current linked repositories.
+- Corrected the project collection count to seven projects across seven repositories.
+- Updated the AgentForge summary to describe the v0.4 read-only Sales Operations workflow, deployed API, and verified authenticated CSV inspection while retaining the open report/model validation gates.
+- Recorded the latest successful Aster GitHub Actions deployment (2026-11-05, commit `53a8496`).
+- Kept FinTrack's open draft PRs and decimal-precision issue distinct from merged/main-branch functionality.
+
+### Scope
+- Documentation and portfolio project metadata only; no new application behavior is introduced.
+
+---
+
 ## [0.9.0] — AgentForge portfolio integration — 2026-11-05
 
 ### Added
 - Added AgentForge to the selected projects collection with its Go runtime description, current early-stage status, technology stack, GitHub repository, and live GitHub Pages site.
-- Updated the README and roadmap to reflect the expanded eight-repository portfolio.
+- Updated the README and roadmap to reflect the seven-project portfolio collection.
 
 ### Accuracy
 - Described AgentForge's bounded model/tool loop, OpenAI Responses API adapter, default-deny permissions, and deterministic local analysis tools.
