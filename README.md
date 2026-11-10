@@ -122,7 +122,7 @@ See [ROADMAP.md](ROADMAP.md) for planned work and [CHANGELOG.md](CHANGELOG.md) f
 
 ## Status
 
-**Core portfolio complete · Maintenance mode.** The portfolio foundation, five-project collection, documentation, accessibility foundations, and automated deployment checks are in place. Future changes will be limited to fixing issues, keeping project information accurate, and adding meaningful case studies or work when they are ready. Manual browser and accessibility verification remain worthwhile maintenance checks, not blockers to moving on to the next project.
+**Core portfolio complete · Maintenance mode.** The portfolio foundation, six-project collection, documentation, accessibility foundations, and automated deployment checks are in place. Future changes will be limited to fixing issues, keeping project information accurate, and adding meaningful case studies or work when they are ready. Manual browser and accessibility verification remain worthwhile maintenance checks, not blockers to moving on to the next project.
 
 ## Author
 
@@ -136,4 +136,4 @@ Built with React, TypeScript, Vite, and Tailwind CSS.
 
 ## Documentation review — 2026-11-10
 
-Portfolio documentation reviewed on 2026-11-08. The active collection contains six repositories: Aster, ClientPulse, OpsFlow, FinTrack, AgentForge, and Solution Studio. Keep project cards and case studies aligned with each repository's verified implementation; do not imply production readiness where live acceptance or security checks remain open.
+Portfolio documentation reviewed on 2026-11-10. The active collection contains six repositories: Aster, ClientPulse, OpsFlow, FinTrack, AgentForge, and Solution Studio. Keep project cards and case studies aligned with each repository's verified implementation; do not imply production readiness where live acceptance or security checks remain open.
