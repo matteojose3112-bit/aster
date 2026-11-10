@@ -58,6 +58,21 @@ export const projects: Project[] = [
     demo: "https://matteojose3112-bit.github.io/agentforge/",
   },
   {
+    title: "Solution Studio",
+    category: "Business Solutions / Full-Stack Engineering",
+    description:
+      "A modular business-solutions workshop combining research briefs, document extraction, data processing, controlled text automation, and static website starter generation.",
+    outcome:
+      "Five functional studios delivered through a FastAPI backend and lightweight JavaScript frontend, with 58 passing backend tests recorded, GitHub Actions checks, and a public Render deployment. Production smoke tests passed for Research, Automation, and Development; live browser file-picker QA for Data and Documents remains outstanding.",
+    role: "Product development · Full-stack engineering · API design · Workflow design · Testing · Deployment · Documentation",
+    technologies: ["Python", "FastAPI", "JavaScript", "HTML", "CSS", "pytest", "GitHub Actions", "Render"],
+    status: "Deployed MVP · QA follow-up",
+    featured: true,
+    github: "https://github.com/matteojose3112-bit/solution-studio",
+    demo: "https://solution-studio-secb.onrender.com",
+    caseStudy: "https://github.com/matteojose3112-bit/aster/blob/master/docs/case-studies/solution-studio.md",
+  },
+  {
     title: "OpsFlow",
     category: "Operations / RevOps / Business Intelligence",
     description:
