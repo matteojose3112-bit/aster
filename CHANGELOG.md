@@ -1,3 +1,16 @@
+## [0.11.0] — Solution Studio portfolio integration — 2026-11-10
+
+### Added
+- Added Solution Studio to the Aster project collection with repository and public Render demo links.
+- Added a dedicated case study documenting its five studios, architecture, safeguards, deployment, verification, and known limitations.
+
+### Accuracy
+- Recorded 58 passing backend tests and the previously successful frontend syntax/CI checks without implying independent certification.
+- Distinguished successful production browser smoke tests for Research, Automation, and Development from the still-pending live file-picker upload/download QA for Data and Documents.
+- Described Solution Studio as a deployed MVP with QA follow-up rather than a fully certified production product.
+
+---
+
 ## [0.10.0] — Project collection cleanup — 2026-11-08
 
 ### Updated
