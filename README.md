@@ -72,6 +72,7 @@ Completed independent freelance work drawing on experience in sales operations, 
 - Semantic page landmarks, a skip-to-content link, visible focus indicators, accessible mobile navigation controls, and reduced-motion support
 - Detailed project case study for Aster in [docs/case-studies/aster.md](docs/case-studies/aster.md)
 - Detailed FinTrack case study in [docs/case-studies/fintrack.md](docs/case-studies/fintrack.md), including architecture, quality checks, deployment, and remaining limitations
+- **Solution Studio:** a deployed five-studio business-solutions workshop for research briefs, document extraction, CSV/XLSX processing, controlled text automation, and static website starter generation. [Repository](https://github.com/matteojose3112-bit/solution-studio) · [Live demo](https://solution-studio-secb.onrender.com) · [Case study](docs/case-studies/solution-studio.md). Browser upload QA for Data and Documents remains pending; the case study records the verified scope and limitations.
 - **AgentForge:** a lightweight Go runtime for controlled model-to-tool execution, with an OpenAI Responses adapter, default-deny permissions, bounded tool execution, and deterministic local analysis tools. [Repository](https://github.com/matteojose3112-bit/agentforge) · [Live project site](https://matteojose3112-bit.github.io/agentforge/)
 - Automated deployment through GitHub Actions, with ESLint and production build checks before deployment
 
@@ -133,6 +134,6 @@ Built with React, TypeScript, Vite, and Tailwind CSS.
 
 **Aster is a portfolio of what I've built — and a record of what I'm learning next.**
 
-## Documentation review — 2026-11-08
+## Documentation review — 2026-11-10
 
-Portfolio documentation reviewed on 2026-11-08. The active collection contains five repositories: Aster, ClientPulse, OpsFlow, FinTrack, and AgentForge. Keep project cards and case studies aligned with each repository's verified implementation; do not imply production readiness where live acceptance or security checks remain open.
+Portfolio documentation reviewed on 2026-11-08. The active collection contains six repositories: Aster, ClientPulse, OpsFlow, FinTrack, AgentForge, and Solution Studio. Keep project cards and case studies aligned with each repository's verified implementation; do not imply production readiness where live acceptance or security checks remain open.
