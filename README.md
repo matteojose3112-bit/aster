@@ -15,51 +15,57 @@ The portfolio site is built with React, TypeScript, Vite, and Tailwind CSS, and 
 ## Professional Experience
 
 ### Colt Home Services — Customer Service Representative
-**October 2026 – Present** · Remote
+**October 2026 – Present** · Full-time · Remote · Boston, Massachusetts, United States
 
-- Support customer service and outbound sales operations for a home services business.
-- Use ServiceTitan and connected tools to manage customer information, work through outbound contact lists, and maintain accurate CRM records.
-- Support call operations, lead follow-up, service coordination, and customer communication, including Mass Save program information when appropriate.
+Provide customer service and operational support across residential plumbing and energy-efficiency services.
+- Manage high-volume inbound and outbound calls through Quo and ServiceTitan, maintaining a 100% managed call rate and meeting QA scorecard targets.
+- Qualify and convert high-intent Angi Pro and Google Local Services Ads leads into confirmed appointments.
+- Coordinate Eastern Massachusetts service routes for Master and Journeyman Plumbers, balancing technician availability, job caps, service areas, and four-hour arrival windows.
+- Maintain ServiceTitan customer records, notes, dispositions, lead classifications, unbooked and bot-generated leads, job tags, and follow-up tasks.
+- Support seasonal outreach for $89 water heater flushes, maintenance services, and repair credits; explain Mass Save incentives, flat-rate pricing, service options, and dispatch policies.
+- Maintain Airtable records and support administrative workflows and daily service coordination.
 
-### Independent Freelancer
-**July 2026 – October 2026**
+### Independent Freelancer — Self-Employed
+**July 2026 – October 2026** · Remote · Quindío, Colombia
 
-Completed independent freelance work drawing on experience in sales operations, customer service, CRM administration, research, and workflow coordination.
+- Identified potential clients, researched business needs, and developed independent service opportunities.
+- Explored practical improvements to business workflows, customer communication, and operational efficiency using digital and AI-assisted tools.
+- Applied AI-assisted research, information synthesis, and drafting to support business processes.
+- Managed client acquisition, project coordination, and solution delivery independently.
 
 ### Laureles Management — Sales & Operations Coordinator
-**September 2025 – June 2026** · Remote · Medellín, Antioquia, Colombia
+**September 2025 – June 2026** · Full-time · Remote · Medellín, Colombia
 
-- Supported sales and venue operations across two locations, including customer inquiries, CRM workflows, bookings, contracts, payments, scheduling, and event execution.
-- Managed approximately 80–100 accounts and leads per month and handled 40–60+ customer interactions daily.
-- Coordinated approximately 10–12 events per month, with peak periods of 15–20 events.
-- Used HubSpot, TripleSeat, and OpenTable to support customer and booking workflows and data quality.
+- Supported sales and operations across a two-location venue operation, managing customer inquiries, CRM workflows, bookings, contracts, payments, scheduling, and event coordination.
+- Supported commercial operations associated with USD $80K–$100K+ monthly revenue at one location; contributed to approximately $2M Q2 operation revenue and 2× year-over-year growth.
+- Managed 40–60+ daily customer interactions, 15–20 daily lead additions, and 80–100 active accounts and leads monthly, maintaining 95%+ SLA compliance.
+- Coordinated 10–12 events monthly (15–20 during peak periods) and processed 10–15 client contracts weekly.
+- Maintained HubSpot, TripleSeat, and OpenTable data integrity through audits, duplicate resolution, standardized entry, and pipeline updates.
+- Maintained near-zero booking errors and coordinated with venue management, call center teams, and staff across a 10–12-venue network.
 
 ### Inmobiliaria del Café Quindío — CRM, Sales & Marketing Coordinator
-**October 2024 – August 2025** · Hybrid · Armenia, Quindío, Colombia
+**October 2024 – August 2025** · Full-time · Hybrid · Armenia, Quindío, Colombia
 
-- Supported real estate CRM, sales, marketing, customer service, lead generation, and back-office workflows.
-- Maintained 15–20 active property listings and CRM records, contacts, and opportunities in HubSpot.
-- Handled approximately 80–100 leads per month and 30–40+ customer interactions daily.
-- Helped improve lead conversion by an estimated 15–25% through follow-up and workflow improvements.
-- Improved documentation workflows, saving an estimated 4–6 hours per week.
+- Managed CRM, sales, marketing, customer service, and administrative workflows across the real estate customer lifecycle.
+- Managed 150+ HubSpot contacts, 20–25 active opportunities, 80–100 monthly leads, and 30–40+ daily customer interactions.
+- Maintained 15–20 active property listings and client relationships, targeting approximately one new listing per day.
+- Contributed to a 15–25% lead-conversion improvement through structured follow-up and pipeline management.
+- Supported 1–2 property transactions weekly, coordinating customer communications, contracts, and documentation.
+- Published listings across Facebook, Instagram, X, online platforms, and the company website every 1–2 days.
+- Standardized administrative workflows, saving approximately 4–6 hours weekly and improving document retrieval efficiency by approximately 30%.
 
 ### 416 Roofing — Operations & Customer Service Coordinator
-**January 2021 – September 2024** · Hybrid · Toronto, Ontario, Canada
+**January 2021 – September 2024** · Full-time · Hybrid · Toronto, Ontario, Canada
 
-- Coordinated customer service, sales support, residential roofing projects, estimates, procurement, payments, and operational workflows.
-- Managed 20–30+ customer interactions daily and supported a steady lead pipeline.
-- Coordinated approximately 20–25 projects per month across multiple field crews and active jobs.
-- Used AccuLynx to support CRM and project tracking, alongside estimates, invoices, payments, materials, and supplier communications.
+- Managed sales, customer service, operations, project coordination, procurement, scheduling, CRM administration, payments, and marketing for a residential roofing company serving the Greater Toronto Area.
+- Managed 20–30+ daily customer interactions and 14–21 new leads weekly, handling inquiries, estimates, scheduling, and follow-ups.
+- Coordinated 20–25 roofing projects monthly and dispatched three field crews of approximately four workers each.
+- Prepared 5–7 estimates weekly; approximately one in three converted to completed jobs, across $500–$1,000 repairs and $5K–$20K+ installations.
+- Administered AccuLynx CRM records across leads, appointments, estimates, job activity, and customer records.
+- Coordinated materials procurement 4–5 times weekly with 2–3 primary suppliers.
+- Processed 5–10 payments and invoices weekly and supported marketing through 1,000+ flyers per campaign, door-to-door outreach, and online marketing 2–3 times weekly.
 
-*Experience metrics are approximate and reflect the scope of responsibilities provided.*
-
-## Core Skills
-
-**Business and operations:** sales operations, CRM administration, customer service, lead management, client communication, booking and scheduling, event coordination, project coordination, documentation, data quality, process improvement, procurement, supplier communication, estimates, invoices, payments, and sales/marketing support.
-
-**Business platforms:** ServiceTitan, Quo, Airtable, HubSpot, TripleSeat, OpenTable, AccuLynx.
-
-**Software and delivery:** React, TypeScript, Vite, Tailwind CSS, Python, SQL, REST APIs, database design, automated testing, responsive design, debugging, Git, GitHub, GitHub Pages, GitHub Actions, and AI-assisted development.
+*Metrics are approximate and reflect the scope and outcomes reported for each role. Revenue figures retain the currency notation supplied for the relevant operation.*
 
 ## Current Features
 
