@@ -51,7 +51,6 @@ Make the portfolio a clear, credible representation of real experience, transfer
 - [x] Add detailed case studies for Aster and FinTrack
 - [x] Add project technologies, architecture notes, and GitHub/live-demo links consistently where available
 - [x] Establish baseline documentation standards for the portfolio and selected projects
-- [ ] Review performance, code organization, and maintainability when a concrete issue or improvement warrants it
 
 **Closeout note:** Source-level consistency, core documentation, case studies for Aster and FinTrack, accessibility foundations, and automated deployment checks are complete. Manual browser testing and rendered contrast/keyboard verification remain maintenance checks; they are not being represented as completed.
 
@@ -144,9 +143,20 @@ Review date: 2026-11-10
 - [x] Expand 416 Roofing with lead flow, estimates, project delivery, crew dispatch, procurement, payments, and marketing.
 - [x] Reposition About around RevOps, Sales Operations, Business Operations, CRM, Customer Success, and Analytics.
 - [x] Expand the About core toolkit into six described groups: CRM/revenue platforms; customer/business operations; analytics/productivity; frontend/application development; backend/databases/APIs; quality/delivery/AI tooling.
-- [ ] Verify public-facing copy, build, lint, and responsive presentation before merging.
 - [ ] Confirm credential names and any additional certifications against the actual certificates before adding them.
 
 ## Current direction — 2026-11-10
 
 **Core portfolio: complete · Maintenance mode.** The active collection contains six repositories: Aster, ClientPulse, OpsFlow, FinTrack, AgentForge, and Solution Studio. AgentForge is represented with its GitHub repository and live GitHub Pages site. Keep the portfolio's project cards, case studies, technology lists, and status labels synchronized with each active repository. Prioritize accurate evidence and meaningful case studies over adding another portfolio feature. Manual viewport, contrast, and keyboard checks remain maintenance tasks.
+
+## Project card refinement — 2026-11-12
+
+**Status: Copy updated; code verification pending.**
+
+- [x] Rewrite all six project descriptions to state each product's purpose and intended user value.
+- [x] Refocus each "What I built" summary on concrete implemented functionality, architecture, and verified QA status.
+- [x] Standardize role statements as independent-project contributions without presenting personal projects as employment.
+- [x] Preserve project-specific maturity labels and outstanding QA limitations.
+- [x] Synchronize README and changelog with the portfolio copy update.
+- [ ] Run lint and production build checks on the completed branch.
+- [ ] Review the rendered six-card section at mobile, tablet, and desktop sizes.
