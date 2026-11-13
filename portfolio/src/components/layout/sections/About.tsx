@@ -15,36 +15,18 @@ function About() {
     ["15–25%", "lead-conversion improvement"],
     ["4–6 hrs", "saved per week through workflow improvements"],
   ];
-  const toolkit = [
+  const professionalStrengths = [
     {
-      title: "CRM & revenue platforms",
-      description: "Customer records, lead qualification, pipeline administration, booking systems, sales follow-up, and revenue visibility.",
-      skills: ["HubSpot", "TripleSeat", "OpenTable", "AccuLynx", "ServiceTitan", "Airtable"],
+      title: "Revenue & business operations",
+      description: "Sales operations, workflow coordination, dispatch, scheduling, process improvement, and day-to-day business execution.",
     },
     {
-      title: "Customer & business operations",
-      description: "Service coordination, customer communication, appointment setting, dispatch, field-team scheduling, contracts, procurement, and process improvement.",
-      skills: ["Quo", "Lead Conversion", "Customer Success", "Sales Operations", "Dispatch Coordination", "Workflow Design"],
+      title: "CRM & customer success",
+      description: "CRM administration, lead qualification, pipeline management, customer communication, appointment setting, and service delivery.",
     },
     {
-      title: "Analytics & productivity",
-      description: "Organizing operational data, tracking performance, building reports, and turning information into practical decisions.",
-      skills: ["SQL", "Power BI", "Excel", "Google Workspace", "Reporting", "Data Analysis"],
-    },
-    {
-      title: "Frontend & application development",
-      description: "Building responsive interfaces and structured web applications through independent software projects.",
-      skills: ["React", "TypeScript", "JavaScript", "Vite", "Tailwind CSS", "HTML", "CSS"],
-    },
-    {
-      title: "Backend, databases & APIs",
-      description: "Developing service layers, data models, integrations, and controlled API workflows in hands-on projects.",
-      skills: ["Python", "Go", "FastAPI", "REST APIs", "PostgreSQL", "Supabase", "SQLAlchemy", "Alembic", "JWT", "JSON Schema"],
-    },
-    {
-      title: "Quality, delivery & AI tooling",
-      description: "Version control, automated checks, deployment workflows, documentation, and AI-assisted research and development.",
-      skills: ["Git", "GitHub", "GitHub Actions", "GitHub Pages", "Render", "pytest", "Vitest", "ESLint", "CI/CD", "AI-Assisted Research", "Workflow Automation"],
+      title: "Analytics & process improvement",
+      description: "Operational reporting, KPI tracking, data quality, workflow analysis, and turning business information into practical decisions.",
     },
   ];
 
@@ -76,17 +58,12 @@ function About() {
                   </p>
                 </div>
                 <div className="border-l border-white/10 pl-6">
-                  <p className="text-[10px] font-semibold uppercase tracking-[0.2em] text-neutral-600">Core toolkit</p>
-                  <div className="mt-5 space-y-7">
-                    {toolkit.map((group) => (
-                      <div key={group.title}>
-                        <h3 className="text-xs font-semibold uppercase tracking-[0.14em] text-neutral-300">{group.title}</h3>
-                        <p className="mt-2 text-xs leading-6 text-neutral-500">{group.description}</p>
-                        <div className="mt-3 flex flex-wrap gap-2">
-                          {group.skills.map((skill) => (
-                            <span key={skill} className="border border-white/10 px-3 py-2 text-[10px] uppercase tracking-[0.12em] text-neutral-500 transition hover:border-white/30 hover:text-neutral-200">{skill}</span>
-                          ))}
-                        </div>
+                  <p className="text-[10px] font-semibold uppercase tracking-[0.2em] text-neutral-600">Professional strengths</p>
+                  <div className="mt-5 space-y-6">
+                    {professionalStrengths.map((strength) => (
+                      <div key={strength.title}>
+                        <h3 className="text-xs font-semibold uppercase tracking-[0.14em] text-neutral-300">{strength.title}</h3>
+                        <p className="mt-2 text-xs leading-6 text-neutral-500">{strength.description}</p>
                       </div>
                     ))}
                   </div>
