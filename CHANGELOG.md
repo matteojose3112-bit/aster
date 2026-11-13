@@ -8,7 +8,8 @@
 - Expanded freelance experience to include client discovery, independent business development, AI-assisted research, workflow analysis, and project delivery.
 - Repositioned the About section around Revenue Operations, Sales Operations, Business Operations, CRM Administration, Customer Success Operations, and Analytics.
 - Added a structured impact-metrics panel and cross-border opportunity positioning.
-- Expanded the toolkit to cover CRM platforms, customer and sales operations, business execution, analytics, software development, backend/API work, testing, deployment, and AI-assisted workflows.
+- Expanded the About core toolkit into six described groups covering CRM/revenue platforms, customer/business operations, analytics/productivity, frontend development, backend/databases/APIs, and quality/delivery/AI tooling.
+- Added descriptions explaining how each toolkit group is applied and clearly separated employment-based experience from skills demonstrated through independent software projects.
 - Updated README experience and skills documentation to match the portfolio.
 
 ### Accuracy
