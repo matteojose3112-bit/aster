@@ -2,7 +2,7 @@ function About() {
   const valueProps = [
     { number: "01", title: "Think in systems", text: "I look for the bottleneck behind the task — then design a clearer process, workflow, or system around it." },
     { number: "02", title: "Connect the dots", text: "I bridge revenue goals, customer needs, data, and technology instead of treating them as separate problems." },
-    { number: "03", title: "Improve the workflow", text: "I use CRM platforms, careful record management, reporting, and practical digital tools to reduce friction and improve visibility." },
+    { number: "03", title: "Improve the workflow", text: "I combine CRM administration, customer operations, reporting, automation, and practical software tools to reduce friction and improve visibility." },
     { number: "04", title: "Measure what matters", text: "The goal is better decisions, stronger customer outcomes, reliable execution, and scalable operations." },
   ];
   const metrics = [
@@ -15,6 +15,38 @@ function About() {
     ["15–25%", "lead-conversion improvement"],
     ["4–6 hrs", "saved per week through workflow improvements"],
   ];
+  const toolkit = [
+    {
+      title: "CRM & revenue platforms",
+      description: "Customer records, lead qualification, pipeline administration, booking systems, sales follow-up, and revenue visibility.",
+      skills: ["HubSpot", "TripleSeat", "OpenTable", "AccuLynx", "ServiceTitan", "Airtable"],
+    },
+    {
+      title: "Customer & business operations",
+      description: "Service coordination, customer communication, appointment setting, dispatch, field-team scheduling, contracts, procurement, and process improvement.",
+      skills: ["Quo", "Lead Conversion", "Customer Success", "Sales Operations", "Dispatch Coordination", "Workflow Design"],
+    },
+    {
+      title: "Analytics & productivity",
+      description: "Organizing operational data, tracking performance, building reports, and turning information into practical decisions.",
+      skills: ["SQL", "Power BI", "Excel", "Google Workspace", "Reporting", "Data Analysis"],
+    },
+    {
+      title: "Frontend & application development",
+      description: "Building responsive interfaces and structured web applications through independent software projects.",
+      skills: ["React", "TypeScript", "JavaScript", "Vite", "Tailwind CSS", "HTML", "CSS"],
+    },
+    {
+      title: "Backend, databases & APIs",
+      description: "Developing service layers, data models, integrations, and controlled API workflows in hands-on projects.",
+      skills: ["Python", "Go", "FastAPI", "REST APIs", "PostgreSQL", "Supabase", "SQLAlchemy", "Alembic", "JWT", "JSON Schema"],
+    },
+    {
+      title: "Quality, delivery & AI tooling",
+      description: "Version control, automated checks, deployment workflows, documentation, and AI-assisted research and development.",
+      skills: ["Git", "GitHub", "GitHub Actions", "GitHub Pages", "Render", "pytest", "Vitest", "ESLint", "CI/CD", "AI-Assisted Research", "Workflow Automation"],
+    },
+  ];
 
   return (
     <section id="about" className="relative overflow-hidden px-6 py-32 lg:px-10">
@@ -24,12 +56,12 @@ function About() {
             <div>
               <p className="aster-section-label">01 — About</p>
               <p className="mt-8 max-w-xs text-xs uppercase leading-6 tracking-[0.16em] text-neutral-600">
-                Revenue operations / business operations / CRM / customer success / analytics
+                Revenue operations / business operations / CRM / customer success / analytics / software development
               </p>
             </div>
             <div>
               <h2 className="max-w-6xl text-4xl font-semibold leading-[1.02] tracking-[-0.045em] text-white md:text-6xl lg:text-7xl">
-                I connect <span className="text-neutral-500">revenue, operations, customer experience, and technology</span> to build clearer workflows and measurable business results.
+                I connect <span className="text-neutral-500">revenue, operations, customer experience, data, and technology</span> to build clearer workflows and measurable business results.
               </h2>
               <div className="mt-12 grid gap-10 border-t border-white/10 pt-10 md:grid-cols-[1.1fr_0.9fr]">
                 <div className="space-y-6 text-base leading-8 text-neutral-400 md:text-lg">
@@ -37,17 +69,25 @@ function About() {
                     Operations and CRM professional specializing in Revenue Operations, Sales Operations, Business Operations, CRM administration, Customer Success, reporting, and process improvement. My experience spans home services, hospitality, real estate, and residential construction across Canada and Colombia.
                   </p>
                   <p>
-                    I have supported commercial operations, customer pipelines, bookings, contracts, estimates, dispatch, field teams, procurement, payments, and reporting. I am open to opportunities across Canadian, Colombian, and international markets, including fully remote and cross-border arrangements.
+                    I have supported commercial operations, customer pipelines, bookings, contracts, estimates, dispatch, field teams, procurement, payments, and reporting. I bring a practical understanding of both the customer-facing work and the systems behind reliable service delivery, and I am open to opportunities across Canadian, Colombian, and international markets, including fully remote and cross-border arrangements.
                   </p>
                   <p>
-                    I also build independent software and business tools, applying hands-on learning in frontend and backend development, databases, APIs, testing, deployment, AI-assisted research, and workflow automation.
+                    Alongside my professional operations experience, I build independent software and business tools. My hands-on project work includes responsive frontend applications, backend services, APIs, relational databases, authentication and data validation, automated testing, CI/CD, deployment, AI-assisted research, and workflow automation. These technical skills are demonstrated through independent projects rather than being presented as tools used in every employment role.
                   </p>
                 </div>
                 <div className="border-l border-white/10 pl-6">
-                  <p className="text-[10px] font-semibold uppercase tracking-[0.2em] text-neutral-600">Platforms & capabilities</p>
-                  <div className="mt-5 flex flex-wrap gap-2">
-                    {["HubSpot", "TripleSeat", "OpenTable", "AccuLynx", "ServiceTitan", "Quo", "Airtable", "Excel", "Google Workspace", "SQL", "Power BI", "CRM Administration", "Pipeline Operations", "Reporting", "Data Analysis", "Workflow Optimization"].map((skill) => (
-                      <span key={skill} className="border border-white/10 px-3 py-2 text-[10px] uppercase tracking-[0.12em] text-neutral-500 transition hover:border-white/30 hover:text-neutral-200">{skill}</span>
+                  <p className="text-[10px] font-semibold uppercase tracking-[0.2em] text-neutral-600">Core toolkit</p>
+                  <div className="mt-5 space-y-7">
+                    {toolkit.map((group) => (
+                      <div key={group.title}>
+                        <h3 className="text-xs font-semibold uppercase tracking-[0.14em] text-neutral-300">{group.title}</h3>
+                        <p className="mt-2 text-xs leading-6 text-neutral-500">{group.description}</p>
+                        <div className="mt-3 flex flex-wrap gap-2">
+                          {group.skills.map((skill) => (
+                            <span key={skill} className="border border-white/10 px-3 py-2 text-[10px] uppercase tracking-[0.12em] text-neutral-500 transition hover:border-white/30 hover:text-neutral-200">{skill}</span>
+                          ))}
+                        </div>
+                      </div>
                     ))}
                   </div>
                   <div className="mt-8 border-t border-white/10 pt-6">
