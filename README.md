@@ -143,3 +143,7 @@ Built with React, TypeScript, Vite, and Tailwind CSS.
 ## Documentation review — 2026-11-10
 
 Portfolio documentation reviewed on 2026-11-10. The active collection contains six repositories: Aster, ClientPulse, OpsFlow, FinTrack, AgentForge, and Solution Studio. Keep project cards and case studies aligned with each repository's verified implementation; do not imply production readiness where live acceptance or security checks remain open.
+
+## Project card refinement — 2026-11-12
+
+Reworked all six project-card descriptions, build summaries, and role statements for clearer, more consistent presentation. The copy now distinguishes each project's purpose, concrete implementation, and independent-project contribution while retaining current status labels and known QA limitations.
