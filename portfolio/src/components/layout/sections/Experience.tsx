@@ -39,7 +39,7 @@ const experience = [
     type: "Full-time · Remote · Medellín, Colombia",
     summary: "Supported sales and operations across a two-location venue operation, managing CRM workflows, customer inquiries, bookings, contracts, payments, scheduling, and event coordination.",
     details: [
-      "Supported commercial operations associated with USD $80K–$100K+ in monthly revenue at one location; contributed to approximately $2M in Q2 operation revenue and 2× year-over-year growth.",
+      "Supported commercial operations associated with $80K–$100K+ in monthly revenue at one location; contributed to approximately $2M in Q2 operation revenue and 2× year-over-year growth.",
       "Managed 40–60+ daily customer interactions, 15–20 daily lead additions, and an active pipeline of 80–100 accounts and leads monthly, maintaining 95%+ SLA compliance.",
       "Coordinated 10–12 events monthly, rising to 15–20 during peak periods, from inquiry through execution; processed 10–15 client contracts weekly.",
       "Maintained CRM data integrity across HubSpot, TripleSeat, and OpenTable through audits, duplicate resolution, standardized data entry, and pipeline updates.",
