@@ -1,5 +1,23 @@
 # Changelog
 
+## [0.13.0] — Six-project card refinement — 2026-11-12
+
+### Updated
+- Rewrote all six project descriptions to explain each project's purpose and practical value with a consistent, portfolio-ready voice.
+- Refined each "What I built" summary to foreground concrete functionality and implementation details.
+- Standardized role statements around independent-project contributions, clarifying product, design, engineering, testing, and delivery responsibilities without implying employment.
+- Preserved current status labels, deployment qualifiers, and known testing limitations for FinTrack, AgentForge, and Solution Studio.
+- Synchronized README and roadmap with the project-card copy update.
+
+### Accuracy
+- Kept project claims tied to the current structured project data and documented implementation.
+- Retained FinTrack's live end-to-end acceptance testing, AgentForge's early-stage/non-production status, and Solution Studio's pending live browser file-picker QA for Data and Documents.
+
+### Verification
+- Lint, production build, and responsive browser checks are pending on this branch.
+
+---
+
 ## [0.12.0] — Comprehensive professional experience & skills profile — 2026-11-12
 
 ### Updated
