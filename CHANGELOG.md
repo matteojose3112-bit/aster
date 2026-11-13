@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.15.0] — About & Toolkit role separation — 2026-11-12
+
+### Updated
+- Removed the duplicated six-group skills catalogue from the About section.
+- Replaced it with three concise professional-strength pillars: Revenue & Business Operations, CRM & Customer Success, and Analytics & Process Improvement.
+- Kept credentials, languages, and citizenship information in About.
+- Preserved Section 04 — Toolkit as the comprehensive seven-group inventory of business capabilities, platforms, development technologies, and delivery tools.
+- Updated README and roadmap to document the clearer division between professional positioning and the detailed skills catalogue.
+
+### Verification
+- Lint, production build, and responsive browser checks are pending.
+
+---
+
 ## [0.14.0] — Selected work introduction — 2026-11-12
 
 ### Updated

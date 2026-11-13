@@ -142,7 +142,8 @@ Review date: 2026-11-10
 - [x] Expand Inmobiliaria del Café with CRM scale, listings, conversion, transactions, marketing, and process improvements.
 - [x] Expand 416 Roofing with lead flow, estimates, project delivery, crew dispatch, procurement, payments, and marketing.
 - [x] Reposition About around RevOps, Sales Operations, Business Operations, CRM, Customer Success, and Analytics.
-- [x] Expand the About core toolkit into six described groups: CRM/revenue platforms; customer/business operations; analytics/productivity; frontend/application development; backend/databases/APIs; quality/delivery/AI tooling.
+- [x] Keep the comprehensive seven-group skills catalogue in the dedicated Toolkit section.
+- [x] Replace the duplicate About skills catalogue with three concise professional-strength pillars.
 - [ ] Confirm credential names and any additional certifications against the actual certificates before adding them.
 
 ## Current direction — 2026-11-10
@@ -172,3 +173,16 @@ Review date: 2026-11-10
 - [x] Synchronize README and changelog.
 - [ ] Run lint and production build checks on the completed branch.
 - [ ] Review the longer introduction at mobile, tablet, and desktop widths for reading comfort and balance.
+
+
+## About and Toolkit refinement — 2026-11-12
+
+**Status: Implemented; verification pending.**
+
+- [x] Remove the duplicated six-group skills inventory from the About section.
+- [x] Replace it with three professional-strength pillars: Revenue & Business Operations; CRM & Customer Success; Analytics & Process Improvement.
+- [x] Preserve the dedicated Toolkit section as the complete seven-group catalogue of platforms, business capabilities, development technologies, and delivery tools.
+- [x] Retain credentials, languages, and citizenship information in About.
+- [x] Synchronize README and changelog.
+- [ ] Run lint and production build checks.
+- [ ] Review About and Toolkit at mobile, tablet, and desktop widths.
