@@ -37,7 +37,7 @@ Provide customer service and operational support across residential plumbing and
 **September 2025 – June 2026** · Full-time · Remote · Medellín, Colombia
 
 - Supported sales and operations across a two-location venue operation, managing customer inquiries, CRM workflows, bookings, contracts, payments, scheduling, and event coordination.
-- Supported commercial operations associated with USD $80K–$100K+ monthly revenue at one location; contributed to approximately $2M Q2 operation revenue and 2× year-over-year growth.
+- Supported commercial operations associated with $80K–$100K+ monthly revenue at one location; contributed to approximately $2M Q2 operation revenue and 2× year-over-year growth.
 - Managed 40–60+ daily customer interactions, 15–20 daily lead additions, and 80–100 active accounts and leads monthly, maintaining 95%+ SLA compliance.
 - Coordinated 10–12 events monthly (15–20 during peak periods) and processed 10–15 client contracts weekly.
 - Maintained HubSpot, TripleSeat, and OpenTable data integrity through audits, duplicate resolution, standardized entry, and pipeline updates.
