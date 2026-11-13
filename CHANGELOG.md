@@ -1,5 +1,20 @@
 # Changelog
 
+## [0.14.0] — Selected work introduction — 2026-11-12
+
+### Updated
+- Expanded the "Built to be useful" introduction in Section 02 with more context about the practical problems behind the portfolio: customer relationships, business operations, financial visibility, and repetitive workflows.
+- Introduced the six-project collection by its broader themes, helping visitors understand how the individual projects fit together.
+- Connected professional experience in sales, customer service, CRM, and business operations to the independent software work.
+- Clarified the build approach: define a problem, shape the experience, implement functionality, test what is possible, and document remaining work.
+- Made the independent, learning-oriented nature of the projects explicit while emphasizing transparent representation of capabilities and limitations.
+- Updated README and roadmap to reflect the new section narrative.
+
+### Verification
+- Lint, production build, and responsive browser checks remain pending on this branch.
+
+---
+
 ## [0.13.0] — Six-project card refinement — 2026-11-12
 
 ### Updated
