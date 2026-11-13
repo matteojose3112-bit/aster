@@ -12,7 +12,7 @@
 - Updated README experience and skills documentation to match the portfolio.
 
 ### Accuracy
-- Preserved approximate qualifiers for user-provided metrics and retained the revenue currency notation as supplied.
+- Preserved approximate qualifiers for user-provided metrics and retained the revenue figures without assigning an unspecified currency.
 - Listed five named HubSpot Academy certifications and one Advanced SQL credential; no additional credentials were inferred.
 - Distinguished professional platform experience from skills developed through independent software projects.
 
