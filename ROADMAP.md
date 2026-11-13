@@ -160,3 +160,15 @@ Review date: 2026-11-10
 - [x] Synchronize README and changelog with the portfolio copy update.
 - [ ] Run lint and production build checks on the completed branch.
 - [ ] Review the rendered six-card section at mobile, tablet, and desktop sizes.
+
+## Selected work introduction — 2026-11-12
+
+**Status: Implemented on branch; verification pending.**
+
+- [x] Explain the practical business and everyday problems that motivate the project collection.
+- [x] Introduce the six projects by their broad areas: customer and business operations, finance, automation, and AI-assisted development.
+- [x] Connect professional experience in sales, service, CRM, and operations to the problems explored through independent software projects.
+- [x] Clarify that the projects are independent work and learning in progress, with current capabilities and limitations represented honestly.
+- [x] Synchronize README and changelog.
+- [ ] Run lint and production build checks on the completed branch.
+- [ ] Review the longer introduction at mobile, tablet, and desktop widths for reading comfort and balance.
