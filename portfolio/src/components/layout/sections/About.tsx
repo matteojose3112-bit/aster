@@ -52,7 +52,7 @@ function About() {
                   </div>
                   <div className="mt-8 border-t border-white/10 pt-6">
                     <p className="text-[10px] font-semibold uppercase tracking-[0.2em] text-neutral-600">Credentials & languages</p>
-                    <p className="mt-4 text-sm leading-6 text-neutral-400">5 HubSpot Academy certifications: Sales Hub, Service Hub, Inbound, Inbound Sales, and Reporting; plus an Advanced SQL credential.</p>
+                    <p className="mt-4 text-sm leading-6 text-neutral-400">5 HubSpot Academy certifications: Sales Hub, Service Hub, Inbound, Inbound Sales, and Reporting; plus an Advanced SQL credential. Canadian high-school diploma and TEFL certificate.</p>
                     <p className="mt-3 text-sm leading-6 text-neutral-400">English and Spanish bilingual · Basic French</p>
                     <p className="mt-3 text-sm leading-6 text-neutral-400">Canadian and Colombian citizen · Open to remote and cross-border opportunities</p>
                   </div>
