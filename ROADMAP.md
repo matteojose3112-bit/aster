@@ -143,7 +143,7 @@ Review date: 2026-11-10
 - [x] Expand Inmobiliaria del Café with CRM scale, listings, conversion, transactions, marketing, and process improvements.
 - [x] Expand 416 Roofing with lead flow, estimates, project delivery, crew dispatch, procurement, payments, and marketing.
 - [x] Reposition About around RevOps, Sales Operations, Business Operations, CRM, Customer Success, and Analytics.
-- [x] Expand toolkit across CRM, customer operations, analytics, business execution, software development, APIs, testing, deployment, and AI-assisted workflows.
+- [x] Expand the About core toolkit into six described groups: CRM/revenue platforms; customer/business operations; analytics/productivity; frontend/application development; backend/databases/APIs; quality/delivery/AI tooling.
 - [ ] Verify public-facing copy, build, lint, and responsive presentation before merging.
 - [ ] Confirm credential names and any additional certifications against the actual certificates before adding them.
 
