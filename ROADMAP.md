@@ -133,6 +133,20 @@ Aster’s core portfolio scope is complete and the repository is now in maintena
 
 Review date: 2026-11-10
 
+## Professional profile expansion — 2026-11-12
+
+**Status: Implemented on branch; verification pending.**
+
+- [x] Expand Colt Home Services with call operations, lead sources, conversion, dispatch, CRM, Mass Save, and service coordination.
+- [x] Expand freelance experience with independent business development, AI-assisted workflows, client discovery, and delivery.
+- [x] Expand Laureles Management with revenue, pipeline, SLA, booking, contract, event, and network coordination metrics.
+- [x] Expand Inmobiliaria del Café with CRM scale, listings, conversion, transactions, marketing, and process improvements.
+- [x] Expand 416 Roofing with lead flow, estimates, project delivery, crew dispatch, procurement, payments, and marketing.
+- [x] Reposition About around RevOps, Sales Operations, Business Operations, CRM, Customer Success, and Analytics.
+- [x] Expand toolkit across CRM, customer operations, analytics, business execution, software development, APIs, testing, deployment, and AI-assisted workflows.
+- [ ] Verify public-facing copy, build, lint, and responsive presentation before merging.
+- [ ] Confirm credential names and any additional certifications against the actual certificates before adding them.
+
 ## Current direction — 2026-11-10
 
 **Core portfolio: complete · Maintenance mode.** The active collection contains six repositories: Aster, ClientPulse, OpsFlow, FinTrack, AgentForge, and Solution Studio. AgentForge is represented with its GitHub repository and live GitHub Pages site. Keep the portfolio's project cards, case studies, technology lists, and status labels synchronized with each active repository. Prioritize accurate evidence and meaningful case studies over adding another portfolio feature. Manual viewport, contrast, and keyboard checks remain maintenance tasks.
