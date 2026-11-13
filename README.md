@@ -71,6 +71,7 @@ Provide customer service and operational support across residential plumbing and
 
 - Responsive portfolio and reusable React components
 - About, Experience, Projects, Toolkit, and Contact sections
+- A concise About-section summary of professional strengths, with the full seven-group skills catalogue reserved for the dedicated Toolkit section
 - Structured project data and interactive UI effects
 - Professional experience with roles, dates, responsibilities, and relevant tools
 - Contact hub for remote opportunities, freelance inquiries, and collaborations
@@ -151,3 +152,8 @@ Reworked all six project-card descriptions, build summaries, and role statements
 ## Selected work introduction — 2026-11-12
 
 Expanded the Projects section introduction to explain the practical problems behind the portfolio, the range of the six independent projects, and how professional experience in sales, service, CRM, and operations informs the software being built. The copy also clarifies the independent, learning-oriented nature of the work and the commitment to showing current capabilities and limitations.
+
+
+## About and Toolkit distinction — 2026-11-12
+
+The About section now focuses on three professional-strength areas: Revenue & Business Operations, CRM & Customer Success, and Analytics & Process Improvement. The dedicated Toolkit section remains the comprehensive catalogue of business capabilities, platforms, development technologies, and delivery tools. This keeps the introduction focused on professional positioning while preserving the detailed skills inventory in one place.
