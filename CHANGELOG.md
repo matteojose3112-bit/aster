@@ -1,3 +1,27 @@
+# Changelog
+
+## [0.12.0] — Comprehensive professional experience & skills profile — 2026-11-12
+
+### Updated
+- Expanded all five professional experience entries with role-specific responsibilities, platforms, workflows, and impact metrics supplied for the professional profile.
+- Strengthened Colt Home Services coverage across Quo, ServiceTitan, Angi Pro, Google Local Services Ads, lead conversion, dispatch coordination, Mass Save, and Airtable.
+- Expanded freelance experience to include client discovery, independent business development, AI-assisted research, workflow analysis, and project delivery.
+- Repositioned the About section around Revenue Operations, Sales Operations, Business Operations, CRM Administration, Customer Success Operations, and Analytics.
+- Added a structured impact-metrics panel and cross-border opportunity positioning.
+- Expanded the About core toolkit into six described groups covering CRM/revenue platforms, customer/business operations, analytics/productivity, frontend development, backend/databases/APIs, and quality/delivery/AI tooling.
+- Added descriptions explaining how each toolkit group is applied and clearly separated employment-based experience from skills demonstrated through independent software projects.
+- Updated README experience and skills documentation to match the portfolio.
+
+### Accuracy
+- Preserved approximate qualifiers for user-provided metrics and retained the revenue figures without assigning an unspecified currency.
+- Listed five named HubSpot Academy certifications and one Advanced SQL credential; no additional credentials were inferred.
+- Distinguished professional platform experience from skills developed through independent software projects.
+
+### Verification
+- Changes are on `feat/comprehensive-experience-skills-profile`; build, lint, and browser checks are pending.
+
+---
+
 ## [0.11.0] — Solution Studio portfolio integration — 2026-11-10
 
 ### Added
