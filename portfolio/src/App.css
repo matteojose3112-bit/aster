@@ -13,8 +13,8 @@ body { margin: 0; min-width: 320px; background: #050505; color: #fff; text-rende
 .aster-reveal { animation: aster-fade-up .8s cubic-bezier(.22,1,.36,1) both; }
 .aster-scroll-reveal { opacity: 0; transform: translateY(32px); transition: opacity .9s cubic-bezier(.22,1,.36,1), transform .9s cubic-bezier(.22,1,.36,1); }
 .aster-scroll-reveal.is-visible { opacity: 1; transform: translateY(0); }
-.aster-section-label { display: inline-flex; align-items: center; gap: 10px; color: #737373; font-size: 11px; font-weight: 600; letter-spacing: .22em; text-transform: uppercase; }
-.aster-section-label::before { content: ""; width: 20px; height: 1px; background: #737373; }
+.aster-section-label { display: inline-flex; align-items: center; gap: 10px; color: #a3a3a3; font-size: 11px; font-weight: 600; letter-spacing: .22em; text-transform: uppercase; }
+.aster-section-label::before { content: ""; width: 20px; height: 1px; background: #a3a3a3; }
 .aster-link { position: relative; color: #a3a3a3; transition: color 220ms ease; }
 .aster-link::after { content: ""; position: absolute; left: 0; right: 100%; bottom: -5px; height: 1px; background: #f5f5f5; transition: right 220ms ease; }
 .aster-link:hover, .aster-link.text-white { color: #f5f5f5; }
@@ -42,4 +42,16 @@ body { margin: 0; min-width: 320px; background: #050505; color: #fff; text-rende
 @media (hover: hover) and (pointer: fine) { body { cursor: none; } .aster-cursor-dot, .aster-cursor-ring { opacity: 1; } a, button { cursor: none; } }
 @media (hover: none), (pointer: coarse) { .aster-cursor-dot, .aster-cursor-ring { display: none; } }
 @media (max-width: 767px) { .aster-grid { background-size: 48px 48px; opacity: .45; } .aster-glow { width: 360px; height: 360px; } .aster-button { min-height: 46px; } }
-@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .aster-reveal, .aster-status-dot { animation: none; } .aster-scroll-reveal { opacity: 1; transform: none; transition: none; } .aster-button::before { display: none; } .aster-cursor-ring, .aster-magnetic { transition: none; } }
+
+/* Keep muted interface text readable against the near-black surfaces. */
+.text-neutral-500, .text-neutral-600, .text-neutral-700 { color: #a3a3a3; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .aster-reveal, .aster-status-dot { animation: none; }
+  .aster-scroll-reveal { opacity: 1; transform: none; transition: none; }
+  .aster-button::before { display: none; }
+  .aster-cursor-ring, .aster-magnetic { transition: none; }
+  .aster-cursor-dot, .aster-cursor-ring { display: none !important; }
+  body, a, button { cursor: auto !important; }
+}
