@@ -1,5 +1,25 @@
 # Changelog
 
+## [0.18.0] — Final QA & maintenance-mode closeout — 2026-11-19
+
+### Reviewed
+- Completed a final source and documentation review of the default `master` branch, including page landmarks, primary/mobile navigation implementation, contact destinations, active project descriptions, accessibility changes, Vite base path, package lockfile, and GitHub Pages workflow configuration.
+- Confirmed the corrected muted-text color has approximately 8.1:1 source-calculated contrast against the `#050505` background.
+- Confirmed reduced-motion handling is present in the stylesheet and custom cursor effect.
+- Confirmed the deployment workflow is configured to install dependencies, run ESLint, build the production site, and deploy GitHub Pages.
+- No additional application-code defect was confirmed; this closeout required documentation updates only.
+
+### Verification limitations
+- A fresh `npm ci`, lint, and production build were not run in the review environment.
+- No successful GitHub Actions run for the latest commits could be confirmed.
+- Live desktop/tablet/mobile browser interaction, rendered contrast, keyboard, screen-reader, and assistive-technology checks remain outstanding. The browser-testing service could not start because its available wallet balance was insufficient.
+- These items remain explicit follow-up checks; no unperformed test or deployment is reported as successful.
+
+### Status
+- Aster's planned portfolio scope is complete and the repository is ready for maintenance. Further work should be limited to confirmed defects, meaningful content updates, and future evidence-backed case studies.
+
+---
+
 ## [0.17.0] — Accessibility contrast & reduced-motion refinement — 2026-11-19
 
 ### Updated
