@@ -2,7 +2,7 @@
 
 Aster is the personal portfolio and development record for professional experience and independent software work. This roadmap tracks the portfolio's own scope; individual application roadmaps remain in their respective repositories.
 
-**Current status: Core portfolio complete · Maintenance and accuracy work only**
+**Current status: Core scope complete · Ready for maintenance; final verification follow-ups remain**
 
 The active collection contains five project cards across five repositories: Aster, AgentForge, Solution Studio, OpsFlow, and ClientPulse. That is Aster plus four independent software projects. FinTrack has been removed from Aster's active collection and its case study retired from this repository; its separate repository remains independent.
 
@@ -19,7 +19,7 @@ The active collection contains five project cards across five repositories: Aste
 
 ## Phase 2 — Professional Profile & Portfolio Accuracy
 
-**Status: Source-level review complete · Manual verification remains**
+**Status: Final source review complete · Manual and fresh automated verification remain**
 
 - [x] Present professional roles, employers, locations, dates, responsibilities, tools, and approximate impact metrics.
 - [x] Align About with Revenue Operations, Business Operations, CRM, Customer Success, and Analytics.
@@ -73,12 +73,19 @@ The active collection contains five project cards across five repositories: Aste
 
 Aster should remain in maintenance mode. Reopen work only for a concrete correction, meaningful new evidence, or a clearly valuable improvement. Do not add features for their own sake.
 
-Before calling the repository fully closed out:
+## Final QA closeout — 2026-11-19
 
-- [ ] Confirm the latest GitHub Actions lint, build, and deployment workflow succeeds after the current changes.
-- [ ] Review the live site at desktop, tablet, and mobile sizes.
-- [ ] Complete keyboard, focus, contrast, and assistive-technology checks.
-- [ ] Verify all project, contact, repository, and demo links.
+**Decision: Ready for maintenance; planned portfolio scope complete.** The final review covered the default-branch source and documentation, page landmarks, navigation and mobile-menu behavior by code inspection, contact destinations, active project descriptions, accessibility implementation, Vite base path, package lockfile, and deployment workflow configuration. No additional code defect was confirmed, so no application source changes were necessary.
+
+- [x] Review the final source and documentation state on `master`.
+- [x] Confirm the corrected muted-text color has approximately 8.1:1 source-calculated contrast against the page background.
+- [x] Confirm reduced-motion handling is present in the stylesheet and custom cursor effect.
+- [x] Confirm the GitHub Pages workflow is configured to install dependencies, lint, build, and deploy.
+- [ ] Run a fresh `npm ci`, `npm run lint`, and `npm run build` and confirm the latest GitHub Actions result.
+- [ ] Test the live site at desktop, tablet, and mobile sizes.
+- [ ] Verify rendered contrast, full keyboard operation, screen-reader behavior, and live project/contact links.
+
+The fresh build/workflow and live browser checks could not be completed in this review environment. The browser-testing service could not start because its available wallet balance was insufficient. These items remain explicit verification follow-ups; none is represented as a passed test. They do not require additional feature development and do not prevent moving on to the next repository.
 
 A successful automated build or deployment is not a substitute for manual browser and accessibility verification.
 
@@ -86,4 +93,4 @@ A successful automated build or deployment is not a substitute for manual browse
 
 Review date: 2026-11-19
 
-Latest accessibility refinement: contrast and reduced-motion source fixes are committed on master. The live browser and automated workflow checks could not be completed during this review, so those closeout items remain open.
+Latest accessibility refinements and documentation closeout are committed on `master`. Aster's core scope is complete and it remains in maintenance mode.
