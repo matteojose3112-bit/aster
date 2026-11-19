@@ -32,6 +32,8 @@ The active collection contains five project cards across five repositories: Aste
 - [x] Maintain README, roadmap, changelog, and case-study consistency.
 - [x] Run lint and production-build checks through GitHub Actions before deployment.
 - [x] Provide a skip link, semantic landmarks, visible focus styles, reduced-motion support, and keyboard-aware mobile navigation.
+- [x] Improve muted-text contrast against the near-black background at source level (approximately 8.1:1 for the corrected neutral text classes).
+- [x] Prevent custom cursor animation and decorative motion when reduced motion is requested.
 - [ ] Manually test desktop, tablet, and mobile layouts in a real browser.
 - [ ] Verify rendered contrast, full keyboard operation, and screen-reader behavior across all sections.
 
@@ -83,3 +85,5 @@ A successful automated build or deployment is not a substitute for manual browse
 **Guiding principle:** Build real things. Understand what you build. Learn from what breaks. Keep improving.
 
 Review date: 2026-11-19
+
+Latest accessibility refinement: contrast and reduced-motion source fixes are committed on master. The live browser and automated workflow checks could not be completed during this review, so those closeout items remain open.
