@@ -17,7 +17,7 @@ export const projects: Project[] = [
     title: "Aster",
     category: "Portfolio / Frontend Engineering",
     description:
-      "A personal portfolio and development journal that brings professional experience and six independent software projects into one clear, accessible presentation.",
+      "A personal portfolio and development journal that brings professional experience and four independent software projects into one clear, accessible presentation.",
     outcome:
       "A responsive React and TypeScript site with reusable sections, structured project data, interactive project cards, accessibility foundations, and an automated GitHub Pages deployment workflow.",
     role: "Independent project · Product direction · UI design · Frontend development · Accessibility · CI/CD · Documentation",
@@ -29,28 +29,15 @@ export const projects: Project[] = [
     caseStudy: "https://github.com/matteojose3112-bit/aster/blob/master/docs/case-studies/aster.md",
   },
   {
-    title: "FinTrack",
-    category: "Data Tools / CSV Processing",
-    description:
-      "A browser-based CSV inspection workspace for importing, previewing, searching, and understanding tabular data without uploading files to a server.",
-    outcome:
-      "A vanilla JavaScript and Vite application with local CSV parsing for quoted fields, escaped quotes, commas, and embedded newlines; tabular preview; cross-column search; dataset row, column, and empty-cell counts; and Vitest coverage. The JavaScript rebuild is at v0.1.0, with data-quality, cleaning, export, and publishing milestones still ahead.",
-    role: "Independent project · Product direction · Frontend development · CSV parsing and data handling · Privacy-conscious UX · Testing · Documentation",
-    technologies: ["JavaScript", "HTML5", "CSS3", "Vite", "Vitest", "ES Modules"],
-    status: "Rebuild in progress · v0.1.0",
-    featured: true,
-    github: "https://github.com/matteojose3112-bit/fintrack",
-  },
-  {
     title: "AgentForge",
     category: "AI Tooling / Go / Workflow Automation",
     description:
-      "An experimental Go runtime exploring how AI models can use tools through a bounded, provider-independent execution flow with explicit permission checks.",
+      "A lightweight Go runtime for controlled model/tool execution, with a bounded provider-independent orchestration layer and explicit permission checks.",
     outcome:
-      "A bounded model/tool loop, OpenAI Responses API adapter, schema-validated tool inputs and outputs, default-deny permissions, and local echo, text, CSV, and CRM lead-pipeline analysis tools. Deterministic local tools work without an API key; model-backed execution requires a configured provider key. Early-stage project, not production-ready.",
+      "A bounded model/tool loop, OpenAI Responses API adapter, schema-validated tool inputs and outputs, default-deny permissions, deterministic text/CSV/CRM analysis, a read-only Sales Operations report, bounded CRM CSV inspection, and a guided workspace connected to a bearer-protected Go API on Render. Authenticated sample CSV inspection is verified; authenticated report generation and a real provider-backed model/tool cycle remain unverified. Early-stage project, not production-ready.",
     role: "Independent project · Runtime and permission design · Go development · Provider integration · Tool interfaces · Testing · Documentation",
-    technologies: ["Go", "OpenAI Responses API", "net/http", "JSON Schema subset", "CLI", "GitHub Actions"],
-    status: "Early-stage · v0.3.0",
+    technologies: ["Go", "OpenAI Responses API", "net/http", "JSON Schema subset", "CLI", "HTTP API", "Render", "GitHub Pages", "GitHub Actions"],
+    status: "Early-stage · v0.4 workflow",
     featured: true,
     github: "https://github.com/matteojose3112-bit/agentforge",
     demo: "https://matteojose3112-bit.github.io/agentforge/",
@@ -76,7 +63,7 @@ export const projects: Project[] = [
     description:
       "An operations dashboard for teams that need a practical view of tasks, exceptions, account health, and performance against operating targets.",
     outcome:
-      "Interactive task and exception workflows, overdue detection, KPI target comparisons, account-health views, search and status filters, plus Supabase authentication and shared task/exception storage.",
+      "Supabase authentication and workspace-scoped task and exception reads and status updates, role-aware controls, overdue detection, KPI comparisons, search, and filters. Account health, KPI snapshots, and recent activity use illustrative sample data; shared-workspace and live authorization validation remain outstanding. Not yet production-validated.",
     role: "Independent project · Operations workflow design · Product development · Frontend engineering · Data modeling · Supabase integration",
     technologies: ["React", "TypeScript", "Vite", "Supabase", "PostgreSQL", "GitHub Actions", "GitHub Pages"],
     status: "Live MVP",
@@ -88,9 +75,9 @@ export const projects: Project[] = [
     title: "ClientPulse",
     category: "Customer Success / CRM Operations",
     description:
-      "A customer-success workspace for reviewing account health, spotting potential risks, and keeping customer follow-up visible from one dashboard.",
+      "A frontend-only customer-success dashboard for exploring illustrative account health, identifying potential risks, and organizing customer follow-up in a single browser.",
     outcome:
-      "A functional MVP with customer records, editable health scores and statuses, portfolio metrics, risk summaries, recent activity, search and filters, and browser-based persistence.",
+      "A single-browser MVP with illustrative customer records, editable health statuses and scores, portfolio metrics, risk summaries, a static sample activity feed, search and filters, and local-storage persistence. It has no authentication, backend, database, multi-user sync, or live CRM integration; records are demonstration data only.",
     role: "Independent project · Customer-success workflow design · Product development · Frontend engineering · Data modeling",
     technologies: ["React", "TypeScript", "Vite", "Tailwind CSS", "Local Storage", "GitHub Pages"],
     status: "Live MVP",
