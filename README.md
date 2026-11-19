@@ -78,9 +78,10 @@ Provide customer service and operational support across residential plumbing and
 - Direct contact and professional profile links: email, LinkedIn, GitHub, Upwork, and Fiverr
 - Semantic page landmarks, a skip-to-content link, visible focus indicators, accessible mobile navigation controls, and reduced-motion support
 - Detailed project case study for Aster in [docs/case-studies/aster.md](docs/case-studies/aster.md)
-- Detailed FinTrack case study in [docs/case-studies/fintrack.md](docs/case-studies/fintrack.md), including architecture, quality checks, deployment, and remaining limitations
-- **Solution Studio:** a deployed five-studio business-solutions workshop for research briefs, document extraction, CSV/XLSX processing, controlled text automation, and static website starter generation. [Repository](https://github.com/matteojose3112-bit/solution-studio) · [Live demo](https://solution-studio-secb.onrender.com) · [Case study](docs/case-studies/solution-studio.md). Browser upload QA for Data and Documents remains pending; the case study records the verified scope and limitations.
-- **AgentForge:** a lightweight Go runtime for controlled model-to-tool execution, with an OpenAI Responses adapter, default-deny permissions, bounded tool execution, and deterministic local analysis tools. [Repository](https://github.com/matteojose3112-bit/agentforge) · [Live project site](https://matteojose3112-bit.github.io/agentforge/)
+- **Solution Studio:** a deployed five-studio business-solutions workspace for research briefs, document extraction, CSV/XLSX processing, controlled text automation, and static website starter generation. Browser file-picker QA for Data and Documents remains pending. [Repository](https://github.com/matteojose3112-bit/solution-studio) · [Live demo](https://solution-studio-secb.onrender.com) · [Case study](docs/case-studies/solution-studio.md)
+- **OpsFlow:** a deployed operations dashboard with Supabase authentication and workspace-scoped task and exception workflows. Accounts, KPI snapshots, and activity remain sample data; shared-workspace and live authorization validation are outstanding. [Repository](https://github.com/matteojose3112-bit/opsflow) · [Live demo](https://matteojose3112-bit.github.io/opsflow/)
+- **ClientPulse:** a frontend-only customer-success dashboard with illustrative records, editable health status, search, filters, and browser-local persistence. It has no backend, authentication, or multi-user sync. [Repository](https://github.com/matteojose3112-bit/clientpulse) · [Live demo](https://matteojose3112-bit.github.io/clientpulse/)
+- **AgentForge:** a lightweight Go runtime for controlled model/tool execution, with a bounded orchestration loop, OpenAI Responses adapter, default-deny permissions, deterministic analysis tools, a read-only Sales Operations workflow, and a bearer-protected API deployed on Render. Authenticated sample CSV inspection is verified; report generation and a live provider-backed model/tool cycle remain unverified. [Repository](https://github.com/matteojose3112-bit/agentforge) · [Live project site](https://matteojose3112-bit.github.io/agentforge/)
 - Automated deployment through GitHub Actions, with ESLint and production build checks before deployment
 
 ## Portfolio Accuracy
@@ -129,7 +130,7 @@ See [ROADMAP.md](ROADMAP.md) for planned work and [CHANGELOG.md](CHANGELOG.md) f
 
 ## Status
 
-**Core portfolio complete · Maintenance mode.** The portfolio foundation, six-project collection, documentation, accessibility foundations, and automated deployment checks are in place. Future changes will be limited to fixing issues, keeping project information accurate, and adding meaningful case studies or work when they are ready. Manual browser and accessibility verification remain worthwhile maintenance checks, not blockers to moving on to the next project.
+**Core portfolio complete · Maintenance mode.** The portfolio foundation, five-card collection (Aster plus four independent software projects), documentation, accessibility foundations, and automated deployment checks are in place. Future changes will be limited to fixing issues, keeping project information accurate, and adding meaningful case studies or work when they are ready. Manual browser and accessibility verification remain worthwhile maintenance checks, not blockers to moving on to the next project.
 
 ## Author
 
@@ -143,17 +144,26 @@ Built with React, TypeScript, Vite, and Tailwind CSS.
 
 ## Documentation review — 2026-11-10
 
-Portfolio documentation reviewed on 2026-11-10. The active collection contains six repositories: Aster, ClientPulse, OpsFlow, FinTrack, AgentForge, and Solution Studio. Keep project cards and case studies aligned with each repository's verified implementation; do not imply production readiness where live acceptance or security checks remain open.
+Portfolio documentation reviewed on 2026-11-19. The active collection contains five repositories: Aster, AgentForge, Solution Studio, OpsFlow, and ClientPulse. FinTrack has been removed from Aster's active portfolio and case-study collection; its separate repository is not deleted. Keep project cards aligned with each linked repository's verified implementation and do not imply production readiness where validation remains open.
 
 ## Project card refinement — 2026-11-12
 
-Reworked all six project-card descriptions, build summaries, and role statements for clearer, more consistent presentation. The copy now distinguishes each project's purpose, concrete implementation, and independent-project contribution while retaining current status labels and known QA limitations.
+Reworked the active project-card descriptions, build summaries, and role statements for clearer, more consistent presentation. The copy distinguishes each project's purpose, concrete implementation, and independent-project contribution while retaining current status labels and known QA limitations.
 
 ## Selected work introduction — 2026-11-12
 
-Expanded the Projects section introduction to explain the practical problems behind the portfolio, the range of the six independent projects, and how professional experience in sales, service, CRM, and operations informs the software being built. The copy also clarifies the independent, learning-oriented nature of the work and the commitment to showing current capabilities and limitations.
+Expanded the Projects section introduction to explain the practical problems behind the portfolio, the range of four independent software projects, and how professional experience in sales, service, CRM, and operations informs the software being built. The copy also clarifies the independent, learning-oriented nature of the work and the commitment to showing current capabilities and limitations.
 
 
 ## About and Toolkit distinction — 2026-11-12
 
 The About section now focuses on three professional-strength areas: Revenue & Business Operations, CRM & Customer Success, and Analytics & Process Improvement. The dedicated Toolkit section remains the comprehensive catalogue of business capabilities, platforms, development technologies, and delivery tools. This keeps the introduction focused on professional positioning while preserving the detailed skills inventory in one place.
+
+
+## Portfolio review — 2026-11-19
+
+The active portfolio contains **five project cards across five repositories**: Aster, AgentForge, Solution Studio, OpsFlow, and ClientPulse. This is Aster plus **four independent software projects**. FinTrack has been removed from the Aster portfolio and its FinTrack-specific case-study link and document have been retired from this repository; the separate FinTrack repository remains independent.
+
+AgentForge's card reflects its v0.4 Sales Operations workflow and deployed API while retaining its outstanding report-generation and provider-backed model/tool validation. OpsFlow's card distinguishes Supabase-backed task/exception workflows from sample account, KPI, and activity data, and identifies outstanding shared-workspace validation. ClientPulse is described as a frontend-only, single-browser demonstration with illustrative records and local-storage persistence.
+
+The About section now states Intermediate French to match the professional resume. Manual cross-device browser, contrast, keyboard, and assistive-technology checks remain open and are not claimed as complete.
