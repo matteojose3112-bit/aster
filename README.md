@@ -98,7 +98,7 @@ npm run lint
 npm run build
 ```
 
-The GitHub Actions deployment workflow runs linting and the TypeScript/Vite production build before publishing to GitHub Pages.
+The GitHub Actions deployment workflow is configured to run dependency installation, ESLint, and the TypeScript/Vite production build before publishing to GitHub Pages. During the 2026-11-19 final QA review, these commands could not be executed in the review environment, and no successful workflow run for the latest commits could be confirmed. Treat the commands above as the required repeatable verification procedure, not as a claim that a fresh build passed.
 
 ## Project Structure
 
@@ -130,7 +130,7 @@ See [ROADMAP.md](ROADMAP.md) for planned work and [CHANGELOG.md](CHANGELOG.md) f
 
 ## Status
 
-**Core portfolio complete · Maintenance mode.** The portfolio foundation, five-card collection (Aster plus four independent software projects), documentation, accessibility foundations, and automated deployment checks are in place. Future changes will be limited to fixing issues, keeping project information accurate, and adding meaningful case studies or work when they are ready. Manual browser and accessibility verification remain worthwhile maintenance checks, not blockers to moving on to the next project.
+**Ready for maintenance · Core portfolio scope complete.** The portfolio foundation, five-card collection (Aster plus four independent software projects), documentation, accessibility foundations, and configured automated deployment checks are in place. The final source-and-documentation QA review found no confirmed code defect requiring another change. Fresh lint/build execution, live desktop/tablet/mobile browser testing, rendered contrast and keyboard checks, and assistive-technology verification remain unconfirmed follow-ups. Future changes should be limited to concrete fixes, accurate project information, and meaningful case studies or work when ready.
 
 ## Author
 
@@ -167,3 +167,12 @@ The active portfolio contains **five project cards across five repositories**: A
 AgentForge's card reflects its v0.4 Sales Operations workflow and deployed API while retaining its outstanding report-generation and provider-backed model/tool validation. OpsFlow's card distinguishes Supabase-backed task/exception workflows from sample account, KPI, and activity data, and identifies outstanding shared-workspace validation. ClientPulse is described as a frontend-only, single-browser demonstration with illustrative records and local-storage persistence.
 
 The About section now states Intermediate French to match the professional resume. Manual cross-device browser, contrast, keyboard, and assistive-technology checks remain open and are not claimed as complete.
+
+
+## Final QA closeout — 2026-11-19
+
+Completed a final source and documentation review of the default `master` branch. Reviewed the page structure, primary and mobile navigation implementation, contact destinations, project collection descriptions, accessibility changes, Vite base path, package lockfile, and GitHub Pages workflow configuration. No additional source-code defect was confirmed, so no application code was changed during this pass.
+
+The corrected muted-text color (#a3a3a3 on #050505) has an approximately 8.1:1 contrast ratio by source-level calculation. Reduced-motion handling is present in both the stylesheet and custom cursor effect. The deployment workflow is configured for `npm ci`, lint, build, and Pages deployment.
+
+A fresh local dependency install/lint/build and a successful latest GitHub Actions run could not be verified. Live desktop/mobile interaction, rendered accessibility, and assistive-technology testing also remain outstanding; the browser-testing service could not start because its available wallet balance was insufficient. These are recorded as follow-up verification items, not as passed tests. Aster's planned development scope is complete and the repository remains in maintenance mode.
