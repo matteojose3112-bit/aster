@@ -17,18 +17,18 @@ function Projects() {
               <p>
                 I build software around practical problems: keeping customer
                 relationships organized, making day-to-day operations easier to
-                manage, understanding financial activity, and turning repetitive
-                work into clearer workflows. The goal is not to build technology
+                manage, improving sales and service workflows, and turning repetitive
+                work into clearer systems. The goal is not to build technology
                 for its own sake, but to make useful ideas tangible through tools
                 people can explore and work with.
               </p>
               <p>
-                This collection brings together six independent projects, from
-                business and customer-operations tools to finance, automation,
-                and AI-assisted development. Each one is a chance to take an idea
-                beyond a concept: define the problem, shape the experience, build
-                the working parts, test what I can, and document what still needs
-                attention.
+                This collection brings together four independent software projects, alongside
+                this portfolio: tools for business and customer operations, controlled
+                AI-assisted workflows, and practical business problem-solving. Each
+                project takes an idea beyond a concept: define the problem, shape the
+                experience, build the working parts, test what I can, and document
+                what still needs attention.
               </p>
               <p>
                 My background in sales, service, CRM, and business operations
