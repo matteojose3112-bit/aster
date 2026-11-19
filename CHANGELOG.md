@@ -1,5 +1,24 @@
 # Changelog
 
+## [0.16.0] — Portfolio collection cleanup & accuracy review — 2026-11-19
+
+### Updated
+- Removed FinTrack from Aster's active project cards and retired its obsolete Aster-hosted case study. The separate FinTrack repository was not deleted.
+- Updated the active collection to five project cards across five repositories: Aster, AgentForge, Solution Studio, OpsFlow, and ClientPulse (Aster plus four independent software projects).
+- Updated AgentForge's card to reflect the v0.4 Sales Operations workflow and deployed API, while preserving unverified report-generation and provider-backed model/tool validation as open items.
+- Clarified OpsFlow's Supabase-backed task/exception functionality, sample-data boundaries, and outstanding shared-workspace validation.
+- Clarified ClientPulse's illustrative data, browser-local persistence, and frontend-only/single-browser scope.
+- Corrected the About language level to Intermediate French.
+- Reconciled the README, roadmap, and Aster case study with the active collection.
+- Identified stale draft PR #2 for closure because its earlier project-count and collection assumptions are superseded by the current default-branch state.
+
+### Verification
+- Source and documentation review completed.
+- Manual desktop/tablet/mobile, keyboard, contrast, and assistive-technology verification remain open.
+- A fresh GitHub Actions run is required to verify lint, build, and deployment after these changes.
+
+---
+
 ## [0.15.0] — About & Toolkit role separation — 2026-11-12
 
 ### Updated
