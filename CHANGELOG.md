@@ -1,5 +1,21 @@
 # Changelog
 
+## [0.17.0] — Accessibility contrast & reduced-motion refinement — 2026-11-19
+
+### Updated
+- Raised muted interface text using Tailwind neutral-500, neutral-600, and neutral-700 classes to #a3a3a3 against the #050505 page background. The resulting contrast is approximately 8.1:1, exceeding WCAG AA's 4.5:1 threshold for normal text.
+- Updated the custom cursor effect to skip initialization when the operating system requests reduced motion.
+- Extended the reduced-motion stylesheet to remove cursor visuals, restore the native cursor, disable decorative motion, and preserve visible section content without scroll-reveal transitions.
+
+### Verification
+- Confirmed the changes are present on the default `master` branch.
+- Source-level contrast calculation and reduced-motion implementation review completed.
+- GitHub Actions status checks were not available for the latest commit at review time.
+- Live browser, viewport, keyboard, and assistive-technology verification remain outstanding; no successful browser run or deployment verification is claimed.
+
+---
+
+
 ## [0.16.0] — Portfolio collection cleanup & accuracy review — 2026-11-19
 
 ### Updated
