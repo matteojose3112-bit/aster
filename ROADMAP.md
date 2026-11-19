@@ -1,188 +1,85 @@
 # Aster Roadmap
 
-Aster is an evolving software portfolio and development record. This roadmap tracks the portfolio's current state and the next steps toward a stronger collection of real software projects, experiments, milestones, and technical work.
+Aster is the personal portfolio and development record for professional experience and independent software work. This roadmap tracks the portfolio's own scope; individual application roadmaps remain in their respective repositories.
 
-The roadmap is intentionally flexible. Priorities may change as new ideas, technologies, and projects emerge.
+**Current status: Core portfolio complete · Maintenance and accuracy work only**
 
----
-
-## 🟢 Phase 1 — Foundation
-
-**Status: Completed**
-
-- [x] Build and deploy the initial portfolio application
-- [x] Implement React, TypeScript, and Vite
-- [x] Create responsive UI and reusable React components
-- [x] Build About, Experience, Projects, Toolkit, and Contact sections
-- [x] Add structured project data and interactive UI effects
-- [x] Configure Git, GitHub, GitHub Pages, and GitHub Actions deployment
-- [x] Establish Aster as the foundation for future work
+The active collection contains five project cards across five repositories: Aster, AgentForge, Solution Studio, OpsFlow, and ClientPulse. That is Aster plus four independent software projects. FinTrack has been removed from Aster's active collection and its case study retired from this repository; its separate repository remains independent.
 
 ---
 
-## 🔵 Phase 2 — Portfolio Accuracy, Quality & Presentation
+## Phase 1 — Foundation
 
-**Status: Complete · Maintenance mode**
+**Status: Complete**
 
-Make the portfolio a clear, credible representation of real experience, transferable skills, and software development progress.
+- [x] Build and deploy the React, TypeScript, and Vite portfolio.
+- [x] Create responsive sections for About, Projects, Experience, Toolkit, and Contact.
+- [x] Establish reusable components and structured project data.
+- [x] Configure GitHub Pages hosting and GitHub Actions deployment.
 
-- [x] Replace generic experience content with actual roles, employers, locations, and dates
-- [x] Add experience-based responsibilities, tools, and measurable outcomes where available
-- [x] Align the About section with real experience across hospitality, real estate, roofing, sales operations, and customer service
-- [x] Organize the Toolkit around practical business skills, CRM platforms, and development tools
-- [x] Build a Contact hub for remote opportunities, freelance projects, and collaborations, with email, LinkedIn, GitHub, Upwork, and Fiverr links
-- [x] Keep the README, roadmap, and changelog aligned with the portfolio's current direction
-- [x] Add FinTrack
-- [x] Add AgentForge (Go-based model/tool execution runtime) to the project collection with its repository and live demo links
-- [x] Add Solution Studio to the project collection with repository, live demo, and a scope-accurate case study
-- [x] Label project cards accurately as project overviews rather than complete case studies
-- [x] Add ESLint to the GitHub Actions deployment checks
-- [x] Confirm the workflow passes linting and the TypeScript/Vite production build
-- [x] Add a skip-to-content link and visible keyboard focus styling
-- [x] Respect reduced-motion preferences in the portfolio experience
-- [x] Remove closed mobile navigation links from keyboard tab order and support Escape to close the menu
-- [x] Give the primary navigation landmark an accessible name
-- [x] Place the skip link and navigation outside the main content landmark
-- [x] Create the first detailed project case study with goals, implementation, design decisions, outcomes, and limitations
-- [x] Review the Aster project card and remove unsupported API-integration claims
-- [x] Audit the remaining project summaries, technologies, statuses, experience descriptions, tool lists, and approximate metrics for internal consistency
-- [ ] Manually validate layout and navigation at representative mobile, tablet, and desktop viewport sizes (maintenance check)
-- [ ] Review rendered contrast, semantics, and keyboard behavior across every section (maintenance check)
-- [x] Add detailed case studies for Aster and FinTrack
-- [x] Add project technologies, architecture notes, and GitHub/live-demo links consistently where available
-- [x] Establish baseline documentation standards for the portfolio and selected projects
+## Phase 2 — Professional Profile & Portfolio Accuracy
 
-**Closeout note:** Source-level consistency, core documentation, case studies for Aster and FinTrack, accessibility foundations, and automated deployment checks are complete. Manual browser testing and rendered contrast/keyboard verification remain maintenance checks; they are not being represented as completed.
+**Status: Source-level review complete · Manual verification remains**
 
----
+- [x] Present professional roles, employers, locations, dates, responsibilities, tools, and approximate impact metrics.
+- [x] Align About with Revenue Operations, Business Operations, CRM, Customer Success, and Analytics.
+- [x] Keep the detailed seven-group skills catalogue in the Toolkit section.
+- [x] Keep credentials and language levels aligned with the professional resume.
+- [x] Maintain direct contact links for email, LinkedIn, GitHub, Upwork, and Fiverr.
+- [x] Remove FinTrack from the active Aster project collection and retire its obsolete case study.
+- [x] Reconcile the remaining project cards with their current repositories.
+- [x] Distinguish project maturity and validation limitations instead of implying production readiness.
+- [x] Maintain README, roadmap, changelog, and case-study consistency.
+- [x] Run lint and production-build checks through GitHub Actions before deployment.
+- [x] Provide a skip link, semantic landmarks, visible focus styles, reduced-motion support, and keyboard-aware mobile navigation.
+- [ ] Manually test desktop, tablet, and mobile layouts in a real browser.
+- [ ] Verify rendered contrast, full keyboard operation, and screen-reader behavior across all sections.
 
-## 🟣 Phase 3 — Project Collection
+## Phase 3 — Active Project Collection
 
-**Status: Active collection; ongoing**
+**Status: Current collection established · Maintenance mode**
 
-Add practical software projects that demonstrate problem-solving and continued learning.
+- [x] Aster — portfolio and development record.
+- [x] AgentForge — controlled Go model/tool runtime and read-only Sales Operations workflow.
+- [x] Solution Studio — modular business-solutions workspace.
+- [x] OpsFlow — operations dashboard with Supabase-backed task and exception workflows.
+- [x] ClientPulse — frontend-only customer-success dashboard with browser-local persistence.
+- [x] Maintain a repository and live-demo link where one exists.
+- [x] Keep project descriptions grounded in implemented functionality and known limitations.
+- [ ] Add further case studies only when they provide meaningful evidence for a selected project.
 
-- [x] Add Aster portfolio
-- [x] Add ClientPulse
-- [x] Add OpsFlow
-- [x] Add FinTrack
-- [x] Add AgentForge
-- [x] Add Solution Studio
-- [x] Create a detailed case study for Aster
-- [x] Create a detailed case study for FinTrack
-- [x] Create a detailed case study for Solution Studio
-- [ ] Create further case studies only when they add meaningful evidence for a selected project
-- [ ] Keep each project's status, technologies, repository, and demo links accurate
+## Phase 4 — Development Journal
 
-Future project categories may include productivity tools, business and operations tools, data and analytics, automation, API-driven applications, AI-assisted applications, and developer utilities.
+**Status: Ongoing, as meaningful work occurs**
 
----
+- [x] Maintain a roadmap and changelog.
+- [x] Document Aster's implementation and selected project work.
+- [ ] Record major technical discoveries and architectural decisions when they add lasting value.
+- [ ] Document difficult bugs, solutions, and lessons learned when relevant.
 
-## 🟡 Phase 4 — Development Journal
+## Phase 5 — Integrations & Automation
 
-**Status: In Progress**
+**Status: Optional future consideration · Not a completion requirement**
 
-Maintain a useful record of meaningful changes and learning, not just the finished results.
-
-- [x] Establish a project changelog
-- [x] Maintain a development roadmap
-- [x] Document the portfolio's real-world experience and skill updates
-- [ ] Record major technical discoveries and architectural decisions
-- [ ] Document difficult bugs, solutions, and lessons learned
-- [ ] Track new technologies and skills through completed work
-- [ ] Write technical case studies for selected projects
+- [ ] Evaluate repository metadata automation only if manual updates become a real maintenance burden.
+- [ ] Consider additional integrations only when there is a clear use case.
+- [x] Keep lint and production-build checks in the deployment workflow.
 
 ---
 
-## 🟠 Phase 5 — Integrations & Automation
+## Closeout standard
 
-**Status: Future consideration**
+Aster should remain in maintenance mode. Reopen work only for a concrete correction, meaningful new evidence, or a clearly valuable improvement. Do not add features for their own sake.
 
-Reduce manual maintenance where automation provides real value. These are optional enhancements, not blockers to completing the portfolio.
+Before calling the repository fully closed out:
 
-- [ ] Evaluate GitHub API integration for project metadata
-- [ ] Explore automated project and repository activity updates
-- [ ] Consider useful development statistics
-- [x] Add lint and production-build checks to the deployment workflow
-- [ ] Evaluate additional APIs and services when there is a clear use case
+- [ ] Confirm the latest GitHub Actions lint, build, and deployment workflow succeeds after the current changes.
+- [ ] Review the live site at desktop, tablet, and mobile sizes.
+- [ ] Complete keyboard, focus, contrast, and assistive-technology checks.
+- [ ] Verify all project, contact, repository, and demo links.
 
----
+A successful automated build or deployment is not a substitute for manual browser and accessibility verification.
 
-## 🔴 Phase 6 — Advanced Projects
+**Guiding principle:** Build real things. Understand what you build. Learn from what breaks. Keep improving.
 
-**Status: Ongoing through individual projects**
-
-Build toward increasingly capable, production-oriented software as experience grows. Full-stack applications, database-backed workflows, authentication, APIs, AI, data, and automation should be evaluated within each project rather than treated as prerequisites for the portfolio itself.
-
----
-
-## 🏁 Long-Term Vision
-
-Aster is intended to become more than a portfolio website. It will be a central record of my development as a software builder: what I build, what I learn, the problems I solve, and how my technical abilities develop over time.
-
-**Learn → Build → Experiment → Debug → Understand → Improve → Document → Repeat**
-
-## Guiding Principle
-
-> **Build real things. Understand what you build. Learn from what breaks. Keep improving.**
-
-Aster’s core portfolio scope is complete and the repository is now in maintenance mode. Reopen work only for meaningful corrections, new evidence, or a clearly valuable portfolio improvement; do not extend the portfolio for its own sake.
-
----
-
-Review date: 2026-11-10
-
-## Professional profile expansion — 2026-11-12
-
-**Status: Implemented on branch; verification pending.**
-
-- [x] Expand Colt Home Services with call operations, lead sources, conversion, dispatch, CRM, Mass Save, and service coordination.
-- [x] Expand freelance experience with independent business development, AI-assisted workflows, client discovery, and delivery.
-- [x] Expand Laureles Management with revenue, pipeline, SLA, booking, contract, event, and network coordination metrics.
-- [x] Expand Inmobiliaria del Café with CRM scale, listings, conversion, transactions, marketing, and process improvements.
-- [x] Expand 416 Roofing with lead flow, estimates, project delivery, crew dispatch, procurement, payments, and marketing.
-- [x] Reposition About around RevOps, Sales Operations, Business Operations, CRM, Customer Success, and Analytics.
-- [x] Keep the comprehensive seven-group skills catalogue in the dedicated Toolkit section.
-- [x] Replace the duplicate About skills catalogue with three concise professional-strength pillars.
-- [ ] Confirm credential names and any additional certifications against the actual certificates before adding them.
-
-## Current direction — 2026-11-10
-
-**Core portfolio: complete · Maintenance mode.** The active collection contains six repositories: Aster, ClientPulse, OpsFlow, FinTrack, AgentForge, and Solution Studio. AgentForge is represented with its GitHub repository and live GitHub Pages site. Keep the portfolio's project cards, case studies, technology lists, and status labels synchronized with each active repository. Prioritize accurate evidence and meaningful case studies over adding another portfolio feature. Manual viewport, contrast, and keyboard checks remain maintenance tasks.
-
-## Project card refinement — 2026-11-12
-
-**Status: Copy updated; code verification pending.**
-
-- [x] Rewrite all six project descriptions to state each product's purpose and intended user value.
-- [x] Refocus each "What I built" summary on concrete implemented functionality, architecture, and verified QA status.
-- [x] Standardize role statements as independent-project contributions without presenting personal projects as employment.
-- [x] Preserve project-specific maturity labels and outstanding QA limitations.
-- [x] Synchronize README and changelog with the portfolio copy update.
-- [ ] Run lint and production build checks on the completed branch.
-- [ ] Review the rendered six-card section at mobile, tablet, and desktop sizes.
-
-## Selected work introduction — 2026-11-12
-
-**Status: Implemented on branch; verification pending.**
-
-- [x] Explain the practical business and everyday problems that motivate the project collection.
-- [x] Introduce the six projects by their broad areas: customer and business operations, finance, automation, and AI-assisted development.
-- [x] Connect professional experience in sales, service, CRM, and operations to the problems explored through independent software projects.
-- [x] Clarify that the projects are independent work and learning in progress, with current capabilities and limitations represented honestly.
-- [x] Synchronize README and changelog.
-- [ ] Run lint and production build checks on the completed branch.
-- [ ] Review the longer introduction at mobile, tablet, and desktop widths for reading comfort and balance.
-
-
-## About and Toolkit refinement — 2026-11-12
-
-**Status: Implemented; verification pending.**
-
-- [x] Remove the duplicated six-group skills inventory from the About section.
-- [x] Replace it with three professional-strength pillars: Revenue & Business Operations; CRM & Customer Success; Analytics & Process Improvement.
-- [x] Preserve the dedicated Toolkit section as the complete seven-group catalogue of platforms, business capabilities, development technologies, and delivery tools.
-- [x] Retain credentials, languages, and citizenship information in About.
-- [x] Synchronize README and changelog.
-- [ ] Run lint and production build checks.
-- [ ] Review About and Toolkit at mobile, tablet, and desktop widths.
+Review date: 2026-11-19
