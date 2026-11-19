@@ -1,13 +1,13 @@
 # Aster — Portfolio & Development Record
 
 **Project type:** Personal portfolio / frontend application  
-**Status:** Live and actively maintained  
+**Status:** Live and maintained  
 **Live site:** https://matteojose3112-bit.github.io/aster/  
 **Repository:** https://github.com/matteojose3112-bit/aster
 
 ## Overview
 
-Aster is a personal portfolio and development record that brings professional experience, practical software projects, and ongoing technical learning into one place. It is designed to show both the work itself and the process of building, testing, documenting, and improving it.
+Aster is a personal portfolio and development record that brings professional experience and four independent software projects into one place. It presents the work itself alongside the process of building, testing, documenting, and improving it.
 
 ## Goals
 
@@ -20,27 +20,27 @@ Aster is a personal portfolio and development record that brings professional ex
 
 The site is built with React, TypeScript, Vite, and Tailwind CSS. The interface is divided into reusable layout and section components, while project information is maintained as structured data in `portfolio/src/data/projects.ts`.
 
-The main page includes About, Projects, Experience, Toolkit, and Contact sections. Project cards are data-driven and show each project's purpose, current status, contribution, technologies, and available repository or demo links.
+The main page includes About, Projects, Experience, Toolkit, and Contact sections. Five project cards represent Aster itself plus four independent software projects: AgentForge, Solution Studio, OpsFlow, and ClientPulse. Cards are data-driven and show each project's purpose, current status, contribution, technologies, and available repository or demo links.
 
 GitHub Actions runs ESLint and the TypeScript/Vite production build before deployment to GitHub Pages. The project also includes reduced-motion handling, visible keyboard focus styles, a skip link, and keyboard support for the mobile navigation.
 
 ## Design and engineering decisions
 
 - **Structured project data:** project details are kept separate from presentation components, making the collection easier to update consistently.
-- **Honest project status:** cards distinguish live MVPs, functional service workflows, and projects whose end-to-end validation is still underway.
+- **Honest project status:** cards distinguish deployed MVPs and early-stage projects from work whose live end-to-end validation is still underway.
 - **Progressive quality checks:** linting and production builds run automatically before publishing.
 - **Accessibility-minded interaction:** motion preferences, keyboard focus, navigation state, and page landmarks are treated as part of the implementation rather than visual polish alone.
 - **Small, maintainable components:** the page is composed from focused sections and reusable project cards instead of one monolithic component.
 
 ## Outcome
 
-Aster is deployed as a live portfolio and currently presents six projects: Aster, FinTrack, OpsFlow, ClientPulse, the Transcription & Content Toolkit, and the Research & Reporting Toolkit. It provides direct paths to the project repositories and available demos, alongside professional and freelance contact links.
+Aster is deployed as a live portfolio featuring five project cards: Aster and four independent software projects. It provides direct paths to the project repositories and available demos, alongside professional and freelance contact links.
 
 ## Current limitations and next improvements
 
 - Manual testing across representative mobile, tablet, and desktop viewports remains necessary.
-- Contrast and keyboard behavior still need a full rendered-page review.
-- Additional project-specific case studies should be added for selected projects.
+- Rendered contrast, keyboard behavior, and screen-reader behavior require direct browser verification.
+- Additional project-specific case studies should be added only when they provide meaningful evidence.
 - Performance should be measured before making performance claims or optimizations based on metrics.
 
 ## Technology
