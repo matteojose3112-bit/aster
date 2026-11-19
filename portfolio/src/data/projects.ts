@@ -30,18 +30,16 @@ export const projects: Project[] = [
   },
   {
     title: "FinTrack",
-    category: "Personal Finance / Full-Stack Application",
+    category: "Data Tools / CSV Processing",
     description:
-      "A personal finance application designed to bring income, spending, budgets, savings goals, and cash-flow activity into a single account-based workspace.",
+      "A browser-based CSV inspection workspace for importing, previewing, searching, and understanding tabular data without uploading files to a server.",
     outcome:
-      "A React frontend and FastAPI backend backed by PostgreSQL, with authenticated user workspaces, transaction and budget workflows, savings goals, financial summaries, CSV export, database migrations, and automated frontend/backend tests. Deployed MVP; live end-to-end acceptance testing remains in progress.",
-    role: "Independent project · Product development · Full-stack implementation · API and data modeling · Authentication · Testing · Deployment",
-    technologies: ["React", "Vite", "Tailwind CSS", "Python", "FastAPI", "PostgreSQL", "SQLAlchemy", "Alembic", "JWT", "pytest", "Vitest", "Render"],
-    status: "Deployed MVP · E2E testing",
+      "A vanilla JavaScript and Vite application with local CSV parsing for quoted fields, escaped quotes, commas, and embedded newlines; tabular preview; cross-column search; dataset row, column, and empty-cell counts; and Vitest coverage. The JavaScript rebuild is at v0.1.0, with data-quality, cleaning, export, and publishing milestones still ahead.",
+    role: "Independent project · Product direction · Frontend development · CSV parsing and data handling · Privacy-conscious UX · Testing · Documentation",
+    technologies: ["JavaScript", "HTML5", "CSS3", "Vite", "Vitest", "ES Modules"],
+    status: "Rebuild in progress · v0.1.0",
     featured: true,
     github: "https://github.com/matteojose3112-bit/fintrack",
-    demo: "https://fintrack-web-int6.onrender.com",
-    caseStudy: "https://github.com/matteojose3112-bit/aster/blob/master/docs/case-studies/fintrack.md",
   },
   {
     title: "AgentForge",
