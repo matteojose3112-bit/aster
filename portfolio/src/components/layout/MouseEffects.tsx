@@ -7,6 +7,7 @@ function MouseEffects() {
   const ringPosition = useRef({ x: -100, y: -100 });
 
   useEffect(() => {
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
     if (!window.matchMedia("(hover: hover) and (pointer: fine)").matches) return;
     const dot = dotRef.current;
     const ring = ringRef.current;
