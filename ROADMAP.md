@@ -4,7 +4,7 @@ Aster is the personal portfolio and development record for professional experien
 
 **Current status: Core scope complete · Ready for maintenance; final verification follow-ups remain**
 
-The active collection contains five project cards across five repositories: Aster, AgentForge, Solution Studio, OpsFlow, and ClientPulse. That is Aster plus four independent software projects. FinTrack has been removed from Aster's active collection and its case study retired from this repository; its separate repository remains independent.
+The active collection contains six project cards across six repositories: Aster, AgentForge, Solution Studio, OpsFlow, ClientPulse, and FinTrack. That is Aster plus five independent software projects. FinTrack's current card links to its standalone repository and live browser-local demo.
 
 ---
 
@@ -46,6 +46,7 @@ The active collection contains five project cards across five repositories: Aste
 - [x] Solution Studio — modular business-solutions workspace.
 - [x] OpsFlow — operations dashboard with Supabase-backed task and exception workflows.
 - [x] ClientPulse — frontend-only customer-success dashboard with browser-local persistence.
+- [x] FinTrack — browser-local personal-finance dashboard with account-linked ledger, CSV review, paired transfers, and recurring-rule reminders.
 - [x] Maintain a repository and live-demo link where one exists.
 - [x] Keep project descriptions grounded in implemented functionality and known limitations.
 - [ ] Add further case studies only when they provide meaningful evidence for a selected project.
@@ -94,3 +95,10 @@ A successful automated build or deployment is not a substitute for manual browse
 Review date: 2026-11-19
 
 Latest accessibility refinements and documentation closeout are committed on `master`. Aster's core scope is complete and it remains in maintenance mode.
+
+
+## Project collection refresh — 2026-11-24
+
+- [x] Restore FinTrack as the sixth Section 02 project card with repository and live-demo links.
+- [x] Align the card and README with FinTrack v0.4.8 capabilities and explicitly document its browser-local demo boundaries.
+- [x] Keep the shared ProjectCard component and structured project-data pattern; no separate card implementation is needed.

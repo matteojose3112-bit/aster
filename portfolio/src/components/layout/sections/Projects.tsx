@@ -23,7 +23,7 @@ function Projects() {
                 people can explore and work with.
               </p>
               <p>
-                This collection brings together four independent software projects, alongside
+                This collection brings together five independent software projects, alongside
                 this portfolio: tools for business and customer operations, controlled
                 AI-assisted workflows, and practical business problem-solving. Each
                 project takes an idea beyond a concept: define the problem, shape the

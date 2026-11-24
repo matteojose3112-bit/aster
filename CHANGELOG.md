@@ -1,5 +1,23 @@
 # Changelog
 
+## [0.19.0] — FinTrack portfolio integration — 2026-11-24
+
+### Added
+- Restored FinTrack to Section 02 — Selected work as the sixth project card, using the existing shared ProjectCard component and structured project data.
+- Added direct links to the FinTrack GitHub repository and live GitHub Pages demo.
+- Described the current v0.4.8 finance workspace: account-linked ledger balances, exact-precision money utilities, CSV import/export and reconciliation, local import audit history, paired transfers, and recurring-rule reminders.
+
+### Accuracy
+- Clarified that FinTrack currently runs as a browser-local demo with illustrative data.
+- Explicitly stated that production authentication, hosted user-specific persistence, live bank/brokerage connections, market pricing, and trade execution are not available.
+- Updated the Section 02 introduction, README, and roadmap to reflect six cards across six repositories.
+
+### Verification
+- The project card uses the existing shared layout and requires no new card component or styling system.
+- Fresh lint, production build, and GitHub Pages deployment checks are required before calling the portfolio update live.
+
+---
+
 ## [0.18.0] — Final QA & maintenance-mode closeout — 2026-11-19
 
 ### Reviewed

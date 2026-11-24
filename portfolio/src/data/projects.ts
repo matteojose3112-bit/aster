@@ -85,4 +85,18 @@ export const projects: Project[] = [
     github: "https://github.com/matteojose3112-bit/clientpulse",
     demo: "https://matteojose3112-bit.github.io/clientpulse/",
   },
+  {
+    title: "FinTrack",
+    category: "Personal Finance / Financial Data",
+    description:
+      "A responsive personal-finance dashboard for exploring cash flow, transactions, budgets, savings goals, accounts, transfers, recurring rules, and investment holdings.",
+    outcome:
+      "A browser-local finance workspace with account-linked ledger balances, exact-precision money utilities, CSV import and export, conservative transaction reconciliation, local import audit history, paired internal transfers, and recurring-rule reminders. It uses illustrative demo data and has no production authentication, hosted user data, live bank or brokerage connections, market pricing, or trade execution.",
+    role: "Independent project · Product and financial workflow design · Frontend development · Domain modeling · Data validation · Testing · Documentation",
+    technologies: ["JavaScript", "HTML5", "CSS3", "Vite", "Vitest", "Financial Domain Modeling", "GitHub Actions", "GitHub Pages"],
+    status: "Active development · v0.4.8",
+    featured: true,
+    github: "https://github.com/matteojose3112-bit/fintrack",
+    demo: "https://matteojose3112-bit.github.io/fintrack/",
+  },
 ];
