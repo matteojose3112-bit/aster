@@ -46,7 +46,7 @@ The active collection contains six project cards across six repositories: Aster,
 - [x] Solution Studio — modular business-solutions workspace.
 - [x] OpsFlow — operations dashboard with Supabase-backed task and exception workflows.
 - [x] ClientPulse — frontend-only customer-success dashboard with browser-local persistence.
-- [x] FinTrack — browser-local personal-finance dashboard with account-linked ledger, CSV review, paired transfers, and recurring-rule reminders.
+- [x] FinTrack — browser-local personal-finance workspace with account-linked ledger balances, exact-precision money arithmetic, reviewed CSV imports and reconciliation, import audit history, spreadsheet-safe exports, paired transfers, and recurring-rule controls.
 - [x] Maintain a repository and live-demo link where one exists.
 - [x] Keep project descriptions grounded in implemented functionality and known limitations.
 - [ ] Add further case studies only when they provide meaningful evidence for a selected project.
@@ -102,3 +102,12 @@ Latest accessibility refinements and documentation closeout are committed on `ma
 - [x] Restore FinTrack as the sixth Section 02 project card with repository and live-demo links.
 - [x] Align the card and README with FinTrack v0.4.8 capabilities and explicitly document its browser-local demo boundaries.
 - [x] Keep the shared ProjectCard component and structured project-data pattern; no separate card implementation is needed.
+
+
+## FinTrack card refresh — 2026-11-25
+
+- [x] Expand the Section 02 card to reflect the implemented ledger, CSV review/reconciliation, import audit trail, paired transfers, and recurring-rule workflows.
+- [x] State that recurring rules are reminders rather than automatic postings.
+- [x] Keep the browser-local demo and unavailable production integrations clearly distinguished.
+- [x] Synchronize the structured project data, README, and changelog.
+- [ ] Run fresh lint/build and verify the latest GitHub Actions deployment.
