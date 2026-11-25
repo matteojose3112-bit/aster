@@ -1,5 +1,25 @@
 # Changelog
 
+## [0.20.0] — FinTrack capability refresh — 2026-11-25
+
+### Updated
+- Reworked the FinTrack card in Section 02 to describe the implemented personal-finance lifecycle rather than a generic dashboard.
+- Added account-linked ledger balances, integer-minor-unit money arithmetic, paired transfers, and the separation of transfers from income/expense totals.
+- Expanded the transaction workflow description to include CSV mapping and validation, exact-duplicate detection, conservative possible-match review, explicit keep-or-skip decisions, import activity history, and spreadsheet-safe export.
+- Added recurring-rule creation and pause controls, while clarifying that rules are reminders and do not automatically post transactions.
+- Updated the card's role, technology list, and development status; retained clear browser-local demo and non-production integration boundaries.
+- Aligned the README and roadmap with the refreshed card.
+
+### Accuracy
+- No production authentication, hosted user records, live bank/brokerage feeds, market pricing, or trade execution are claimed.
+- No change was made to the six-card collection structure or shared ProjectCard component.
+
+### Verification
+- Structured project data and documentation updated on `master`.
+- Fresh lint, production build, GitHub Actions, and live responsive checks remain to be verified; this content update does not claim deployment success.
+
+---
+
 ## [0.19.0] — FinTrack portfolio integration — 2026-11-24
 
 ### Added
