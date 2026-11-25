@@ -17,7 +17,7 @@ export const projects: Project[] = [
     title: "Aster",
     category: "Portfolio / Frontend Engineering",
     description:
-      "A personal portfolio and development journal that brings professional experience and four independent software projects into one clear, accessible presentation.",
+      "A personal portfolio and development journal that brings professional experience and five independent software projects into one clear, accessible presentation.",
     outcome:
       "A responsive React and TypeScript site with reusable sections, structured project data, interactive project cards, accessibility foundations, and an automated GitHub Pages deployment workflow.",
     role: "Independent project · Product direction · UI design · Frontend development · Accessibility · CI/CD · Documentation",
@@ -89,12 +89,12 @@ export const projects: Project[] = [
     title: "FinTrack",
     category: "Personal Finance / Financial Data",
     description:
-      "A responsive personal-finance dashboard for exploring cash flow, transactions, budgets, savings goals, accounts, transfers, recurring rules, and investment holdings.",
+      "A personal-finance workspace that models the everyday money lifecycle: account balances, income and expenses, CSV-based transaction intake, budgets, savings goals, recurring obligations, transfers, and investment holdings.",
     outcome:
-      "A browser-local finance workspace with account-linked ledger balances, exact-precision money utilities, CSV import and export, conservative transaction reconciliation, local import audit history, paired internal transfers, and recurring-rule reminders. It uses illustrative demo data and has no production authentication, hosted user data, live bank or brokerage connections, market pricing, or trade execution.",
-    role: "Independent project · Product and financial workflow design · Frontend development · Domain modeling · Data validation · Testing · Documentation",
-    technologies: ["JavaScript", "HTML5", "CSS3", "Vite", "Vitest", "Financial Domain Modeling", "GitHub Actions", "GitHub Pages"],
-    status: "Active development · v0.4.8",
+      "Implemented account-linked ledger calculations, integer-minor-unit money arithmetic, and paired internal transfers that reconcile account balances without distorting income or expense totals. The transaction workflow supports bounded CSV import, column mapping, validation previews, exact-duplicate detection, conservative possible-match review with explicit keep-or-skip decisions, and a timestamped import activity trail. Spreadsheet-safe CSV export and recurring-rule creation/pause controls are also in place; recurring rules remain reminders and do not post transactions automatically. The published demo uses illustrative data and browser-local persistence: production authentication, hosted user records, live bank/brokerage feeds, market pricing, and trade execution are not provided.",
+    role: "Independent project · Personal-finance product design · Financial domain modeling · Ledger and data workflows · Validation and reconciliation · Test development · Documentation",
+    technologies: ["JavaScript", "HTML5", "CSS3", "Vite", "Vitest", "Integer Minor-Unit Arithmetic", "CSV Processing", "Browser Storage", "GitHub Actions", "GitHub Pages"],
+    status: "Active development · v0.4",
     featured: true,
     github: "https://github.com/matteojose3112-bit/fintrack",
     demo: "https://matteojose3112-bit.github.io/fintrack/",
