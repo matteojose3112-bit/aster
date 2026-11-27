@@ -1,20 +1,24 @@
-import { useState } from "react";
+import { useRef } from "react";
 import type { Project } from "../../../../data/projects";
 
 type ProjectCardProps = { project: Project; index: number };
 
 function ProjectCard({ project, index }: ProjectCardProps) {
-  const [pointer, setPointer] = useState({ x: 50, y: 50 });
+  const glowRef = useRef<HTMLDivElement>(null);
   const number = String(index + 1).padStart(2, "0");
 
   const handlePointerMove = (event: React.PointerEvent<HTMLElement>) => {
     const rect = event.currentTarget.getBoundingClientRect();
-    setPointer({ x: ((event.clientX - rect.left) / rect.width) * 100, y: ((event.clientY - rect.top) / rect.height) * 100 });
+    const glow = glowRef.current;
+    if (!glow || rect.width === 0 || rect.height === 0) return;
+    const x = ((event.clientX - rect.left) / rect.width) * 100;
+    const y = ((event.clientY - rect.top) / rect.height) * 100;
+    glow.style.background = `radial-gradient(circle at ${x}% ${y}%, rgba(255,255,255,.1), transparent 25%)`;
   };
 
   return (
     <article onPointerMove={handlePointerMove} className="group relative overflow-hidden border border-white/10 bg-[#090909] transition duration-500 hover:-translate-y-1 hover:border-white/25">
-      <div aria-hidden="true" className="pointer-events-none absolute -inset-32 opacity-0 transition-opacity duration-500 group-hover:opacity-100" style={{ background: `radial-gradient(circle at ${pointer.x}% ${pointer.y}%, rgba(255,255,255,.1), transparent 25%)` }} />
+      <div ref={glowRef} aria-hidden="true" className="pointer-events-none absolute -inset-32 opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
       <div className="relative p-7 md:p-10">
         <div className="flex items-center justify-between border-b border-white/10 pb-5 text-[10px] uppercase tracking-[0.2em] text-neutral-600">
           <span>{number} / PROJECT OVERVIEW</span>
