@@ -33,7 +33,7 @@ jobs:
         with:
           node-version: 22
           cache: npm
-          cache-dependency-path: portfolio/package-lock.json
+          cache-dependency-path: package-lock.json
 
       - name: Install dependencies
         run: npm ci
@@ -44,10 +44,10 @@ jobs:
       - name: Commit updated lockfile to this PR branch
         if: github.event_name == 'pull_request' && github.actor != 'github-actions[bot]'
         run: |
-          if ! git diff --quiet -- portfolio/package-lock.json; then
+          if ! git diff --quiet -- package-lock.json; then
             git config user.name 'github-actions[bot]'
             git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-            git add portfolio/package-lock.json
+            git add package-lock.json
             git commit -m 'security(deps): update vulnerable npm packages'
             git push origin "HEAD:${GITHUB_HEAD_REF}"
           fi
