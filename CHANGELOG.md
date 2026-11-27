@@ -1,5 +1,13 @@
 # Changelog
 
+## [Unreleased] — Portfolio documentation maintenance — 2026-11-27
+
+- Reconciled README and roadmap with the current six-card collection: Aster, AgentForge, Solution Studio, OpsFlow, ClientPulse and FinTrack.
+- Clarified that the 2026-11-19 entries describing FinTrack's removal are historical and superseded by its 2026-11-24/25 restoration.
+- Reaffirmed Aster's maintenance-mode status and retained unverified fresh build, responsive, keyboard and assistive-technology checks as open follow-ups.
+- Removed a duplicated mid-file changelog heading; historical entries were otherwise preserved.
+
+
 ## [0.20.0] — FinTrack capability refresh — 2026-11-25
 
 ### Updated
@@ -201,9 +209,6 @@
 
 ---
 
-# Changelog
-
-All notable changes to Aster are documented here. Entries focus on meaningful portfolio, software, documentation, and development milestones.
 
 ---
 
