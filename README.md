@@ -181,3 +181,8 @@ A fresh local dependency install/lint/build and a successful latest GitHub Actio
 ## Project collection update — 2026-11-24
 
 Added **FinTrack** back to Section 02 — Selected work as the sixth project card. The card links to its repository and live GitHub Pages demo and describes the current browser-local finance workspace, including its ledger, CSV review, transfers, and recurring-rule capabilities. It explicitly distinguishes the illustrative local demo from a production financial platform; hosted authentication, server-side persistence, and live financial integrations are not available. The active collection now contains six cards across six repositories: Aster, AgentForge, Solution Studio, OpsFlow, ClientPulse, and FinTrack.
+
+
+## Documentation maintenance — 2026-11-27
+
+The active portfolio contains six cards across six repositories: Aster plus AgentForge, Solution Studio, OpsFlow, ClientPulse and FinTrack. FinTrack is an independent repository and its Aster card describes a browser-local demo with illustrative data. Aster itself remains in maintenance mode. Fresh lint/build and live responsive/accessibility checks are not claimed as passed by this documentation review.
