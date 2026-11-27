@@ -111,3 +111,8 @@ Latest accessibility refinements and documentation closeout are committed on `ma
 - [x] Keep the browser-local demo and unavailable production integrations clearly distinguished.
 - [x] Synchronize the structured project data, README, and changelog.
 - [ ] Run fresh lint/build and verify the latest GitHub Actions deployment.
+
+
+## Maintenance review — 2026-11-27
+
+The current collection is six project cards across six repositories (Aster plus five independent projects). FinTrack is included again as of the 2026-11-24/25 updates; older changelog entries describing its removal are historical and superseded. Aster's core scope remains complete and in maintenance mode. Fresh lint/build, live viewport, keyboard, contrast and assistive-technology checks remain unverified follow-ups.
