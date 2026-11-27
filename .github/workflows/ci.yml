@@ -13,7 +13,7 @@ on:
       - ".github/workflows/ci.yml"
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   validate:
@@ -33,8 +33,22 @@ jobs:
           cache-dependency-path: portfolio/package-lock.json
       - name: Install dependencies
         run: npm ci
-      - name: Report dependency audit details
-        run: npm audit --json || true
+      - name: Apply compatible dependency security updates
+        run: npm audit fix
+
+      - name: Commit updated lockfile to this PR branch
+        if: github.event_name == 'pull_request' && github.actor != 'github-actions[bot]'
+        run: |
+          if ! git diff --quiet -- package-lock.json; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git add package-lock.json
+            git commit -m 'security(deps): update vulnerable npm packages'
+            git push origin "HEAD:${GITHUB_HEAD_REF}"
+          fi
+
+      - name: Audit dependencies
+        run: npm audit --audit-level=high
 
       - name: Run lint
         run: npm run lint
